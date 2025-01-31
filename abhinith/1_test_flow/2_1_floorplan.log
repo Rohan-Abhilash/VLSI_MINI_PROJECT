@@ -1,0 +1,77 @@
+OpenROAD v2.0-17941-g7fb347f37 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 12 thread(s).
+[INFO ODB-0227] LEF file: /home/abhinith/OpenROAD-flow-scripts/flow/platforms/sky130hd/lef/sky130_fd_sc_hd.tlef, created 13 layers, 25 vias
+[INFO ODB-0227] LEF file: /home/abhinith/OpenROAD-flow-scripts/flow/platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef, created 441 library cells
+Master sky130_ef_sc_hd__decap_12 is loaded but not used in the design
+
+==========================================================================
+Floorplan check_setup
+--------------------------------------------------------------------------
+number instances in verilog is 16695
+[WARNING IFP-0028] Core area lower left (10.000, 12.000) snapped to (10.120, 13.600).
+[INFO IFP-0001] Added 527 rows of 3125 site unithd.
+repair_timing -verbose -setup_margin 0 -repair_tns 100
+[WARNING RSZ-0021] no estimated parasitics. Using wire load models.
+[INFO RSZ-0094] Found 15 endpoints with setup violations.
+[INFO RSZ-0099] Repairing 15 out of 15 (100.00%) violating endpoints...
+   Iter   | Removed | Resized | Inserted | Cloned |  Pin  |    WNS   |   TNS      |  Viol  | Worst
+          | Buffers |  Gates  | Buffers  |  Gates | Swaps |          |            | Endpts | Endpt
+---------------------------------------------------------------------------------------------------
+        0 |       0 |       0 |        0 |      0 |     0 |   -0.938 |       -4.4 |     15 | hash.p3_cap\[31\]$_DFF_P_/D
+       10 |       5 |       4 |        0 |      0 |     0 |   -0.511 |       -1.0 |     15 | hash.p3_cap\[31\]$_DFF_P_/D
+[WARNING RSZ-0075] makeBufferedNet failed for driver _18476_/Y
+       20 |       6 |      10 |        0 |      1 |     2 |   -0.246 |       -0.3 |     15 | hash.p3_cap\[31\]$_DFF_P_/D
+[WARNING RSZ-0075] makeBufferedNet failed for driver _18476_/Y
+[WARNING RSZ-0075] makeBufferedNet failed for driver _18476_/Y
+[WARNING RSZ-0075] makeBufferedNet failed for driver _18990_/Y
+[WARNING RSZ-0075] makeBufferedNet failed for driver _18990_/Y
+[WARNING RSZ-0075] makeBufferedNet failed for driver _18476_/Y
+[WARNING RSZ-0075] makeBufferedNet failed for driver _18476_/Y
+[WARNING RSZ-0075] makeBufferedNet failed for driver _18476_/Y
+[WARNING RSZ-0075] makeBufferedNet failed for driver _18476_/Y
+       30 |       7 |      18 |        0 |      1 |     3 |   -0.011 |       -0.0 |     15 | hash.p3_cap\[31\]$_DFF_P_/D
+[WARNING RSZ-0075] makeBufferedNet failed for driver _18476_/Y
+[WARNING RSZ-0075] makeBufferedNet failed for driver _18974_/X
+[WARNING RSZ-0075] makeBufferedNet failed for driver _18476_/Y
+[WARNING RSZ-0075] makeBufferedNet failed for driver _18974_/X
+       33 |       8 |      19 |        0 |      1 |     4 |    0.001 |        0.0 |     13 | hash.p3_cap\[31\]$_DFF_P_/D
+       34 |       8 |      19 |        0 |      1 |     4 |    0.001 |        0.0 |     12 | hash.p3_cap\[31\]$_DFF_P_/D
+       35 |       8 |      19 |        0 |      1 |     4 |    0.001 |        0.0 |     11 | hash.p3_cap\[31\]$_DFF_P_/D
+       36 |       8 |      19 |        0 |      1 |     4 |    0.001 |        0.0 |     10 | hash.p3_cap\[31\]$_DFF_P_/D
+       37 |       8 |      19 |        0 |      1 |     4 |    0.001 |        0.0 |      9 | hash.p3_cap\[31\]$_DFF_P_/D
+       38 |       8 |      19 |        0 |      1 |     4 |    0.001 |        0.0 |      8 | hash.p3_cap\[31\]$_DFF_P_/D
+       39 |       8 |      19 |        0 |      1 |     4 |    0.001 |        0.0 |      7 | hash.p3_cap\[31\]$_DFF_P_/D
+       40 |       8 |      19 |        0 |      1 |     4 |    0.001 |        0.0 |      7 | hash.p3_cap\[31\]$_DFF_P_/D
+       40 |       8 |      19 |        0 |      1 |     4 |    0.001 |        0.0 |      6 | hash.p3_cap\[31\]$_DFF_P_/D
+       41 |       8 |      19 |        0 |      1 |     4 |    0.001 |        0.0 |      5 | hash.p3_cap\[31\]$_DFF_P_/D
+       42 |       8 |      19 |        0 |      1 |     4 |    0.001 |        0.0 |      4 | hash.p3_cap\[31\]$_DFF_P_/D
+       43 |       8 |      19 |        0 |      1 |     4 |    0.001 |        0.0 |      3 | hash.p3_cap\[31\]$_DFF_P_/D
+       44 |       8 |      19 |        0 |      1 |     4 |    0.001 |        0.0 |      2 | hash.p3_cap\[31\]$_DFF_P_/D
+       45 |       8 |      19 |        0 |      1 |     4 |    0.001 |        0.0 |      1 | hash.p3_cap\[31\]$_DFF_P_/D
+       46 |       8 |      19 |        0 |      1 |     4 |    0.001 |        0.0 |      0 | hash.p3_cap\[31\]$_DFF_P_/D
+       47 |       8 |      19 |        0 |      1 |     4 |    0.001 |        0.0 |      0 | hash.p3_cap\[31\]$_DFF_P_/D
+    final |       8 |      19 |        0 |      1 |     4 |    0.001 |        0.0 |      0 | hash.p3_cap\[31\]$_DFF_P_/D
+---------------------------------------------------------------------------------------------------
+[INFO RSZ-0059] Removed 8 buffers.
+[INFO RSZ-0041] Resized 19 instances.
+[INFO RSZ-0043] Swapped pins on 4 instances.
+[INFO RSZ-0049] Cloned 1 instances.
+[INFO RSZ-0033] No hold violations found.
+Default units for flow
+ time 1ns
+ capacitance 1pF
+ resistance 1kohm
+ voltage 1v
+ current 1mA
+ power 1nW
+ distance 1um
+Report metrics stage 2, floorplan final...
+
+==========================================================================
+floorplan final report_design_area
+--------------------------------------------------------------------------
+Design area 214827 u^2 10% utilization.
+Elapsed time: 0:12.00[h:]min:sec. CPU time: user 10.74 sys 0.14 (90%). Peak memory: 206016KB.
