@@ -1,0 +1,14 @@
+  GNU nano 6.2                                                              config.mk                                                                       export PLATFORM         = sky130hd
+
+export DESIGN_NAME      = shapipe
+
+export VERILOG_FILES    = $(sort $(wildcard ./designs/src/$(DESIGN_NICKNAME)/*.v))
+export SDC_FILE         = ./designs/$(PLATFORM)/$(DESIGN_NICKNAME)/constraint.sdc
+
+export CORE_UTILIZATION = 35
+export PLACE_DENSITY_LB_ADON = 0.2
+export TNS_END_PERCENT = 100
+
+CTS_ARGS = -buf_list BUFX8 -distance 8 -max_cap 0.07 -clustering_factor 10 -cluster_diameter 10
+
+export REMOVE_ABC_BUFFERS = 1
