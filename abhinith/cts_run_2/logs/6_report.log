@@ -1,0 +1,58 @@
+OpenROAD v2.0-17941-g7fb347f37 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 12 thread(s).
+Deleted 0 routing obstructions
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[INFO RCX-0435] Reading extraction model file /home/abhinith/OpenROAD-flow-scripts/flow/platforms/sky130hd/rcx_patterns.rules ...
+[INFO RCX-0436] RC segment generation shapipe (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 93164 rc segments
+[INFO RCX-0439] Coupling Cap extraction shapipe ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 54% of 204609 wires extracted
+[INFO RCX-0442] 100% of 204609 wires extracted
+[INFO RCX-0045] Extract 17901 nets, 111043 rsegs, 111043 caps, 234092 ccs
+[INFO RCX-0443] 17901 nets finished
+[INFO PSM-0040] All shapes on net VDD are connected.
+[INFO PSM-0073] Using bump pattern with x-pitch 140.0000um, y-pitch 140.0000um, and size 70.0000um with an reduction factor of 3x.
+########## IR report #################
+Net              : VDD
+Corner           : default
+Supply voltage   : 1.80e+00 V
+Worstcase voltage: 1.77e+00 V
+Average voltage  : 1.80e+00 V
+Average IR drop  : 2.50e-03 V
+Worstcase IR drop: 2.62e-02 V
+Percentage drop  : 1.46 %
+######################################
+[INFO PSM-0040] All shapes on net VSS are connected.
+[INFO PSM-0073] Using bump pattern with x-pitch 140.0000um, y-pitch 140.0000um, and size 70.0000um with an reduction factor of 3x.
+########## IR report #################
+Net              : VSS
+Corner           : default
+Supply voltage   : 0.00e+00 V
+Worstcase voltage: 2.87e-02 V
+Average voltage  : 2.99e-03 V
+Average IR drop  : 2.99e-03 V
+Worstcase IR drop: 2.87e-02 V
+Percentage drop  : 1.59 %
+######################################
+Cell type report:                       Count       Area
+  Antenna cell                            197     492.97
+  Clock buffer                            393    8693.34
+  Timing Repair Buffer                   1070   10655.22
+  Inverter                                658    2696.34
+  Clock inverter                          208    2379.78
+  Sequential cell                        2787   79297.30
+  Multi-Input combinational cell        11782  158724.73
+  Total                                 17095  262939.68
+Report metrics stage 6, finish...
+
+==========================================================================
+finish report_design_area
+--------------------------------------------------------------------------
+Design area 273064 u^2 45% utilization.
+[WARNING GUI-0076] QStandardPaths: wrong permissions on runtime directory /run/user/1000/, 0755 instead of 0700
+Elapsed time: 1:06.50[h:]min:sec. CPU time: user 61.87 sys 1.16 (94%). Peak memory: 698972KB.
