@@ -1,3 +1,4 @@
+#clock = 8ns
 export PLATFORM         = sky130hd
 
 export DESIGN_NAME      = shapipe
