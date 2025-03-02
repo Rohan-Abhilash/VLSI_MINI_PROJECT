@@ -1,0 +1,12 @@
+violation type: Horizontal congestion
+	srcs: net:_00094_ net:_04396_ net:_05899_ net:_05932_ net:_06167_ net:clknet_leaf_80_clk net:net358 net:net286 net:net73 net:message[232] net:message[40] net:message[55] net:w\[1\]\[23\]
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (186.3000, 607.2000) - (193.2000, 614.1000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00090_ net:net6 net:_03401_ net:_03402_ net:_03610_ net:_05315_ net:_05657_ net:_05977_ net:_06055_ net:net311 net:net76 net:_11566_ net:message[37]
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (186.3000, 600.3000) - (193.2000, 607.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00068_ net:_00090_ net:net579 net:net573 net:_05315_ net:_05739_ net:_05769_ net:clknet_leaf_80_clk net:net709 net:net311 net:_10376_ net:net164 net:message[296] net:message[37] net:message[40] net:message[421] net:w\[1\]\[23\] net:w\[7\]\[23\]
+	comment: capacity:16 usage:18 overflow:2
+	bbox = (179.4000, 607.2000) - (186.3000, 614.1000) on Layer -

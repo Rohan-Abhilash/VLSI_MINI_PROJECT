@@ -1,0 +1,366 @@
+violation type: Metal Spacing
+	srcs: net:VDD net:message[151]
+	bbox = (625.9100, 114.4050) - (626.2100, 114.4300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[151]
+	bbox = (625.9100, 114.4050) - (626.3900, 114.4300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[23]
+	bbox = (625.9100, 108.9650) - (626.2100, 108.9900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[23]
+	bbox = (625.9100, 108.9650) - (626.3900, 108.9900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[387]
+	bbox = (625.9100, 201.4450) - (626.2100, 201.4700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[387]
+	bbox = (625.9100, 201.4450) - (626.3900, 201.4700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[259]
+	bbox = (625.9100, 206.8850) - (626.2100, 206.9100) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[259]
+	bbox = (625.9100, 206.8850) - (626.3900, 206.9100) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[71]
+	bbox = (625.9100, 212.3250) - (626.2100, 212.3500) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[71]
+	bbox = (625.9100, 212.3250) - (626.3900, 212.3500) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[260]
+	bbox = (625.9100, 223.2050) - (626.2100, 223.2300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[260]
+	bbox = (625.9100, 223.2050) - (626.3900, 223.2300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[132]
+	bbox = (625.9100, 283.0450) - (626.2100, 283.0700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[132]
+	bbox = (625.9100, 283.0450) - (626.3900, 283.0700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[224]
+	bbox = (625.9100, 288.4850) - (626.2100, 288.5100) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[224]
+	bbox = (625.9100, 288.4850) - (626.3900, 288.5100) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[164]
+	bbox = (625.9100, 293.9250) - (626.2100, 293.9500) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[164]
+	bbox = (625.9100, 293.9250) - (626.3900, 293.9500) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[33]
+	bbox = (625.9100, 299.3650) - (626.2100, 299.3900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[33]
+	bbox = (625.9100, 299.3650) - (626.3900, 299.3900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[67]
+	bbox = (625.9100, 304.8050) - (626.2100, 304.8300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[67]
+	bbox = (625.9100, 304.8050) - (626.3900, 304.8300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[34]
+	bbox = (625.9100, 310.2450) - (626.2100, 310.2700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[34]
+	bbox = (625.9100, 310.2450) - (626.3900, 310.2700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[135]
+	bbox = (625.9100, 315.6850) - (626.2100, 315.7100) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[135]
+	bbox = (625.9100, 315.6850) - (626.3900, 315.7100) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[228]
+	bbox = (625.9100, 321.1250) - (626.2100, 321.1500) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[228]
+	bbox = (625.9100, 321.1250) - (626.3900, 321.1500) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[131]
+	bbox = (625.9100, 277.6050) - (626.2100, 277.6300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[131]
+	bbox = (625.9100, 277.6050) - (626.3900, 277.6300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[139]
+	bbox = (625.9100, 375.5250) - (626.2100, 375.5500) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[139]
+	bbox = (625.9100, 375.5250) - (626.3900, 375.5500) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[76]
+	bbox = (625.9100, 391.8450) - (626.2100, 391.8700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[76]
+	bbox = (625.9100, 391.8450) - (626.3900, 391.8700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[43]
+	bbox = (625.9100, 386.4050) - (626.2100, 386.4300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[43]
+	bbox = (625.9100, 386.4050) - (626.3900, 386.4300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[208]
+	bbox = (625.9100, 397.2850) - (626.2100, 397.3100) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[208]
+	bbox = (625.9100, 397.2850) - (626.3900, 397.3100) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[45]
+	bbox = (625.9100, 402.7250) - (626.2100, 402.7500) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[45]
+	bbox = (625.9100, 402.7250) - (626.3900, 402.7500) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[207]
+	bbox = (625.9100, 413.6050) - (626.2100, 413.6300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[207]
+	bbox = (625.9100, 413.6050) - (626.3900, 413.6300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[206]
+	bbox = (625.9100, 408.1650) - (626.2100, 408.1900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[206]
+	bbox = (625.9100, 408.1650) - (626.3900, 408.1900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[44]
+	bbox = (625.9100, 380.9650) - (626.2100, 380.9900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[44]
+	bbox = (625.9100, 380.9650) - (626.3900, 380.9900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[16]
+	bbox = (625.9100, 419.0450) - (626.2100, 419.0700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[16]
+	bbox = (625.9100, 419.0450) - (626.3900, 419.0700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[101]
+	bbox = (625.9100, 473.4450) - (626.2100, 473.4700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[101]
+	bbox = (625.9100, 473.4450) - (626.3900, 473.4700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[178]
+	bbox = (625.9100, 478.8850) - (626.2100, 478.9100) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[178]
+	bbox = (625.9100, 478.8850) - (626.3900, 478.9100) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[251]
+	bbox = (625.9100, 495.2050) - (626.2100, 495.2300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[251]
+	bbox = (625.9100, 495.2050) - (626.3900, 495.2300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[243]
+	bbox = (625.9100, 484.3250) - (626.2100, 484.3500) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[243]
+	bbox = (625.9100, 484.3250) - (626.3900, 484.3500) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[219]
+	bbox = (625.9100, 571.3650) - (626.2100, 571.3900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[219]
+	bbox = (625.9100, 571.3650) - (626.3900, 571.3900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[267]
+	bbox = (625.9100, 136.1650) - (626.2100, 136.1900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[267]
+	bbox = (625.9100, 136.1650) - (626.3900, 136.1900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[384]
+	bbox = (625.9100, 141.6050) - (626.2100, 141.6300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[384]
+	bbox = (625.9100, 141.6050) - (626.3900, 141.6300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[149]
+	bbox = (625.9100, 163.3650) - (626.2100, 163.3900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[149]
+	bbox = (625.9100, 163.3650) - (626.3900, 163.3900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[0]
+	bbox = (625.9100, 168.8050) - (626.2100, 168.8300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[0]
+	bbox = (625.9100, 168.8050) - (626.3900, 168.8300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[85]
+	bbox = (625.9100, 174.2450) - (626.2100, 174.2700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[85]
+	bbox = (625.9100, 174.2450) - (626.3900, 174.2700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[391]
+	bbox = (625.9100, 179.6850) - (626.2100, 179.7100) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[391]
+	bbox = (625.9100, 179.6850) - (626.3900, 179.7100) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[131]
+	bbox = (625.9100, 255.8450) - (626.2100, 255.8700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[131]
+	bbox = (625.9100, 255.8450) - (626.3900, 255.8700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[129]
+	bbox = (625.9100, 272.1650) - (626.2100, 272.1900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[129]
+	bbox = (625.9100, 272.1650) - (626.3900, 272.1900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[193]
+	bbox = (625.9100, 266.7250) - (626.2100, 266.7500) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[193]
+	bbox = (625.9100, 266.7250) - (626.3900, 266.7500) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[195]
+	bbox = (625.9100, 250.4050) - (626.2100, 250.4300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:message[195]
+	bbox = (625.9100, 250.4050) - (626.3900, 250.4300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[70]
+	bbox = (625.9100, 326.5650) - (626.2100, 326.5900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[70]
+	bbox = (625.9100, 326.5650) - (626.3900, 326.5900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[166]
+	bbox = (625.9100, 332.0050) - (626.2100, 332.0300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[166]
+	bbox = (625.9100, 332.0050) - (626.3900, 332.0300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[167]
+	bbox = (625.9100, 337.4450) - (626.2100, 337.4700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[167]
+	bbox = (625.9100, 337.4450) - (626.3900, 337.4700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[199]
+	bbox = (625.9100, 342.8850) - (626.2100, 342.9100) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[199]
+	bbox = (625.9100, 342.8850) - (626.3900, 342.9100) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[72]
+	bbox = (625.9100, 353.7650) - (626.2100, 353.7900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[72]
+	bbox = (625.9100, 353.7650) - (626.3900, 353.7900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[40]
+	bbox = (625.9100, 348.3250) - (626.2100, 348.3500) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[40]
+	bbox = (625.9100, 348.3250) - (626.3900, 348.3500) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[104]
+	bbox = (625.9100, 359.2050) - (626.2100, 359.2300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[104]
+	bbox = (625.9100, 359.2050) - (626.3900, 359.2300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[171]
+	bbox = (625.9100, 370.0850) - (626.2100, 370.1100) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[171]
+	bbox = (625.9100, 370.0850) - (626.3900, 370.1100) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[105]
+	bbox = (625.9100, 364.6450) - (626.3900, 364.6700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[105]
+	bbox = (625.9100, 364.6450) - (626.2100, 364.6700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[145]
+	bbox = (625.9100, 424.4850) - (626.2100, 424.5100) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[145]
+	bbox = (625.9100, 424.4850) - (626.3900, 424.5100) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[146]
+	bbox = (625.9100, 429.9250) - (626.2100, 429.9500) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[146]
+	bbox = (625.9100, 429.9250) - (626.3900, 429.9500) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[176]
+	bbox = (625.9100, 435.3650) - (626.2100, 435.3900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[176]
+	bbox = (625.9100, 435.3650) - (626.3900, 435.3900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[111]
+	bbox = (625.9100, 446.2450) - (626.2100, 446.2700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[111]
+	bbox = (625.9100, 446.2450) - (626.3900, 446.2700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[48]
+	bbox = (625.9100, 451.6850) - (626.2100, 451.7100) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[48]
+	bbox = (625.9100, 451.6850) - (626.3900, 451.7100) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[172]
+	bbox = (625.9100, 440.8050) - (626.2100, 440.8300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[172]
+	bbox = (625.9100, 440.8050) - (626.3900, 440.8300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[242]
+	bbox = (625.9100, 462.5650) - (626.2100, 462.5900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[242]
+	bbox = (625.9100, 462.5650) - (626.3900, 462.5900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[18]
+	bbox = (625.9100, 457.1250) - (626.2100, 457.1500) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[18]
+	bbox = (625.9100, 457.1250) - (626.3900, 457.1500) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[179]
+	bbox = (625.9100, 468.0050) - (626.2100, 468.0300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[179]
+	bbox = (625.9100, 468.0050) - (626.3900, 468.0300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[252]
+	bbox = (625.9100, 544.1650) - (626.2100, 544.1900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[252]
+	bbox = (625.9100, 544.1650) - (626.3900, 544.1900) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[216]
+	bbox = (625.9100, 549.6050) - (626.2100, 549.6300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[216]
+	bbox = (625.9100, 549.6050) - (626.3900, 549.6300) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[215]
+	bbox = (625.9100, 555.0450) - (626.2100, 555.0700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[215]
+	bbox = (625.9100, 555.0450) - (626.3900, 555.0700) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[220]
+	bbox = (625.9100, 565.9250) - (626.2100, 565.9500) on Layer met3
+violation type: Metal Spacing
+	srcs: net:VDD net:hashvalue[220]
+	bbox = (625.9100, 565.9250) - (626.3900, 565.9500) on Layer met3
