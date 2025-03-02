@@ -1,0 +1,57 @@
+OpenROAD v2.0-17941-g7fb347f37 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 8 thread(s).
+Deleted 0 routing obstructions
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[INFO RCX-0435] Reading extraction model file /home/rohan/VLSI/OpenROAD-flow-scripts/flow/platforms/sky130hd/rcx_patterns.rules ...
+[INFO RCX-0436] RC segment generation sha256_unrolled_pipelined (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 92786 rc segments
+[INFO RCX-0439] Coupling Cap extraction sha256_unrolled_pipelined ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 54% of 203301 wires extracted
+[INFO RCX-0442] 100% of 203301 wires extracted
+[INFO RCX-0045] Extract 17954 nets, 110718 rsegs, 110718 caps, 235711 ccs
+[INFO RCX-0443] 17954 nets finished
+[INFO PSM-0040] All shapes on net VDD are connected.
+[INFO PSM-0073] Using bump pattern with x-pitch 140.0000um, y-pitch 140.0000um, and size 70.0000um with an reduction factor of 3x.
+########## IR report #################
+Net              : VDD
+Corner           : default
+Supply voltage   : 1.80e+00 V
+Worstcase voltage: 1.76e+00 V
+Average voltage  : 1.80e+00 V
+Average IR drop  : 4.23e-03 V
+Worstcase IR drop: 3.65e-02 V
+Percentage drop  : 2.03 %
+######################################
+[INFO PSM-0040] All shapes on net VSS are connected.
+[INFO PSM-0073] Using bump pattern with x-pitch 140.0000um, y-pitch 140.0000um, and size 70.0000um with an reduction factor of 3x.
+########## IR report #################
+Net              : VSS
+Corner           : default
+Supply voltage   : 0.00e+00 V
+Worstcase voltage: 3.79e-02 V
+Average voltage  : 5.30e-03 V
+Average IR drop  : 5.30e-03 V
+Worstcase IR drop: 3.79e-02 V
+Percentage drop  : 2.11 %
+######################################
+Cell type report:                       Count       Area
+  Antenna cell                            132     330.32
+  Clock buffer                            439    9171.30
+  Timing Repair Buffer                   1112   11009.31
+  Inverter                                658    2691.33
+  Clock inverter                          181    2204.61
+  Sequential cell                        2787   79274.78
+  Multi-Input combinational cell        11785  158670.93
+  Total                                 17094  263352.58
+Report metrics stage 6, finish...
+
+==========================================================================
+finish report_design_area
+--------------------------------------------------------------------------
+Design area 272305 u^2 51% utilization.
+Elapsed time: 0:44.10[h:]min:sec. CPU time: user 40.82 sys 0.68 (94%). Peak memory: 670012KB.

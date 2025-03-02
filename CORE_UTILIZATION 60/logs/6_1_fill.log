@@ -1,0 +1,7 @@
+OpenROAD v2.0-17941-g7fb347f37 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 8 thread(s).
+exec cp ./results/sky130hd/sha256_unrolled_pipelined/base/5_route.odb ./results/sky130hd/sha256_unrolled_pipelined/base/6_1_fill.odb
+Elapsed time: 0:00.59[h:]min:sec. CPU time: user 0.49 sys 0.08 (98%). Peak memory: 192668KB.

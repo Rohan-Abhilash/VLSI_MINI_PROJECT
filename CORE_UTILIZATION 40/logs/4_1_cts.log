@@ -1,0 +1,221 @@
+OpenROAD v2.0-17941-g7fb347f37 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 8 thread(s).
+clock_tree_synthesis -sink_clustering_enable -balance_levels
+[INFO CTS-0050] Root buffer is sky130_fd_sc_hd__clkbuf_16.
+[INFO CTS-0051] Sink buffer is sky130_fd_sc_hd__clkbuf_16.
+[INFO CTS-0052] The following clock buffers will be used for CTS:
+                    sky130_fd_sc_hd__clkbuf_16
+[INFO CTS-0049] Characterization buffer is sky130_fd_sc_hd__clkbuf_16.
+[INFO CTS-0007] Net "clk" found for clock "core_clock".
+[INFO CTS-0010]  Clock net "clk" has 2787 sinks.
+[INFO CTS-0008] TritonCTS found 1 clock nets.
+[INFO CTS-0097] Characterization used 1 buffer(s) types.
+[INFO CTS-0200] 0 placement blockages have been identified.
+[INFO CTS-0201] 0 placed hard macros will be treated like blockages.
+[INFO CTS-0027] Generating H-Tree topology for net clk.
+[INFO CTS-0028]  Total number of sinks: 2787.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 13600  dbu (13 um).
+[INFO CTS-0206] Best clustering solution was found from clustering size of 10 and clustering diameter of 50.
+[INFO CTS-0019]  Total number of sinks after clustering: 299.
+[INFO CTS-0024]  Normalized sink region: [(3.45755, 0.854085), (52.8522, 51.1761)].
+[INFO CTS-0025]     Width:  49.3947.
+[INFO CTS-0026]     Height: 50.3220.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 150
+    Sub-region size: 49.3947 X 25.1610
+[INFO CTS-0034]     Segment length (rounded): 12.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 75
+    Sub-region size: 24.6973 X 25.1610
+[INFO CTS-0034]     Segment length (rounded): 12.
+ Level 3
+    Direction: Vertical
+    Sinks per sub-region: 38
+    Sub-region size: 24.6973 X 12.5805
+[INFO CTS-0034]     Segment length (rounded): 6.
+ Level 4
+    Direction: Horizontal
+    Sinks per sub-region: 19
+    Sub-region size: 12.3487 X 12.5805
+[INFO CTS-0034]     Segment length (rounded): 6.
+ Level 5
+    Direction: Vertical
+    Sinks per sub-region: 10
+    Sub-region size: 12.3487 X 6.2903
+[INFO CTS-0034]     Segment length (rounded): 4.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 299.
+[INFO CTS-0018]     Created 336 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 4.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 4.
+[INFO CTS-0015]     Created 336 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 4:3, 5:4, 6:14, 7:26, 8:51, 9:71, 10:83, 11:48, 12:22, 13:7, 14:2..
+[INFO CTS-0017]     Max level of the clock tree: 5.
+[INFO CTS-0098] Clock net "clk"
+[INFO CTS-0099]  Sinks 3071
+[INFO CTS-0100]  Leaf buffers 299
+[INFO CTS-0101]  Average sink wire length 1217.25 um
+[INFO CTS-0102]  Path depth 3 - 4
+[INFO CTS-0207]  Leaf load cells 284
+[INFO RSZ-0058] Using max wire length 2154um.
+Placement Analysis
+---------------------------------
+total displacement       7853.2 u
+average displacement        0.3 u
+max displacement           27.8 u
+original HPWL          682973.0 u
+legalized HPWL         700606.3 u
+delta HPWL                    3 %
+
+repair_timing -verbose -setup_margin 0 -hold_margin 0 -repair_tns 100
+[INFO RSZ-0094] Found 52 endpoints with setup violations.
+[INFO RSZ-0099] Repairing 52 out of 52 (100.00%) violating endpoints...
+   Iter   | Removed | Resized | Inserted | Cloned |  Pin  |    WNS   |   TNS      |  Viol  | Worst
+          | Buffers |  Gates  | Buffers  |  Gates | Swaps |          |            | Endpts | Endpt
+---------------------------------------------------------------------------------------------------
+        0 |       0 |       0 |        0 |      0 |     0 |   -1.986 |      -33.7 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+       10 |       0 |       3 |        4 |      1 |     3 |   -1.849 |      -29.0 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+       20 |       0 |       8 |        4 |      1 |     8 |   -1.728 |      -26.7 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+       30 |       0 |      12 |        7 |      1 |    13 |   -1.595 |      -24.4 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+       40 |       0 |      16 |        7 |      2 |    18 |   -1.494 |      -23.3 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+       50 |       0 |      20 |       12 |      2 |    22 |   -1.518 |      -23.7 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+       60 |       0 |      24 |       14 |      2 |    27 |   -1.376 |      -23.6 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+       70 |       0 |      27 |       20 |      2 |    32 |   -1.264 |      -21.5 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+       80 |       0 |      33 |       22 |      2 |    35 |   -1.224 |      -20.8 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+       90 |       0 |      36 |       26 |      2 |    40 |   -1.211 |      -20.7 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+      100 |       0 |      44 |       26 |      2 |    42 |   -1.211 |      -17.4 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+      110 |       0 |      48 |       30 |      2 |    46 |   -1.107 |      -14.9 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+      120 |       0 |      51 |       34 |      2 |    51 |   -1.064 |      -14.8 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+      130 |       0 |      51 |       54 |      2 |    51 |   -1.064 |      -14.8 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+      140 |       0 |      51 |       74 |      2 |    51 |   -1.064 |      -14.8 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+      150 |       0 |      51 |       94 |      2 |    51 |   -1.064 |      -14.8 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+      160 |       0 |      51 |      114 |      2 |    51 |   -1.064 |      -14.8 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+      170 |       0 |      53 |      128 |      2 |    52 |   -1.159 |      -18.4 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+      180 |       0 |      56 |      140 |      2 |    53 |   -1.031 |      -15.6 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+      190 |       0 |      60 |      144 |      2 |    57 |   -1.011 |      -15.1 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+      200 |       0 |      66 |      144 |      2 |    61 |   -0.959 |      -13.9 |     52 | hash.h5_out\[25\]$_DFFE_PN_/D
+      210 |       0 |      70 |      148 |      2 |    65 |   -0.896 |      -13.0 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+      220 |       0 |      77 |      148 |      2 |    68 |   -0.928 |      -12.2 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+      226 |       0 |      73 |      148 |      2 |    65 |   -0.857 |      -12.3 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+      230 |       0 |      73 |      148 |      2 |    68 |   -0.857 |      -12.3 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+      240 |       0 |      78 |      148 |      2 |    73 |   -0.857 |      -11.2 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+      250 |       0 |      85 |      148 |      2 |    76 |   -0.863 |      -11.0 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+      260 |       0 |      92 |      148 |      2 |    79 |   -0.827 |      -10.1 |     52 | hash.h5_out\[25\]$_DFFE_PN_/D
+      270 |       0 |      97 |      148 |      2 |    84 |   -0.835 |      -10.4 |     52 | hash.p3_cap\[31\]$_DFF_P_/D
+      274 |       0 |      94 |      148 |      2 |    80 |   -0.827 |      -10.1 |     52 | hash.h5_out\[25\]$_DFFE_PN_/D
+      280 |       0 |      97 |      148 |      2 |    82 |   -0.827 |       -9.9 |     52 | hash.h5_out\[25\]$_DFFE_PN_/D
+      280 |       0 |      97 |      148 |      2 |    82 |   -0.827 |       -9.9 |     52 | hash.h5_out\[25\]$_DFFE_PN_/D
+      290 |       0 |     101 |      148 |      2 |    87 |   -0.827 |       -9.2 |     52 | hash.h5_out\[25\]$_DFFE_PN_/D
+      300 |       0 |     106 |      150 |      2 |    91 |   -0.827 |       -9.1 |     52 | hash.h5_out\[25\]$_DFFE_PN_/D
+      310 |       0 |     111 |      150 |      2 |    96 |   -0.827 |       -8.9 |     52 | hash.h5_out\[25\]$_DFFE_PN_/D
+      320 |       0 |     117 |      150 |      2 |   100 |   -0.827 |       -8.9 |     52 | hash.h5_out\[25\]$_DFFE_PN_/D
+      329 |       0 |     120 |      150 |      2 |   103 |   -0.827 |       -8.7 |     52 | hash.h5_out\[25\]$_DFFE_PN_/D
+      330 |       0 |     120 |      150 |      2 |   103 |   -0.827 |       -8.7 |     52 | hash.h5_out\[25\]$_DFFE_PN_/D
+      340 |       0 |     125 |      150 |      2 |   108 |   -0.827 |       -8.2 |     52 | hash.h5_out\[25\]$_DFFE_PN_/D
+      346 |       0 |     127 |      150 |      2 |   111 |   -0.827 |       -8.1 |     52 | hash.h5_out\[25\]$_DFFE_PN_/D
+      350 |       0 |     128 |      150 |      2 |   113 |   -0.827 |       -8.1 |     51 | hash.h5_out\[25\]$_DFFE_PN_/D
+      350 |       0 |     128 |      150 |      2 |   113 |   -0.827 |       -8.1 |     50 | hash.h5_out\[25\]$_DFFE_PN_/D
+      354 |       0 |     128 |      150 |      2 |   113 |   -0.827 |       -8.1 |     50 | hash.h5_out\[25\]$_DFFE_PN_/D
+      360 |       0 |     130 |      150 |      2 |   116 |   -0.827 |       -8.1 |     50 | hash.h5_out\[25\]$_DFFE_PN_/D
+      360 |       0 |     128 |      150 |      2 |   113 |   -0.827 |       -8.1 |     50 | hash.h5_out\[25\]$_DFFE_PN_/D
+      370 |       0 |     135 |      150 |      2 |   115 |   -0.827 |       -8.2 |     50 | hash.h5_out\[25\]$_DFFE_PN_/D
+      376 |       0 |     137 |      150 |      2 |   117 |   -0.827 |       -8.2 |     50 | hash.h5_out\[25\]$_DFFE_PN_/D
+      380 |       0 |     138 |      150 |      2 |   119 |   -0.827 |       -8.2 |     50 | hash.h5_out\[25\]$_DFFE_PN_/D
+      380 |       0 |     138 |      150 |      2 |   119 |   -0.827 |       -8.2 |     50 | hash.h5_out\[25\]$_DFFE_PN_/D
+      381 |       0 |     138 |      150 |      2 |   119 |   -0.827 |       -8.2 |     49 | hash.h5_out\[25\]$_DFFE_PN_/D
+      382 |       0 |     138 |      150 |      2 |   119 |   -0.827 |       -8.2 |     48 | hash.h5_out\[25\]$_DFFE_PN_/D
+      383 |       0 |     138 |      150 |      2 |   119 |   -0.827 |       -8.2 |     47 | hash.h5_out\[25\]$_DFFE_PN_/D
+      385 |       0 |     139 |      150 |      2 |   119 |   -0.827 |       -8.2 |     45 | hash.h5_out\[25\]$_DFFE_PN_/D
+      389 |       0 |     140 |      150 |      2 |   119 |   -0.827 |       -8.2 |     44 | hash.h5_out\[25\]$_DFFE_PN_/D
+      390 |       0 |     140 |      150 |      2 |   119 |   -0.827 |       -8.2 |     44 | hash.h5_out\[25\]$_DFFE_PN_/D
+      390 |       0 |     140 |      150 |      2 |   119 |   -0.827 |       -8.2 |     43 | hash.h5_out\[25\]$_DFFE_PN_/D
+      391 |       0 |     140 |      150 |      2 |   119 |   -0.827 |       -8.2 |     42 | hash.h5_out\[25\]$_DFFE_PN_/D
+      400 |       0 |     141 |      152 |      2 |   125 |   -0.827 |       -5.9 |     42 | hash.h5_out\[25\]$_DFFE_PN_/D
+      410 |       0 |     144 |      152 |      2 |   132 |   -0.827 |       -4.9 |     42 | hash.h5_out\[25\]$_DFFE_PN_/D
+      420 |       0 |     146 |      159 |      2 |   138 |   -0.827 |       -4.6 |     42 | hash.h5_out\[25\]$_DFFE_PN_/D
+      430 |       0 |     150 |      165 |      2 |   141 |   -0.827 |       -3.8 |     42 | hash.h5_out\[25\]$_DFFE_PN_/D
+      436 |       0 |     155 |      165 |      2 |   142 |   -0.827 |       -3.6 |     40 | hash.h5_out\[25\]$_DFFE_PN_/D
+      437 |       0 |     155 |      165 |      2 |   142 |   -0.827 |       -3.6 |     39 | hash.h5_out\[25\]$_DFFE_PN_/D
+      438 |       0 |     155 |      165 |      2 |   142 |   -0.827 |       -3.6 |     38 | hash.h5_out\[25\]$_DFFE_PN_/D
+      439 |       0 |     155 |      165 |      2 |   142 |   -0.827 |       -3.6 |     37 | hash.h5_out\[25\]$_DFFE_PN_/D
+      440 |       0 |     155 |      165 |      2 |   142 |   -0.827 |       -3.6 |     37 | hash.h5_out\[25\]$_DFFE_PN_/D
+      440 |       0 |     155 |      165 |      2 |   142 |   -0.827 |       -3.6 |     36 | hash.h5_out\[25\]$_DFFE_PN_/D
+      441 |       0 |     155 |      165 |      2 |   142 |   -0.827 |       -3.6 |     35 | hash.h5_out\[25\]$_DFFE_PN_/D
+      442 |       0 |     155 |      165 |      2 |   142 |   -0.827 |       -3.6 |     34 | hash.h5_out\[25\]$_DFFE_PN_/D
+      449 |       0 |     159 |      165 |      2 |   144 |   -0.827 |       -3.4 |     32 | hash.h5_out\[25\]$_DFFE_PN_/D
+      450 |       0 |     159 |      165 |      2 |   144 |   -0.827 |       -3.4 |     32 | hash.h5_out\[25\]$_DFFE_PN_/D
+      456 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     30 | hash.h5_out\[25\]$_DFFE_PN_/D
+      457 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     29 | hash.h5_out\[25\]$_DFFE_PN_/D
+      458 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     28 | hash.h5_out\[25\]$_DFFE_PN_/D
+      459 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     27 | hash.h5_out\[25\]$_DFFE_PN_/D
+      460 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     27 | hash.h5_out\[25\]$_DFFE_PN_/D
+      460 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     26 | hash.h5_out\[25\]$_DFFE_PN_/D
+      461 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     25 | hash.h5_out\[25\]$_DFFE_PN_/D
+      462 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     24 | hash.h5_out\[25\]$_DFFE_PN_/D
+      463 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     23 | hash.h5_out\[25\]$_DFFE_PN_/D
+      464 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     22 | hash.h5_out\[25\]$_DFFE_PN_/D
+      465 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     21 | hash.h5_out\[25\]$_DFFE_PN_/D
+      466 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     20 | hash.h5_out\[25\]$_DFFE_PN_/D
+      467 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     19 | hash.h5_out\[25\]$_DFFE_PN_/D
+      468 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     18 | hash.h5_out\[25\]$_DFFE_PN_/D
+      469 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     17 | hash.h5_out\[25\]$_DFFE_PN_/D
+      470 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     17 | hash.h5_out\[25\]$_DFFE_PN_/D
+      470 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     16 | hash.h5_out\[25\]$_DFFE_PN_/D
+      471 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     15 | hash.h5_out\[25\]$_DFFE_PN_/D
+      472 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     14 | hash.h5_out\[25\]$_DFFE_PN_/D
+      473 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     13 | hash.h5_out\[25\]$_DFFE_PN_/D
+      474 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     12 | hash.h5_out\[25\]$_DFFE_PN_/D
+      475 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     11 | hash.h5_out\[25\]$_DFFE_PN_/D
+      476 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |     10 | hash.h5_out\[25\]$_DFFE_PN_/D
+      477 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |      9 | hash.h5_out\[25\]$_DFFE_PN_/D
+      478 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |      8 | hash.h5_out\[25\]$_DFFE_PN_/D
+      479 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |      7 | hash.h5_out\[25\]$_DFFE_PN_/D
+      480 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |      7 | hash.h5_out\[25\]$_DFFE_PN_/D
+      480 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |      6 | hash.h5_out\[25\]$_DFFE_PN_/D
+      481 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |      5 | hash.h5_out\[25\]$_DFFE_PN_/D
+      482 |       0 |     161 |      167 |      2 |   147 |   -0.827 |       -3.5 |      4 | hash.h5_out\[25\]$_DFFE_PN_/D
+     485* |       0 |     163 |      167 |      2 |   147 |   -0.818 |       -3.5 |     13 | hash.p3_cap\[31\]$_DFF_P_/D
+     486* |       0 |     163 |      167 |      2 |   147 |   -0.818 |       -3.5 |     13 | hash.p3_cap\[31\]$_DFF_P_/D
+     488* |       0 |     164 |      167 |      2 |   147 |   -0.818 |       -3.4 |     13 | hash.p3_cap\[31\]$_DFF_P_/D
+     489* |       0 |     164 |      167 |      2 |   147 |   -0.818 |       -3.4 |     13 | hash.p3_cap\[31\]$_DFF_P_/D
+     490* |       0 |     164 |      167 |      2 |   147 |   -0.818 |       -3.4 |     13 | hash.p3_cap\[31\]$_DFF_P_/D
+     490* |       0 |     164 |      167 |      2 |   147 |   -0.818 |       -3.4 |     13 | hash.p3_cap\[31\]$_DFF_P_/D
+     491* |       0 |     164 |      167 |      2 |   147 |   -0.818 |       -3.4 |     13 | hash.p3_cap\[31\]$_DFF_P_/D
+     492* |       0 |     164 |      167 |      2 |   147 |   -0.818 |       -3.4 |     13 | hash.p3_cap\[31\]$_DFF_P_/D
+     493* |       0 |     164 |      167 |      2 |   147 |   -0.818 |       -3.4 |     13 | hash.p3_cap\[31\]$_DFF_P_/D
+     494* |       0 |     164 |      167 |      2 |   147 |   -0.818 |       -3.4 |     13 | hash.p3_cap\[31\]$_DFF_P_/D
+     495* |       0 |     164 |      167 |      2 |   147 |   -0.818 |       -3.4 |     13 | hash.p3_cap\[31\]$_DFF_P_/D
+     496* |       0 |     164 |      167 |      2 |   147 |   -0.818 |       -3.4 |     13 | hash.p3_cap\[31\]$_DFF_P_/D
+     497* |       0 |     164 |      167 |      2 |   147 |   -0.818 |       -3.4 |     13 | hash.p3_cap\[31\]$_DFF_P_/D
+     498* |       0 |     164 |      167 |      2 |   147 |   -0.818 |       -3.4 |     13 | hash.p3_cap\[31\]$_DFF_P_/D
+    final |       0 |     164 |      167 |      2 |   147 |   -0.818 |       -3.4 |     13 | hash.p3_cap\[31\]$_DFF_P_/D
+---------------------------------------------------------------------------------------------------
+[INFO RSZ-0040] Inserted 87 buffers.
+[INFO RSZ-0041] Resized 164 instances.
+[INFO RSZ-0043] Swapped pins on 147 instances.
+[INFO RSZ-0049] Cloned 2 instances.
+[WARNING RSZ-0062] Unable to repair all setup violations.
+[INFO RSZ-0033] No hold violations found.
+Placement Analysis
+---------------------------------
+total displacement       2612.7 u
+average displacement        0.1 u
+max displacement           36.9 u
+original HPWL          701205.4 u
+legalized HPWL         704105.2 u
+delta HPWL                    0 %
+
+Report metrics stage 4, cts final...
+
+==========================================================================
+cts final report_design_area
+--------------------------------------------------------------------------
+Design area 271350 u^2 51% utilization.
+Elapsed time: 0:45.99[h:]min:sec. CPU time: user 45.64 sys 0.33 (99%). Peak memory: 846808KB.
