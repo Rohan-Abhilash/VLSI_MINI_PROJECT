@@ -1,0 +1,121 @@
+
+23. Printing statistics.
+
+=== sha256_unrolled_pipelined ===
+
+   Number of wires:              17034
+   Number of wire bits:          17800
+   Number of public wires:        2825
+   Number of public wire bits:    3591
+   Number of ports:                  5
+   Number of port bits:            771
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              16524
+     sky130_fd_sc_hd__a2111o_1       5
+     sky130_fd_sc_hd__a2111oi_0      4
+     sky130_fd_sc_hd__a2111oi_1      1
+     sky130_fd_sc_hd__a2111oi_2      1
+     sky130_fd_sc_hd__a211o_1       13
+     sky130_fd_sc_hd__a211oi_1      31
+     sky130_fd_sc_hd__a211oi_2       4
+     sky130_fd_sc_hd__a211oi_4       1
+     sky130_fd_sc_hd__a21bo_2        2
+     sky130_fd_sc_hd__a21boi_0      29
+     sky130_fd_sc_hd__a21boi_1       4
+     sky130_fd_sc_hd__a21o_1       160
+     sky130_fd_sc_hd__a21oi_1      486
+     sky130_fd_sc_hd__a21oi_2        3
+     sky130_fd_sc_hd__a221oi_1      20
+     sky130_fd_sc_hd__a221oi_2       1
+     sky130_fd_sc_hd__a222oi_1       2
+     sky130_fd_sc_hd__a22o_1         5
+     sky130_fd_sc_hd__a22oi_1       19
+     sky130_fd_sc_hd__a2bb2oi_1      1
+     sky130_fd_sc_hd__a311o_1        4
+     sky130_fd_sc_hd__a311oi_1       6
+     sky130_fd_sc_hd__a31o_2        13
+     sky130_fd_sc_hd__a31oi_1       70
+     sky130_fd_sc_hd__a32oi_1        4
+     sky130_fd_sc_hd__a41o_1         6
+     sky130_fd_sc_hd__a41oi_1       12
+     sky130_fd_sc_hd__a41oi_2        1
+     sky130_fd_sc_hd__and2_0         3
+     sky130_fd_sc_hd__and2_1        32
+     sky130_fd_sc_hd__and3_1        47
+     sky130_fd_sc_hd__and3b_1        3
+     sky130_fd_sc_hd__and4_1         6
+     sky130_fd_sc_hd__and4_4         2
+     sky130_fd_sc_hd__and4bb_2       1
+     sky130_fd_sc_hd__buf_1        297
+     sky130_fd_sc_hd__buf_2         57
+     sky130_fd_sc_hd__clkbuf_1    1111
+     sky130_fd_sc_hd__clkinv_1       8
+     sky130_fd_sc_hd__dfxtp_1      482
+     sky130_fd_sc_hd__edfxtp_1    2305
+     sky130_fd_sc_hd__fa_1         319
+     sky130_fd_sc_hd__ha_1         443
+     sky130_fd_sc_hd__inv_1        626
+     sky130_fd_sc_hd__inv_2          1
+     sky130_fd_sc_hd__maj3_1        30
+     sky130_fd_sc_hd__mux2_1         1
+     sky130_fd_sc_hd__mux2_2        52
+     sky130_fd_sc_hd__mux2i_1      353
+     sky130_fd_sc_hd__mux2i_2        1
+     sky130_fd_sc_hd__mux4_2      3200
+     sky130_fd_sc_hd__nand2_1     1182
+     sky130_fd_sc_hd__nand2b_1      56
+     sky130_fd_sc_hd__nand3_1      115
+     sky130_fd_sc_hd__nand3b_1      13
+     sky130_fd_sc_hd__nand4_1       39
+     sky130_fd_sc_hd__nand4b_1       3
+     sky130_fd_sc_hd__nor2_1      2122
+     sky130_fd_sc_hd__nor2_2         2
+     sky130_fd_sc_hd__nor2_8         1
+     sky130_fd_sc_hd__nor2b_1      110
+     sky130_fd_sc_hd__nor3_1       114
+     sky130_fd_sc_hd__nor3_2         1
+     sky130_fd_sc_hd__nor3_4         1
+     sky130_fd_sc_hd__nor3b_1       15
+     sky130_fd_sc_hd__nor3b_2        1
+     sky130_fd_sc_hd__nor4_1        19
+     sky130_fd_sc_hd__nor4_2         1
+     sky130_fd_sc_hd__nor4b_1        6
+     sky130_fd_sc_hd__nor4bb_1       1
+     sky130_fd_sc_hd__o2111ai_1     13
+     sky130_fd_sc_hd__o211a_1        8
+     sky130_fd_sc_hd__o211ai_1      31
+     sky130_fd_sc_hd__o21a_1        57
+     sky130_fd_sc_hd__o21ai_0      857
+     sky130_fd_sc_hd__o21ai_1       54
+     sky130_fd_sc_hd__o21ai_2        2
+     sky130_fd_sc_hd__o21ba_1        1
+     sky130_fd_sc_hd__o21bai_1      60
+     sky130_fd_sc_hd__o221a_2        1
+     sky130_fd_sc_hd__o221ai_1      10
+     sky130_fd_sc_hd__o22a_1         4
+     sky130_fd_sc_hd__o22ai_1       21
+     sky130_fd_sc_hd__o311a_1        4
+     sky130_fd_sc_hd__o311ai_0       6
+     sky130_fd_sc_hd__o311ai_1       4
+     sky130_fd_sc_hd__o31a_1        13
+     sky130_fd_sc_hd__o31ai_1       32
+     sky130_fd_sc_hd__o32ai_1        1
+     sky130_fd_sc_hd__o41a_1         2
+     sky130_fd_sc_hd__o41ai_1        5
+     sky130_fd_sc_hd__or2_0          1
+     sky130_fd_sc_hd__or2_1          4
+     sky130_fd_sc_hd__or2_2         85
+     sky130_fd_sc_hd__or3_1         51
+     sky130_fd_sc_hd__or3b_2         2
+     sky130_fd_sc_hd__or4_1          9
+     sky130_fd_sc_hd__or4_4          2
+     sky130_fd_sc_hd__xnor2_1      835
+     sky130_fd_sc_hd__xnor2_2        2
+     sky130_fd_sc_hd__xnor3_1        3
+     sky130_fd_sc_hd__xor2_1       254
+
+   Chip area for module '\sha256_unrolled_pipelined': 214289.270400
+     of which used for sequential elements: 78865.638400 (36.80%)
+
