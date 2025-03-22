@@ -1,0 +1,52 @@
+OpenROAD v2.0-19814-g250e48e05 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 8 thread(s).
+Perform port buffering...
+[INFO RSZ-0027] Inserted 513 input buffers.
+[INFO RSZ-0028] Inserted 257 output buffers.
+Perform buffer insertion and gate resizing...
+repair_design -verbose -match_cell_footprint
+[INFO RSZ-0058] Using max wire length 2154um.
+Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------------------
+        0 |     +0.0% |       0 |       0 |             0 |     18478
+     1000 |     +0.0% |     152 |       0 |             0 |     17478
+     2000 |     +0.0% |     298 |       0 |             0 |     16478
+     3000 |     +0.0% |     349 |       0 |             0 |     15478
+     4000 |     +0.0% |     430 |       0 |             0 |     14478
+     5000 |     +0.0% |     579 |       0 |             0 |     13478
+     6000 |     +0.0% |     794 |       0 |             0 |     12478
+     7000 |     +0.0% |     936 |       0 |             0 |     11478
+     8000 |     -0.0% |    1174 |       0 |             0 |     10478
+     9000 |     -0.0% |    1435 |       0 |             0 |      9478
+    10000 |     -0.1% |    1571 |       0 |             0 |      8478
+    11000 |     -0.0% |    1714 |       0 |             0 |      7478
+    12000 |     -0.1% |    2021 |       0 |             0 |      6478
+    13000 |     -0.1% |    2148 |       0 |             0 |      5478
+    14000 |     -0.4% |    2518 |       0 |             0 |      4478
+    15000 |     -0.3% |    3115 |       0 |             0 |      3478
+    16000 |     -0.3% |    4115 |       0 |             0 |      2478
+    17000 |     -0.3% |    5030 |       1 |             1 |      1478
+    18000 |     -0.3% |    5417 |       4 |             8 |       478
+    final |     -0.3% |    5417 |       4 |             8 |         0
+---------------------------------------------------------------------
+[INFO RSZ-0034] Found 8 slew violations.
+[INFO RSZ-0036] Found 1 capacitance violations.
+[INFO RSZ-0039] Resized 5417 instances.
+[INFO RSZ-0038] Inserted 4 buffers in 8 nets.
+Repair tie lo fanout...
+[INFO RSZ-0042] Inserted 243 tie sky130_fd_sc_hd__conb_1 instances.
+Repair tie hi fanout...
+[INFO RSZ-0042] Inserted 277 tie sky130_fd_sc_hd__conb_1 instances.
+Floating nets: 
+Report metrics stage 3, resizer...
+
+==========================================================================
+resizer report_design_area
+--------------------------------------------------------------------------
+Design area 255367 u^2 45% utilization.
+Instance count before 23695, after 24987
+Pin count before 69250, after 71834
+Elapsed time: 0:15.90[h:]min:sec. CPU time: user 15.44 sys 0.46 (99%). Peak memory: 715324KB.

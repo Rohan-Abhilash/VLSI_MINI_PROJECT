@@ -1,0 +1,867 @@
+
+==========================================================================
+finish report_tns
+--------------------------------------------------------------------------
+tns 0.00
+
+==========================================================================
+finish report_wns
+--------------------------------------------------------------------------
+wns 0.00
+
+==========================================================================
+finish report_worst_slack
+--------------------------------------------------------------------------
+worst slack 0.23
+
+==========================================================================
+finish report_clock_skew
+--------------------------------------------------------------------------
+Clock core_clock
+   1.09 source latency w[46][29]$_SDFFCE_PN0P_/CLK ^
+  -0.98 target latency w_value1[29]$_DFF_P_/CLK ^
+   0.00 CRPR
+--------------
+   0.12 setup skew
+
+
+==========================================================================
+finish report_checks -path_delay min
+--------------------------------------------------------------------------
+Startpoint: ready_dash$_SDFF_PP0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: ready$_DFF_P_ (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock source latency
+     2    0.13    0.00    0.00    0.00 ^ clk (in)
+                                         clk (net)
+                  0.02    0.01    0.01 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     4    0.19    0.20    0.23    0.24 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_0_clk (net)
+                  0.20    0.01    0.25 ^ clkbuf_2_1_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     8    0.20    0.21    0.30    0.55 ^ clkbuf_2_1_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_2_1_0_clk (net)
+                  0.21    0.00    0.56 ^ clkbuf_5_13__f_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     7    0.14    0.15    0.27    0.82 ^ clkbuf_5_13__f_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_5_13__leaf_clk (net)
+                  0.15    0.00    0.83 ^ clkbuf_leaf_187_clk/A (sky130_fd_sc_hd__clkbuf_16)
+    11    0.04    0.06    0.18    1.00 ^ clkbuf_leaf_187_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_leaf_187_clk (net)
+                  0.06    0.00    1.00 ^ ready_dash$_SDFF_PP0_/CLK (sky130_fd_sc_hd__dfxtp_1)
+     1    0.00    0.04    0.30    1.30 ^ ready_dash$_SDFF_PP0_/Q (sky130_fd_sc_hd__dfxtp_1)
+                                         ready_dash (net)
+                  0.04    0.00    1.30 ^ ready$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)
+                                  1.30   data arrival time
+
+                          0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock source latency
+     2    0.13    0.00    0.00    0.00 ^ clk (in)
+                                         clk (net)
+                  0.02    0.01    0.01 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     4    0.19    0.20    0.23    0.24 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_0_clk (net)
+                  0.20    0.01    0.25 ^ clkbuf_2_1_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     8    0.20    0.21    0.30    0.55 ^ clkbuf_2_1_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_2_1_0_clk (net)
+                  0.21    0.00    0.56 ^ clkbuf_5_13__f_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     7    0.14    0.15    0.27    0.82 ^ clkbuf_5_13__f_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_5_13__leaf_clk (net)
+                  0.15    0.00    0.83 ^ clkbuf_leaf_187_clk/A (sky130_fd_sc_hd__clkbuf_16)
+    11    0.04    0.06    0.18    1.00 ^ clkbuf_leaf_187_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_leaf_187_clk (net)
+                  0.06    0.00    1.00 ^ ready$_DFF_P_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                          0.00    1.00   clock reconvergence pessimism
+                         -0.03    0.98   library hold time
+                                  0.98   data required time
+-----------------------------------------------------------------------------
+                                  0.98   data required time
+                                 -1.30   data arrival time
+-----------------------------------------------------------------------------
+                                  0.33   slack (MET)
+
+
+
+==========================================================================
+finish report_checks -path_delay max
+--------------------------------------------------------------------------
+Startpoint: hash/p2_cap[11]$_DFF_P_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: hash/p2_cap[30]$_DFF_P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock source latency
+     2    0.13    0.00    0.00    0.00 ^ clk (in)
+                                         clk (net)
+                  0.02    0.01    0.01 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     4    0.19    0.20    0.23    0.24 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_0_clk (net)
+                  0.20    0.01    0.25 ^ clkbuf_2_1_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     8    0.20    0.21    0.30    0.55 ^ clkbuf_2_1_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_2_1_0_clk (net)
+                  0.21    0.00    0.56 ^ clkbuf_5_13__f_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     7    0.14    0.15    0.27    0.82 ^ clkbuf_5_13__f_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_5_13__leaf_clk (net)
+                  0.15    0.00    0.83 ^ clkbuf_leaf_189_clk/A (sky130_fd_sc_hd__clkbuf_16)
+    11    0.04    0.06    0.18    1.00 ^ clkbuf_leaf_189_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_leaf_189_clk (net)
+                  0.06    0.00    1.00 ^ hash/p2_cap[11]$_DFF_P_/CLK (sky130_fd_sc_hd__dfxtp_4)
+     3    0.01    0.05    0.35    1.35 ^ hash/p2_cap[11]$_DFF_P_/Q (sky130_fd_sc_hd__dfxtp_4)
+                                         hash/p2_cap[11] (net)
+                  0.05    0.00    1.35 ^ hash/CA2/S1/_00_/A (sky130_fd_sc_hd__xor3_1)
+     1    0.01    0.10    0.43    1.79 v hash/CA2/S1/_00_/X (sky130_fd_sc_hd__xor3_1)
+                                         hash/CA2/s1[0] (net)
+                  0.10    0.00    1.79 v hash/CA2/_2242_/B (sky130_fd_sc_hd__ha_4)
+     2    0.02    0.04    0.19    1.98 v hash/CA2/_2242_/COUT (sky130_fd_sc_hd__ha_4)
+                                         hash/CA2/_0615_ (net)
+                  0.04    0.00    1.98 v hash/CA2/_2147_/B (sky130_fd_sc_hd__fa_2)
+     2    0.02    0.09    0.39    2.38 v hash/CA2/_2147_/COUT (sky130_fd_sc_hd__fa_2)
+                                         hash/CA2/_0617_ (net)
+                  0.09    0.00    2.38 v hash/CA2/_1225_/A2 (sky130_fd_sc_hd__a21o_4)
+     1    0.01    0.04    0.24    2.61 v hash/CA2/_1225_/X (sky130_fd_sc_hd__a21o_4)
+                                         hash/CA2/_0525_ (net)
+                  0.04    0.00    2.61 v hash/CA2/_1226_/A2 (sky130_fd_sc_hd__a21oi_4)
+     3    0.03    0.22    0.23    2.84 ^ hash/CA2/_1226_/Y (sky130_fd_sc_hd__a21oi_4)
+                                         hash/CA2/_0526_ (net)
+                  0.22    0.00    2.85 ^ hash/CA2/_1758_/A2 (sky130_fd_sc_hd__o21bai_1)
+     1    0.01    0.07    0.11    2.95 v hash/CA2/_1758_/Y (sky130_fd_sc_hd__o21bai_1)
+                                         hash/CA2/_0231_ (net)
+                  0.07    0.00    2.95 v hash/CA2/_1759_/A2 (sky130_fd_sc_hd__a21oi_2)
+     1    0.02    0.23    0.24    3.20 ^ hash/CA2/_1759_/Y (sky130_fd_sc_hd__a21oi_2)
+                                         hash/CA2/_0232_ (net)
+                  0.23    0.00    3.20 ^ hash/CA2/_1760_/B (sky130_fd_sc_hd__xnor2_4)
+     2    0.04    0.13    0.16    3.36 v hash/CA2/_1760_/Y (sky130_fd_sc_hd__xnor2_4)
+                                         hash/CA2/_0669_ (net)
+                  0.13    0.01    3.37 v hash/CA2/_2254_/B (sky130_fd_sc_hd__ha_4)
+     3    0.01    0.04    0.20    3.57 v hash/CA2/_2254_/COUT (sky130_fd_sc_hd__ha_4)
+                                         hash/CA2/_0961_ (net)
+                  0.04    0.00    3.57 v hash/CA2/_2003_/C (sky130_fd_sc_hd__or4_4)
+     1    0.01    0.10    0.50    4.06 v hash/CA2/_2003_/X (sky130_fd_sc_hd__or4_4)
+                                         hash/CA2/_0409_ (net)
+                  0.10    0.00    4.06 v hash/CA2/_2004_/C1 (sky130_fd_sc_hd__a311oi_4)
+     1    0.01    0.30    0.29    4.36 ^ hash/CA2/_2004_/Y (sky130_fd_sc_hd__a311oi_4)
+                                         hash/CA2/_0410_ (net)
+                  0.30    0.00    4.36 ^ hash/CA2/_2005_/C1 (sky130_fd_sc_hd__a211oi_4)
+     3    0.02    0.09    0.09    4.45 v hash/CA2/_2005_/Y (sky130_fd_sc_hd__a211oi_4)
+                                         hash/CA2/_0411_ (net)
+                  0.09    0.00    4.45 v hash/CA2/_2047_/A2 (sky130_fd_sc_hd__o211ai_2)
+     2    0.01    0.22    0.23    4.68 ^ hash/CA2/_2047_/Y (sky130_fd_sc_hd__o211ai_2)
+                                         hash/CA2/_0445_ (net)
+                  0.22    0.00    4.68 ^ hash/CA2/_2063_/A1 (sky130_fd_sc_hd__a21oi_2)
+     1    0.01    0.07    0.09    4.78 v hash/CA2/_2063_/Y (sky130_fd_sc_hd__a21oi_2)
+                                         hash/CA2/_0459_ (net)
+                  0.07    0.00    4.78 v hash/CA2/_2064_/C1 (sky130_fd_sc_hd__a211o_4)
+     4    0.02    0.08    0.31    5.08 v hash/CA2/_2064_/X (sky130_fd_sc_hd__a211o_4)
+                                         hash/CA2/_0460_ (net)
+                  0.08    0.00    5.09 v hash/CA2/_2086_/A1 (sky130_fd_sc_hd__a311o_1)
+     1    0.01    0.07    0.29    5.38 v hash/CA2/_2086_/X (sky130_fd_sc_hd__a311o_1)
+                                         hash/CA2/_0478_ (net)
+                  0.07    0.00    5.38 v hash/CA2/_2087_/A1 (sky130_fd_sc_hd__a21oi_2)
+     1    0.01    0.10    0.14    5.52 ^ hash/CA2/_2087_/Y (sky130_fd_sc_hd__a21oi_2)
+                                         hash/CA2/_0479_ (net)
+                  0.10    0.00    5.52 ^ hash/CA2/_2088_/B (sky130_fd_sc_hd__xnor2_1)
+     1    0.01    0.06    0.09    5.60 v hash/CA2/_2088_/Y (sky130_fd_sc_hd__xnor2_1)
+                                         hash/e_new[25] (net)
+                  0.06    0.00    5.60 v hash/_3540_/A0 (sky130_fd_sc_hd__mux2_8)
+     6    0.08    0.11    0.39    5.99 v hash/_3540_/X (sky130_fd_sc_hd__mux2_8)
+                                         hash/e[25] (net)
+                  0.11    0.00    5.99 v hash/CA1/S1/_00_/C (sky130_fd_sc_hd__xor3_1)
+     1    0.01    0.12    0.26    6.26 ^ hash/CA1/S1/_00_/X (sky130_fd_sc_hd__xor3_1)
+                                         hash/CA1/s1[0] (net)
+                  0.12    0.00    6.26 ^ hash/CA1/_3621_/B (sky130_fd_sc_hd__ha_4)
+     3    0.01    0.06    0.16    6.41 ^ hash/CA1/_3621_/COUT (sky130_fd_sc_hd__ha_4)
+                                         hash/CA1/_1631_ (net)
+                  0.06    0.00    6.42 ^ hash/CA1/_2333_/A (sky130_fd_sc_hd__inv_2)
+     1    0.01    0.02    0.04    6.45 v hash/CA1/_2333_/Y (sky130_fd_sc_hd__inv_2)
+                                         hash/CA1/_1056_ (net)
+                  0.02    0.00    6.45 v hash/CA1/_3433_/B (sky130_fd_sc_hd__fa_2)
+     2    0.01    0.07    0.36    6.81 v hash/CA1/_3433_/COUT (sky130_fd_sc_hd__fa_2)
+                                         hash/CA1/_1058_ (net)
+                  0.07    0.00    6.81 v hash/CA1/_1984_/A (sky130_fd_sc_hd__nor2b_1)
+     1    0.01    0.13    0.15    6.96 ^ hash/CA1/_1984_/Y (sky130_fd_sc_hd__nor2b_1)
+                                         hash/CA1/_0005_ (net)
+                  0.13    0.00    6.96 ^ hash/CA1/_1985_/A2 (sky130_fd_sc_hd__o21ai_2)
+     1    0.01    0.07    0.08    7.05 v hash/CA1/_1985_/Y (sky130_fd_sc_hd__o21ai_2)
+                                         hash/CA1/_0006_ (net)
+                  0.07    0.00    7.05 v hash/CA1/_1986_/B (sky130_fd_sc_hd__nand2b_4)
+     2    0.02    0.08    0.10    7.15 ^ hash/CA1/_1986_/Y (sky130_fd_sc_hd__nand2b_4)
+                                         hash/CA1/_0007_ (net)
+                  0.08    0.00    7.15 ^ hash/CA1/_2009_/A2 (sky130_fd_sc_hd__a21oi_4)
+     3    0.01    0.05    0.07    7.22 v hash/CA1/_2009_/Y (sky130_fd_sc_hd__a21oi_4)
+                                         hash/CA1/_0021_ (net)
+                  0.05    0.00    7.22 v hash/CA1/_2071_/A1 (sky130_fd_sc_hd__o211a_4)
+     1    0.01    0.05    0.26    7.48 v hash/CA1/_2071_/X (sky130_fd_sc_hd__o211a_4)
+                                         hash/CA1/_0065_ (net)
+                  0.05    0.00    7.48 v hash/CA1/_2074_/A (sky130_fd_sc_hd__nor2_4)
+     4    0.04    0.28    0.26    7.74 ^ hash/CA1/_2074_/Y (sky130_fd_sc_hd__nor2_4)
+                                         hash/CA1/_0068_ (net)
+                  0.28    0.01    7.74 ^ hash/CA1/_2193_/A1 (sky130_fd_sc_hd__a31oi_4)
+     4    0.02    0.13    0.17    7.91 v hash/CA1/_2193_/Y (sky130_fd_sc_hd__a31oi_4)
+                                         hash/CA1/_0154_ (net)
+                  0.13    0.00    7.91 v hash/CA1/_2248_/A2 (sky130_fd_sc_hd__o211ai_1)
+     1    0.00    0.18    0.22    8.13 ^ hash/CA1/_2248_/Y (sky130_fd_sc_hd__o211ai_1)
+                                         hash/CA1/_0194_ (net)
+                  0.18    0.00    8.13 ^ hash/CA1/_2249_/A1 (sky130_fd_sc_hd__a21oi_2)
+     2    0.01    0.08    0.11    8.24 v hash/CA1/_2249_/Y (sky130_fd_sc_hd__a21oi_2)
+                                         hash/CA1/_0195_ (net)
+                  0.08    0.00    8.24 v hash/CA1/_2658_/B (sky130_fd_sc_hd__xnor2_2)
+     1    0.01    0.07    0.16    8.40 v hash/CA1/_2658_/Y (sky130_fd_sc_hd__xnor2_2)
+                                         hash/CA1/_1364_ (net)
+                  0.07    0.00    8.40 v hash/CA1/_3512_/B (sky130_fd_sc_hd__fa_1)
+     1    0.01    0.11    0.55    8.96 ^ hash/CA1/_3512_/SUM (sky130_fd_sc_hd__fa_1)
+                                         hash/CA1/_1366_ (net)
+                  0.11    0.00    8.96 ^ hash/CA1/_3733_/B (sky130_fd_sc_hd__ha_4)
+     4    0.02    0.06    0.23    9.19 v hash/CA1/_3733_/SUM (sky130_fd_sc_hd__ha_4)
+                                         hash/CA1/_1945_ (net)
+                  0.06    0.00    9.19 v hash/CA1/_2975_/B (sky130_fd_sc_hd__and2_4)
+     3    0.02    0.05    0.19    9.37 v hash/CA1/_2975_/X (sky130_fd_sc_hd__and2_4)
+                                         hash/CA1/_0633_ (net)
+                  0.05    0.00    9.37 v hash/CA1/_2976_/B2 (sky130_fd_sc_hd__a221oi_4)
+     3    0.02    0.29    0.32    9.69 ^ hash/CA1/_2976_/Y (sky130_fd_sc_hd__a221oi_4)
+                                         hash/CA1/_0634_ (net)
+                  0.29    0.00    9.70 ^ hash/CA1/_2982_/A (sky130_fd_sc_hd__inv_1)
+     1    0.01    0.08    0.10    9.80 v hash/CA1/_2982_/Y (sky130_fd_sc_hd__inv_1)
+                                         hash/CA1/_0639_ (net)
+                  0.08    0.00    9.80 v hash/CA1/_2983_/A1 (sky130_fd_sc_hd__a21oi_2)
+     2    0.01    0.17    0.19    9.99 ^ hash/CA1/_2983_/Y (sky130_fd_sc_hd__a21oi_2)
+                                         hash/CA1/_0640_ (net)
+                  0.17    0.00    9.99 ^ hash/CA1/_2984_/B (sky130_fd_sc_hd__nand2_2)
+     1    0.01    0.06    0.09   10.08 v hash/CA1/_2984_/Y (sky130_fd_sc_hd__nand2_2)
+                                         hash/CA1/_0641_ (net)
+                  0.06    0.00   10.08 v hash/CA1/_2985_/B (sky130_fd_sc_hd__nor3_4)
+     3    0.02    0.22    0.24   10.32 ^ hash/CA1/_2985_/Y (sky130_fd_sc_hd__nor3_4)
+                                         hash/CA1/_0642_ (net)
+                  0.22    0.00   10.32 ^ hash/CA1/_3017_/A2 (sky130_fd_sc_hd__o31ai_2)
+     1    0.01    0.07    0.10   10.42 v hash/CA1/_3017_/Y (sky130_fd_sc_hd__o31ai_2)
+                                         hash/CA1/_0670_ (net)
+                  0.07    0.00   10.42 v hash/CA1/_3018_/A1 (sky130_fd_sc_hd__a21oi_2)
+     1    0.01    0.10    0.13   10.56 ^ hash/CA1/_3018_/Y (sky130_fd_sc_hd__a21oi_2)
+                                         hash/CA1/_0671_ (net)
+                  0.10    0.00   10.56 ^ hash/CA1/_3019_/A (sky130_fd_sc_hd__xnor2_1)
+     1    0.01    0.18    0.15   10.70 ^ hash/CA1/_3019_/Y (sky130_fd_sc_hd__xnor2_1)
+                                         hash/p2[30] (net)
+                  0.18    0.00   10.70 ^ hash/p2_cap[30]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_2)
+                                 10.70   data arrival time
+
+                         10.00   10.00   clock core_clock (rise edge)
+                          0.00   10.00   clock source latency
+     2    0.13    0.00    0.00   10.00 ^ clk (in)
+                                         clk (net)
+                  0.02    0.01   10.01 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     4    0.19    0.20    0.23   10.24 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_0_clk (net)
+                  0.20    0.01   10.25 ^ clkbuf_2_1_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     8    0.20    0.21    0.30   10.55 ^ clkbuf_2_1_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_2_1_0_clk (net)
+                  0.21    0.01   10.56 ^ clkbuf_5_15__f_clk/A (sky130_fd_sc_hd__clkbuf_16)
+    11    0.15    0.16    0.28   10.83 ^ clkbuf_5_15__f_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_5_15__leaf_clk (net)
+                  0.16    0.00   10.84 ^ clkbuf_leaf_196_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     9    0.04    0.06    0.18   11.02 ^ clkbuf_leaf_196_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_leaf_196_clk (net)
+                  0.06    0.00   11.02 ^ hash/p2_cap[30]$_DFF_P_/CLK (sky130_fd_sc_hd__dfxtp_2)
+                          0.00   11.02   clock reconvergence pessimism
+                         -0.09   10.93   library setup time
+                                 10.93   data required time
+-----------------------------------------------------------------------------
+                                 10.93   data required time
+                                -10.70   data arrival time
+-----------------------------------------------------------------------------
+                                  0.23   slack (MET)
+
+
+
+==========================================================================
+finish report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: hash/p2_cap[11]$_DFF_P_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: hash/p2_cap[30]$_DFF_P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock source latency
+     2    0.13    0.00    0.00    0.00 ^ clk (in)
+                                         clk (net)
+                  0.02    0.01    0.01 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     4    0.19    0.20    0.23    0.24 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_0_clk (net)
+                  0.20    0.01    0.25 ^ clkbuf_2_1_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     8    0.20    0.21    0.30    0.55 ^ clkbuf_2_1_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_2_1_0_clk (net)
+                  0.21    0.00    0.56 ^ clkbuf_5_13__f_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     7    0.14    0.15    0.27    0.82 ^ clkbuf_5_13__f_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_5_13__leaf_clk (net)
+                  0.15    0.00    0.83 ^ clkbuf_leaf_189_clk/A (sky130_fd_sc_hd__clkbuf_16)
+    11    0.04    0.06    0.18    1.00 ^ clkbuf_leaf_189_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_leaf_189_clk (net)
+                  0.06    0.00    1.00 ^ hash/p2_cap[11]$_DFF_P_/CLK (sky130_fd_sc_hd__dfxtp_4)
+     3    0.01    0.05    0.35    1.35 ^ hash/p2_cap[11]$_DFF_P_/Q (sky130_fd_sc_hd__dfxtp_4)
+                                         hash/p2_cap[11] (net)
+                  0.05    0.00    1.35 ^ hash/CA2/S1/_00_/A (sky130_fd_sc_hd__xor3_1)
+     1    0.01    0.10    0.43    1.79 v hash/CA2/S1/_00_/X (sky130_fd_sc_hd__xor3_1)
+                                         hash/CA2/s1[0] (net)
+                  0.10    0.00    1.79 v hash/CA2/_2242_/B (sky130_fd_sc_hd__ha_4)
+     2    0.02    0.04    0.19    1.98 v hash/CA2/_2242_/COUT (sky130_fd_sc_hd__ha_4)
+                                         hash/CA2/_0615_ (net)
+                  0.04    0.00    1.98 v hash/CA2/_2147_/B (sky130_fd_sc_hd__fa_2)
+     2    0.02    0.09    0.39    2.38 v hash/CA2/_2147_/COUT (sky130_fd_sc_hd__fa_2)
+                                         hash/CA2/_0617_ (net)
+                  0.09    0.00    2.38 v hash/CA2/_1225_/A2 (sky130_fd_sc_hd__a21o_4)
+     1    0.01    0.04    0.24    2.61 v hash/CA2/_1225_/X (sky130_fd_sc_hd__a21o_4)
+                                         hash/CA2/_0525_ (net)
+                  0.04    0.00    2.61 v hash/CA2/_1226_/A2 (sky130_fd_sc_hd__a21oi_4)
+     3    0.03    0.22    0.23    2.84 ^ hash/CA2/_1226_/Y (sky130_fd_sc_hd__a21oi_4)
+                                         hash/CA2/_0526_ (net)
+                  0.22    0.00    2.85 ^ hash/CA2/_1758_/A2 (sky130_fd_sc_hd__o21bai_1)
+     1    0.01    0.07    0.11    2.95 v hash/CA2/_1758_/Y (sky130_fd_sc_hd__o21bai_1)
+                                         hash/CA2/_0231_ (net)
+                  0.07    0.00    2.95 v hash/CA2/_1759_/A2 (sky130_fd_sc_hd__a21oi_2)
+     1    0.02    0.23    0.24    3.20 ^ hash/CA2/_1759_/Y (sky130_fd_sc_hd__a21oi_2)
+                                         hash/CA2/_0232_ (net)
+                  0.23    0.00    3.20 ^ hash/CA2/_1760_/B (sky130_fd_sc_hd__xnor2_4)
+     2    0.04    0.13    0.16    3.36 v hash/CA2/_1760_/Y (sky130_fd_sc_hd__xnor2_4)
+                                         hash/CA2/_0669_ (net)
+                  0.13    0.01    3.37 v hash/CA2/_2254_/B (sky130_fd_sc_hd__ha_4)
+     3    0.01    0.04    0.20    3.57 v hash/CA2/_2254_/COUT (sky130_fd_sc_hd__ha_4)
+                                         hash/CA2/_0961_ (net)
+                  0.04    0.00    3.57 v hash/CA2/_2003_/C (sky130_fd_sc_hd__or4_4)
+     1    0.01    0.10    0.50    4.06 v hash/CA2/_2003_/X (sky130_fd_sc_hd__or4_4)
+                                         hash/CA2/_0409_ (net)
+                  0.10    0.00    4.06 v hash/CA2/_2004_/C1 (sky130_fd_sc_hd__a311oi_4)
+     1    0.01    0.30    0.29    4.36 ^ hash/CA2/_2004_/Y (sky130_fd_sc_hd__a311oi_4)
+                                         hash/CA2/_0410_ (net)
+                  0.30    0.00    4.36 ^ hash/CA2/_2005_/C1 (sky130_fd_sc_hd__a211oi_4)
+     3    0.02    0.09    0.09    4.45 v hash/CA2/_2005_/Y (sky130_fd_sc_hd__a211oi_4)
+                                         hash/CA2/_0411_ (net)
+                  0.09    0.00    4.45 v hash/CA2/_2047_/A2 (sky130_fd_sc_hd__o211ai_2)
+     2    0.01    0.22    0.23    4.68 ^ hash/CA2/_2047_/Y (sky130_fd_sc_hd__o211ai_2)
+                                         hash/CA2/_0445_ (net)
+                  0.22    0.00    4.68 ^ hash/CA2/_2063_/A1 (sky130_fd_sc_hd__a21oi_2)
+     1    0.01    0.07    0.09    4.78 v hash/CA2/_2063_/Y (sky130_fd_sc_hd__a21oi_2)
+                                         hash/CA2/_0459_ (net)
+                  0.07    0.00    4.78 v hash/CA2/_2064_/C1 (sky130_fd_sc_hd__a211o_4)
+     4    0.02    0.08    0.31    5.08 v hash/CA2/_2064_/X (sky130_fd_sc_hd__a211o_4)
+                                         hash/CA2/_0460_ (net)
+                  0.08    0.00    5.09 v hash/CA2/_2086_/A1 (sky130_fd_sc_hd__a311o_1)
+     1    0.01    0.07    0.29    5.38 v hash/CA2/_2086_/X (sky130_fd_sc_hd__a311o_1)
+                                         hash/CA2/_0478_ (net)
+                  0.07    0.00    5.38 v hash/CA2/_2087_/A1 (sky130_fd_sc_hd__a21oi_2)
+     1    0.01    0.10    0.14    5.52 ^ hash/CA2/_2087_/Y (sky130_fd_sc_hd__a21oi_2)
+                                         hash/CA2/_0479_ (net)
+                  0.10    0.00    5.52 ^ hash/CA2/_2088_/B (sky130_fd_sc_hd__xnor2_1)
+     1    0.01    0.06    0.09    5.60 v hash/CA2/_2088_/Y (sky130_fd_sc_hd__xnor2_1)
+                                         hash/e_new[25] (net)
+                  0.06    0.00    5.60 v hash/_3540_/A0 (sky130_fd_sc_hd__mux2_8)
+     6    0.08    0.11    0.39    5.99 v hash/_3540_/X (sky130_fd_sc_hd__mux2_8)
+                                         hash/e[25] (net)
+                  0.11    0.00    5.99 v hash/CA1/S1/_00_/C (sky130_fd_sc_hd__xor3_1)
+     1    0.01    0.12    0.26    6.26 ^ hash/CA1/S1/_00_/X (sky130_fd_sc_hd__xor3_1)
+                                         hash/CA1/s1[0] (net)
+                  0.12    0.00    6.26 ^ hash/CA1/_3621_/B (sky130_fd_sc_hd__ha_4)
+     3    0.01    0.06    0.16    6.41 ^ hash/CA1/_3621_/COUT (sky130_fd_sc_hd__ha_4)
+                                         hash/CA1/_1631_ (net)
+                  0.06    0.00    6.42 ^ hash/CA1/_2333_/A (sky130_fd_sc_hd__inv_2)
+     1    0.01    0.02    0.04    6.45 v hash/CA1/_2333_/Y (sky130_fd_sc_hd__inv_2)
+                                         hash/CA1/_1056_ (net)
+                  0.02    0.00    6.45 v hash/CA1/_3433_/B (sky130_fd_sc_hd__fa_2)
+     2    0.01    0.07    0.36    6.81 v hash/CA1/_3433_/COUT (sky130_fd_sc_hd__fa_2)
+                                         hash/CA1/_1058_ (net)
+                  0.07    0.00    6.81 v hash/CA1/_1984_/A (sky130_fd_sc_hd__nor2b_1)
+     1    0.01    0.13    0.15    6.96 ^ hash/CA1/_1984_/Y (sky130_fd_sc_hd__nor2b_1)
+                                         hash/CA1/_0005_ (net)
+                  0.13    0.00    6.96 ^ hash/CA1/_1985_/A2 (sky130_fd_sc_hd__o21ai_2)
+     1    0.01    0.07    0.08    7.05 v hash/CA1/_1985_/Y (sky130_fd_sc_hd__o21ai_2)
+                                         hash/CA1/_0006_ (net)
+                  0.07    0.00    7.05 v hash/CA1/_1986_/B (sky130_fd_sc_hd__nand2b_4)
+     2    0.02    0.08    0.10    7.15 ^ hash/CA1/_1986_/Y (sky130_fd_sc_hd__nand2b_4)
+                                         hash/CA1/_0007_ (net)
+                  0.08    0.00    7.15 ^ hash/CA1/_2009_/A2 (sky130_fd_sc_hd__a21oi_4)
+     3    0.01    0.05    0.07    7.22 v hash/CA1/_2009_/Y (sky130_fd_sc_hd__a21oi_4)
+                                         hash/CA1/_0021_ (net)
+                  0.05    0.00    7.22 v hash/CA1/_2071_/A1 (sky130_fd_sc_hd__o211a_4)
+     1    0.01    0.05    0.26    7.48 v hash/CA1/_2071_/X (sky130_fd_sc_hd__o211a_4)
+                                         hash/CA1/_0065_ (net)
+                  0.05    0.00    7.48 v hash/CA1/_2074_/A (sky130_fd_sc_hd__nor2_4)
+     4    0.04    0.28    0.26    7.74 ^ hash/CA1/_2074_/Y (sky130_fd_sc_hd__nor2_4)
+                                         hash/CA1/_0068_ (net)
+                  0.28    0.01    7.74 ^ hash/CA1/_2193_/A1 (sky130_fd_sc_hd__a31oi_4)
+     4    0.02    0.13    0.17    7.91 v hash/CA1/_2193_/Y (sky130_fd_sc_hd__a31oi_4)
+                                         hash/CA1/_0154_ (net)
+                  0.13    0.00    7.91 v hash/CA1/_2248_/A2 (sky130_fd_sc_hd__o211ai_1)
+     1    0.00    0.18    0.22    8.13 ^ hash/CA1/_2248_/Y (sky130_fd_sc_hd__o211ai_1)
+                                         hash/CA1/_0194_ (net)
+                  0.18    0.00    8.13 ^ hash/CA1/_2249_/A1 (sky130_fd_sc_hd__a21oi_2)
+     2    0.01    0.08    0.11    8.24 v hash/CA1/_2249_/Y (sky130_fd_sc_hd__a21oi_2)
+                                         hash/CA1/_0195_ (net)
+                  0.08    0.00    8.24 v hash/CA1/_2658_/B (sky130_fd_sc_hd__xnor2_2)
+     1    0.01    0.07    0.16    8.40 v hash/CA1/_2658_/Y (sky130_fd_sc_hd__xnor2_2)
+                                         hash/CA1/_1364_ (net)
+                  0.07    0.00    8.40 v hash/CA1/_3512_/B (sky130_fd_sc_hd__fa_1)
+     1    0.01    0.11    0.55    8.96 ^ hash/CA1/_3512_/SUM (sky130_fd_sc_hd__fa_1)
+                                         hash/CA1/_1366_ (net)
+                  0.11    0.00    8.96 ^ hash/CA1/_3733_/B (sky130_fd_sc_hd__ha_4)
+     4    0.02    0.06    0.23    9.19 v hash/CA1/_3733_/SUM (sky130_fd_sc_hd__ha_4)
+                                         hash/CA1/_1945_ (net)
+                  0.06    0.00    9.19 v hash/CA1/_2975_/B (sky130_fd_sc_hd__and2_4)
+     3    0.02    0.05    0.19    9.37 v hash/CA1/_2975_/X (sky130_fd_sc_hd__and2_4)
+                                         hash/CA1/_0633_ (net)
+                  0.05    0.00    9.37 v hash/CA1/_2976_/B2 (sky130_fd_sc_hd__a221oi_4)
+     3    0.02    0.29    0.32    9.69 ^ hash/CA1/_2976_/Y (sky130_fd_sc_hd__a221oi_4)
+                                         hash/CA1/_0634_ (net)
+                  0.29    0.00    9.70 ^ hash/CA1/_2982_/A (sky130_fd_sc_hd__inv_1)
+     1    0.01    0.08    0.10    9.80 v hash/CA1/_2982_/Y (sky130_fd_sc_hd__inv_1)
+                                         hash/CA1/_0639_ (net)
+                  0.08    0.00    9.80 v hash/CA1/_2983_/A1 (sky130_fd_sc_hd__a21oi_2)
+     2    0.01    0.17    0.19    9.99 ^ hash/CA1/_2983_/Y (sky130_fd_sc_hd__a21oi_2)
+                                         hash/CA1/_0640_ (net)
+                  0.17    0.00    9.99 ^ hash/CA1/_2984_/B (sky130_fd_sc_hd__nand2_2)
+     1    0.01    0.06    0.09   10.08 v hash/CA1/_2984_/Y (sky130_fd_sc_hd__nand2_2)
+                                         hash/CA1/_0641_ (net)
+                  0.06    0.00   10.08 v hash/CA1/_2985_/B (sky130_fd_sc_hd__nor3_4)
+     3    0.02    0.22    0.24   10.32 ^ hash/CA1/_2985_/Y (sky130_fd_sc_hd__nor3_4)
+                                         hash/CA1/_0642_ (net)
+                  0.22    0.00   10.32 ^ hash/CA1/_3017_/A2 (sky130_fd_sc_hd__o31ai_2)
+     1    0.01    0.07    0.10   10.42 v hash/CA1/_3017_/Y (sky130_fd_sc_hd__o31ai_2)
+                                         hash/CA1/_0670_ (net)
+                  0.07    0.00   10.42 v hash/CA1/_3018_/A1 (sky130_fd_sc_hd__a21oi_2)
+     1    0.01    0.10    0.13   10.56 ^ hash/CA1/_3018_/Y (sky130_fd_sc_hd__a21oi_2)
+                                         hash/CA1/_0671_ (net)
+                  0.10    0.00   10.56 ^ hash/CA1/_3019_/A (sky130_fd_sc_hd__xnor2_1)
+     1    0.01    0.18    0.15   10.70 ^ hash/CA1/_3019_/Y (sky130_fd_sc_hd__xnor2_1)
+                                         hash/p2[30] (net)
+                  0.18    0.00   10.70 ^ hash/p2_cap[30]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_2)
+                                 10.70   data arrival time
+
+                         10.00   10.00   clock core_clock (rise edge)
+                          0.00   10.00   clock source latency
+     2    0.13    0.00    0.00   10.00 ^ clk (in)
+                                         clk (net)
+                  0.02    0.01   10.01 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     4    0.19    0.20    0.23   10.24 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_0_clk (net)
+                  0.20    0.01   10.25 ^ clkbuf_2_1_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     8    0.20    0.21    0.30   10.55 ^ clkbuf_2_1_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_2_1_0_clk (net)
+                  0.21    0.01   10.56 ^ clkbuf_5_15__f_clk/A (sky130_fd_sc_hd__clkbuf_16)
+    11    0.15    0.16    0.28   10.83 ^ clkbuf_5_15__f_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_5_15__leaf_clk (net)
+                  0.16    0.00   10.84 ^ clkbuf_leaf_196_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     9    0.04    0.06    0.18   11.02 ^ clkbuf_leaf_196_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                         clknet_leaf_196_clk (net)
+                  0.06    0.00   11.02 ^ hash/p2_cap[30]$_DFF_P_/CLK (sky130_fd_sc_hd__dfxtp_2)
+                          0.00   11.02   clock reconvergence pessimism
+                         -0.09   10.93   library setup time
+                                 10.93   data required time
+-----------------------------------------------------------------------------
+                                 10.93   data required time
+                                -10.70   data arrival time
+-----------------------------------------------------------------------------
+                                  0.23   slack (MET)
+
+
+
+==========================================================================
+finish report_check_types -max_slew -max_cap -max_fanout -violators
+--------------------------------------------------------------------------
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+_15435_/B2                              1.50    3.40   -1.90 (VIOLATED)
+_15450_/B2                              1.50    3.40   -1.90 (VIOLATED)
+_15465_/B2                              1.50    3.40   -1.90 (VIOLATED)
+_15495_/B2                              1.50    3.40   -1.90 (VIOLATED)
+_15418_/B2                              1.50    3.40   -1.90 (VIOLATED)
+_15401_/B2                              1.50    3.40   -1.90 (VIOLATED)
+_10881_/B1                              1.50    3.40   -1.90 (VIOLATED)
+_10944_/B1                              1.50    3.40   -1.90 (VIOLATED)
+_14366_/A                               1.50    3.40   -1.90 (VIOLATED)
+_10851_/B1                              1.50    3.40   -1.90 (VIOLATED)
+_10743_/A                               1.50    3.40   -1.90 (VIOLATED)
+_10752_/B1                              1.50    3.40   -1.90 (VIOLATED)
+_14855_/B2                              1.50    3.40   -1.90 (VIOLATED)
+_11126_/C1                              1.50    3.40   -1.90 (VIOLATED)
+_11177_/A                               1.50    3.40   -1.90 (VIOLATED)
+_11178_/A                               1.50    3.40   -1.90 (VIOLATED)
+_10746_/B1                              1.50    3.40   -1.90 (VIOLATED)
+_10757_/B1                              1.50    3.40   -1.90 (VIOLATED)
+_10760_/A                               1.50    3.40   -1.90 (VIOLATED)
+_10764_/B1                              1.50    3.40   -1.90 (VIOLATED)
+_10767_/B1                              1.50    3.40   -1.90 (VIOLATED)
+_10754_/A                               1.50    3.40   -1.90 (VIOLATED)
+_10747_/B1                              1.50    3.40   -1.90 (VIOLATED)
+_10734_/A                               1.50    3.40   -1.90 (VIOLATED)
+_14835_/A1                              1.50    3.40   -1.90 (VIOLATED)
+_10739_/B1                              1.50    3.40   -1.90 (VIOLATED)
+_14754_/A1                              1.50    3.40   -1.90 (VIOLATED)
+_14360_/A                               1.50    3.40   -1.90 (VIOLATED)
+_14556_/A1                              1.50    3.40   -1.90 (VIOLATED)
+reset_hash_dash$_DFF_P_/D               1.50    3.40   -1.90 (VIOLATED)
+_10845_/A                               1.50    3.40   -1.90 (VIOLATED)
+_11383_/A                               1.50    3.40   -1.90 (VIOLATED)
+wire414/X                               1.51    3.40   -1.89 (VIOLATED)
+hash/_3627_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3597_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3633_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3598_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3571_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3022_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3576_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3605_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3575_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3609_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3611_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3604_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3593_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3564_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3559_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3563_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3652_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3618_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3653_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3584_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3585_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3619_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3654_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3586_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3620_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3626_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3592_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3562_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3590_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3657_/S                           1.50    3.04   -1.54 (VIOLATED)
+hash/_3624_/S                           1.50    3.04   -1.54 (VIOLATED)
+max_cap412/X                            1.51    3.04   -1.53 (VIOLATED)
+hash/_3579_/S                           1.50    1.87   -0.37 (VIOLATED)
+hash/_3024_/A                           1.50    1.87   -0.37 (VIOLATED)
+hash/_3613_/S                           1.50    1.87   -0.37 (VIOLATED)
+hash/_3524_/S                           1.50    1.87   -0.37 (VIOLATED)
+hash/_3607_/S                           1.50    1.87   -0.37 (VIOLATED)
+hash/_3523_/S                           1.50    1.87   -0.37 (VIOLATED)
+hash/_3573_/S                           1.50    1.87   -0.37 (VIOLATED)
+hash/_3634_/S                           1.50    1.87   -0.37 (VIOLATED)
+hash/_3600_/S                           1.50    1.87   -0.37 (VIOLATED)
+hash/_3612_/S                           1.50    1.87   -0.37 (VIOLATED)
+hash/_3578_/S                           1.50    1.87   -0.37 (VIOLATED)
+hash/_3606_/S                           1.50    1.87   -0.37 (VIOLATED)
+hash/_3572_/S                           1.50    1.87   -0.37 (VIOLATED)
+hash/_3636_/S                           1.50    1.87   -0.37 (VIOLATED)
+hash/_3568_/S                           1.50    1.87   -0.37 (VIOLATED)
+hash/_3565_/S                           1.50    1.87   -0.37 (VIOLATED)
+hash/_3558_/S                           1.50    1.87   -0.37 (VIOLATED)
+load_slew771/X                          1.51    1.87   -0.36 (VIOLATED)
+_09965_/Y                               1.49    1.59   -0.10 (VIOLATED)
+wire375/A                               1.50    1.59   -0.09 (VIOLATED)
+_09968_/B                               1.50    1.59   -0.09 (VIOLATED)
+_09970_/B                               1.50    1.59   -0.09 (VIOLATED)
+_09971_/A2                              1.50    1.59   -0.09 (VIOLATED)
+_09969_/A2                              1.50    1.59   -0.09 (VIOLATED)
+wire376/A                               1.50    1.59   -0.09 (VIOLATED)
+_09975_/A2                              1.50    1.59   -0.09 (VIOLATED)
+_09974_/B                               1.50    1.59   -0.09 (VIOLATED)
+_09972_/B                               1.50    1.59   -0.09 (VIOLATED)
+_13243_/Y                               1.49    1.56   -0.07 (VIOLATED)
+hash/h5_out[20]$_DFFE_PP_/DE            1.50    1.56   -0.06 (VIOLATED)
+hash/h5_out[11]$_DFFE_PP_/DE            1.50    1.56   -0.06 (VIOLATED)
+hash/h5_out[12]$_DFFE_PP_/DE            1.50    1.56   -0.06 (VIOLATED)
+hash/h5_out[13]$_DFFE_PP_/DE            1.50    1.56   -0.06 (VIOLATED)
+hash/h5_out[16]$_DFFE_PP_/DE            1.50    1.56   -0.06 (VIOLATED)
+hash/h5_out[15]$_DFFE_PP_/DE            1.50    1.56   -0.06 (VIOLATED)
+hash/h5_out[14]$_DFFE_PP_/DE            1.50    1.56   -0.06 (VIOLATED)
+hash/h0_out[18]$_DFFE_PP_/DE            1.50    1.56   -0.06 (VIOLATED)
+hash/h5_out[18]$_DFFE_PP_/DE            1.50    1.56   -0.06 (VIOLATED)
+hash/h5_out[17]$_DFFE_PP_/DE            1.50    1.56   -0.06 (VIOLATED)
+hash/h5_out[9]$_DFFE_PP_/DE             1.50    1.56   -0.06 (VIOLATED)
+hash/h5_out[10]$_DFFE_PP_/DE            1.50    1.56   -0.06 (VIOLATED)
+hash/h5_out[8]$_DFFE_PP_/DE             1.50    1.56   -0.06 (VIOLATED)
+hash/h5_out[6]$_DFFE_PP_/DE             1.50    1.56   -0.06 (VIOLATED)
+hash/h5_out[7]$_DFFE_PP_/DE             1.50    1.56   -0.06 (VIOLATED)
+hash/h5_out[5]$_DFFE_PP_/DE             1.50    1.56   -0.06 (VIOLATED)
+hash/h5_out[4]$_DFFE_PP_/DE             1.50    1.56   -0.06 (VIOLATED)
+hash/h5_out[3]$_DFFE_PP_/DE             1.50    1.56   -0.06 (VIOLATED)
+hash/h4_out[1]$_DFFE_PP_/DE             1.50    1.56   -0.06 (VIOLATED)
+hash/h0_out[15]$_DFFE_PP_/DE            1.50    1.56   -0.06 (VIOLATED)
+hash/h0_out[11]$_DFFE_PP_/DE            1.50    1.56   -0.06 (VIOLATED)
+hash/h0_out[13]$_DFFE_PP_/DE            1.50    1.56   -0.06 (VIOLATED)
+hash/h4_out[2]$_DFFE_PP_/DE             1.50    1.56   -0.06 (VIOLATED)
+hash/h0_out[12]$_DFFE_PP_/DE            1.50    1.56   -0.06 (VIOLATED)
+hash/h0_out[9]$_DFFE_PP_/DE             1.50    1.56   -0.06 (VIOLATED)
+hash/h0_out[6]$_DFFE_PP_/DE             1.50    1.56   -0.06 (VIOLATED)
+hash/h4_out[0]$_DFFE_PP_/DE             1.50    1.56   -0.06 (VIOLATED)
+count7_1[4]$_SDFF_PP0_/Q                1.50    1.53   -0.03 (VIOLATED)
+_16992_/S1                              1.50    1.53   -0.03 (VIOLATED)
+_17130_/S1                              1.50    1.53   -0.03 (VIOLATED)
+_17137_/S1                              1.50    1.53   -0.03 (VIOLATED)
+_17019_/S1                              1.50    1.53   -0.03 (VIOLATED)
+_17209_/S1                              1.50    1.53   -0.03 (VIOLATED)
+_16985_/S1                              1.50    1.53   -0.03 (VIOLATED)
+_17044_/S1                              1.50    1.53   -0.03 (VIOLATED)
+_17193_/S1                              1.50    1.53   -0.03 (VIOLATED)
+_17198_/S1                              1.50    1.53   -0.03 (VIOLATED)
+_17150_/S1                              1.50    1.53   -0.03 (VIOLATED)
+_17006_/S1                              1.50    1.53   -0.03 (VIOLATED)
+
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+wire414/X                               0.13    0.30   -0.17 (VIOLATED)
+max_cap412/X                            0.13    0.27   -0.14 (VIOLATED)
+load_slew771/X                          0.13    0.16   -0.03 (VIOLATED)
+_13243_/Y                               0.15    0.17   -0.01 (VIOLATED)
+_09965_/Y                               0.11    0.12   -0.01 (VIOLATED)
+count7_1[4]$_SDFF_PP0_/Q                0.16    0.17   -0.00 (VIOLATED)
+
+
+==========================================================================
+finish max_slew_check_slack
+--------------------------------------------------------------------------
+-1.8973758220672607
+
+==========================================================================
+finish max_slew_check_limit
+--------------------------------------------------------------------------
+1.5
+
+==========================================================================
+finish max_slew_check_slack_limit
+--------------------------------------------------------------------------
+-1.2649
+
+==========================================================================
+finish max_fanout_check_slack
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_fanout_check_limit
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_capacitance_check_slack
+--------------------------------------------------------------------------
+-0.16785529255867004
+
+==========================================================================
+finish max_capacitance_check_limit
+--------------------------------------------------------------------------
+0.13001500070095062
+
+==========================================================================
+finish max_capacitance_check_slack_limit
+--------------------------------------------------------------------------
+-1.2910
+
+==========================================================================
+finish max_slew_violation_count
+--------------------------------------------------------------------------
+max slew violation count 133
+
+==========================================================================
+finish max_fanout_violation_count
+--------------------------------------------------------------------------
+max fanout violation count 0
+
+==========================================================================
+finish max_cap_violation_count
+--------------------------------------------------------------------------
+max cap violation count 6
+
+==========================================================================
+finish setup_violation_count
+--------------------------------------------------------------------------
+setup violation count 0
+
+==========================================================================
+finish hold_violation_count
+--------------------------------------------------------------------------
+hold violation count 0
+
+==========================================================================
+finish report_checks -path_delay max reg to reg
+--------------------------------------------------------------------------
+Startpoint: hash/p2_cap[11]$_DFF_P_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: hash/p2_cap[30]$_DFF_P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ clk (in)
+   0.24    0.24 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.31    0.55 ^ clkbuf_2_1_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.27    0.82 ^ clkbuf_5_13__f_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.18    1.00 ^ clkbuf_leaf_189_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.00    1.00 ^ hash/p2_cap[11]$_DFF_P_/CLK (sky130_fd_sc_hd__dfxtp_4)
+   0.35    1.35 ^ hash/p2_cap[11]$_DFF_P_/Q (sky130_fd_sc_hd__dfxtp_4)
+   0.43    1.79 v hash/CA2/S1/_00_/X (sky130_fd_sc_hd__xor3_1)
+   0.19    1.98 v hash/CA2/_2242_/COUT (sky130_fd_sc_hd__ha_4)
+   0.39    2.38 v hash/CA2/_2147_/COUT (sky130_fd_sc_hd__fa_2)
+   0.24    2.61 v hash/CA2/_1225_/X (sky130_fd_sc_hd__a21o_4)
+   0.23    2.84 ^ hash/CA2/_1226_/Y (sky130_fd_sc_hd__a21oi_4)
+   0.11    2.95 v hash/CA2/_1758_/Y (sky130_fd_sc_hd__o21bai_1)
+   0.24    3.20 ^ hash/CA2/_1759_/Y (sky130_fd_sc_hd__a21oi_2)
+   0.16    3.36 v hash/CA2/_1760_/Y (sky130_fd_sc_hd__xnor2_4)
+   0.21    3.57 v hash/CA2/_2254_/COUT (sky130_fd_sc_hd__ha_4)
+   0.50    4.06 v hash/CA2/_2003_/X (sky130_fd_sc_hd__or4_4)
+   0.29    4.36 ^ hash/CA2/_2004_/Y (sky130_fd_sc_hd__a311oi_4)
+   0.09    4.45 v hash/CA2/_2005_/Y (sky130_fd_sc_hd__a211oi_4)
+   0.23    4.68 ^ hash/CA2/_2047_/Y (sky130_fd_sc_hd__o211ai_2)
+   0.09    4.78 v hash/CA2/_2063_/Y (sky130_fd_sc_hd__a21oi_2)
+   0.31    5.08 v hash/CA2/_2064_/X (sky130_fd_sc_hd__a211o_4)
+   0.30    5.38 v hash/CA2/_2086_/X (sky130_fd_sc_hd__a311o_1)
+   0.14    5.52 ^ hash/CA2/_2087_/Y (sky130_fd_sc_hd__a21oi_2)
+   0.09    5.60 v hash/CA2/_2088_/Y (sky130_fd_sc_hd__xnor2_1)
+   0.39    5.99 v hash/_3540_/X (sky130_fd_sc_hd__mux2_8)
+   0.27    6.26 ^ hash/CA1/S1/_00_/X (sky130_fd_sc_hd__xor3_1)
+   0.16    6.41 ^ hash/CA1/_3621_/COUT (sky130_fd_sc_hd__ha_4)
+   0.04    6.45 v hash/CA1/_2333_/Y (sky130_fd_sc_hd__inv_2)
+   0.36    6.81 v hash/CA1/_3433_/COUT (sky130_fd_sc_hd__fa_2)
+   0.15    6.96 ^ hash/CA1/_1984_/Y (sky130_fd_sc_hd__nor2b_1)
+   0.08    7.05 v hash/CA1/_1985_/Y (sky130_fd_sc_hd__o21ai_2)
+   0.10    7.15 ^ hash/CA1/_1986_/Y (sky130_fd_sc_hd__nand2b_4)
+   0.07    7.22 v hash/CA1/_2009_/Y (sky130_fd_sc_hd__a21oi_4)
+   0.26    7.48 v hash/CA1/_2071_/X (sky130_fd_sc_hd__o211a_4)
+   0.26    7.74 ^ hash/CA1/_2074_/Y (sky130_fd_sc_hd__nor2_4)
+   0.18    7.91 v hash/CA1/_2193_/Y (sky130_fd_sc_hd__a31oi_4)
+   0.22    8.13 ^ hash/CA1/_2248_/Y (sky130_fd_sc_hd__o211ai_1)
+   0.11    8.24 v hash/CA1/_2249_/Y (sky130_fd_sc_hd__a21oi_2)
+   0.16    8.40 v hash/CA1/_2658_/Y (sky130_fd_sc_hd__xnor2_2)
+   0.55    8.96 ^ hash/CA1/_3512_/SUM (sky130_fd_sc_hd__fa_1)
+   0.23    9.19 v hash/CA1/_3733_/SUM (sky130_fd_sc_hd__ha_4)
+   0.19    9.37 v hash/CA1/_2975_/X (sky130_fd_sc_hd__and2_4)
+   0.32    9.69 ^ hash/CA1/_2976_/Y (sky130_fd_sc_hd__a221oi_4)
+   0.10    9.80 v hash/CA1/_2982_/Y (sky130_fd_sc_hd__inv_1)
+   0.19    9.99 ^ hash/CA1/_2983_/Y (sky130_fd_sc_hd__a21oi_2)
+   0.09   10.08 v hash/CA1/_2984_/Y (sky130_fd_sc_hd__nand2_2)
+   0.24   10.32 ^ hash/CA1/_2985_/Y (sky130_fd_sc_hd__nor3_4)
+   0.11   10.42 v hash/CA1/_3017_/Y (sky130_fd_sc_hd__o31ai_2)
+   0.13   10.56 ^ hash/CA1/_3018_/Y (sky130_fd_sc_hd__a21oi_2)
+   0.15   10.70 ^ hash/CA1/_3019_/Y (sky130_fd_sc_hd__xnor2_1)
+   0.00   10.70 ^ hash/p2_cap[30]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_2)
+          10.70   data arrival time
+
+  10.00   10.00   clock core_clock (rise edge)
+   0.00   10.00   clock source latency
+   0.00   10.00 ^ clk (in)
+   0.24   10.24 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.31   10.55 ^ clkbuf_2_1_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.28   10.83 ^ clkbuf_5_15__f_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.18   11.02 ^ clkbuf_leaf_196_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.00   11.02 ^ hash/p2_cap[30]$_DFF_P_/CLK (sky130_fd_sc_hd__dfxtp_2)
+   0.00   11.02   clock reconvergence pessimism
+  -0.09   10.93   library setup time
+          10.93   data required time
+---------------------------------------------------------
+          10.93   data required time
+         -10.70   data arrival time
+---------------------------------------------------------
+           0.23   slack (MET)
+
+
+
+==========================================================================
+finish report_checks -path_delay min reg to reg
+--------------------------------------------------------------------------
+Startpoint: ready_dash$_SDFF_PP0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: ready$_DFF_P_ (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ clk (in)
+   0.24    0.24 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.31    0.55 ^ clkbuf_2_1_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.27    0.82 ^ clkbuf_5_13__f_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.18    1.00 ^ clkbuf_leaf_187_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.00    1.00 ^ ready_dash$_SDFF_PP0_/CLK (sky130_fd_sc_hd__dfxtp_1)
+   0.30    1.30 ^ ready_dash$_SDFF_PP0_/Q (sky130_fd_sc_hd__dfxtp_1)
+   0.00    1.30 ^ ready$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)
+           1.30   data arrival time
+
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ clk (in)
+   0.24    0.24 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.31    0.55 ^ clkbuf_2_1_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.27    0.82 ^ clkbuf_5_13__f_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.18    1.00 ^ clkbuf_leaf_187_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.00    1.00 ^ ready$_DFF_P_/CLK (sky130_fd_sc_hd__dfxtp_1)
+   0.00    1.00   clock reconvergence pessimism
+  -0.03    0.98   library hold time
+           0.98   data required time
+---------------------------------------------------------
+           0.98   data required time
+          -1.30   data arrival time
+---------------------------------------------------------
+           0.33   slack (MET)
+
+
+
+==========================================================================
+finish critical path target clock latency max path
+--------------------------------------------------------------------------
+1.0157
+
+==========================================================================
+finish critical path target clock latency min path
+--------------------------------------------------------------------------
+1.0819
+
+==========================================================================
+finish critical path source clock latency min path
+--------------------------------------------------------------------------
+0.0000
+
+==========================================================================
+finish critical path delay
+--------------------------------------------------------------------------
+10.7032
+
+==========================================================================
+finish critical path slack
+--------------------------------------------------------------------------
+0.2289
+
+==========================================================================
+finish slack div critical path delay
+--------------------------------------------------------------------------
+2.138613
+
+==========================================================================
+finish report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             1.87e-02   2.45e-03   2.80e-08   2.11e-02   5.6%
+Combinational          1.46e-01   1.97e-01   6.57e-08   3.43e-01  91.0%
+Clock                  7.36e-03   5.48e-03   5.47e-09   1.28e-02   3.4%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  1.72e-01   2.05e-01   9.92e-08   3.77e-01 100.0%
+                          45.6%      54.4%       0.0%
