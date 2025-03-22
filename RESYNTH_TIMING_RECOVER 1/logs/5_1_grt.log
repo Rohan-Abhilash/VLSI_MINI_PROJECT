@@ -1,0 +1,501 @@
+OpenROAD v2.0-19814-g250e48e05 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 8 thread(s).
+[INFO DRT-0149] Reading tech and libs.
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+
+Units:                1000
+Number of layers:     13
+Number of macros:     441
+Number of vias:       29
+Number of viarulegen: 25
+
+[INFO DRT-0150] Reading design.
+[WARNING DRT-0120] Large net select has 257 pins which may impact routing performance. Consider optimization.
+
+Design:                   sha256_unrolled_pipelined
+Die area:                 ( 0 0 ) ( 757070 757070 )
+Number of track patterns: 12
+Number of DEF vias:       0
+Number of components:     25627
+Number of terminals:      771
+Number of snets:          2
+Number of nets:           19363
+
+[INFO DRT-0167] List of default vias:
+  Layer via
+    default via: M1M2_PR
+  Layer via2
+    default via: M2M3_PR
+  Layer via3
+    default via: M3M4_PR
+  Layer via4
+    default via: M4M5_PR
+[INFO DRT-0162] Library cell analysis.
+[INFO DRT-0163] Instance analysis.
+[INFO DRT-0164] Number of unique instances = 356.
+[INFO DRT-0168] Init region query.
+[INFO DRT-0024]   Complete FR_MASTERSLICE.
+[INFO DRT-0024]   Complete Fr_VIA.
+[INFO DRT-0024]   Complete li1.
+[INFO DRT-0024]   Complete mcon.
+[INFO DRT-0024]   Complete met1.
+[INFO DRT-0024]   Complete via.
+[INFO DRT-0024]   Complete met2.
+[INFO DRT-0024]   Complete via2.
+[INFO DRT-0024]   Complete met3.
+[INFO DRT-0024]   Complete via3.
+[INFO DRT-0024]   Complete met4.
+[INFO DRT-0024]   Complete via4.
+[INFO DRT-0024]   Complete met5.
+[INFO DRT-0033] FR_MASTERSLICE shape region query size = 0.
+[INFO DRT-0033] FR_VIA shape region query size = 0.
+[INFO DRT-0033] li1 shape region query size = 769706.
+[INFO DRT-0033] mcon shape region query size = 503427.
+[INFO DRT-0033] met1 shape region query size = 161541.
+[INFO DRT-0033] via shape region query size = 38090.
+[INFO DRT-0033] met2 shape region query size = 23260.
+[INFO DRT-0033] via2 shape region query size = 30472.
+[INFO DRT-0033] met3 shape region query size = 23219.
+[INFO DRT-0033] via3 shape region query size = 30472.
+[INFO DRT-0033] met4 shape region query size = 9186.
+[INFO DRT-0033] via4 shape region query size = 1513.
+[INFO DRT-0033] met5 shape region query size = 1568.
+[INFO DRT-0165] Start pin access.
+[INFO DRT-0076]   Complete 1000 pins.
+[INFO DRT-0076]   Complete 2000 pins.
+[INFO DRT-0078]   Complete 2938 pins.
+[INFO DRT-0079]   Complete 100 unique inst patterns.
+[INFO DRT-0079]   Complete 200 unique inst patterns.
+[INFO DRT-0079]   Complete 300 unique inst patterns.
+[INFO DRT-0081]   Complete 356 unique inst patterns.
+[INFO DRT-0082]   Complete 10000 groups.
+[INFO DRT-0084]   Complete 12145 groups.
+#scanned instances     = 25627
+#unique  instances     = 356
+#stdCellGenAp          = 12313
+#stdCellValidPlanarAp  = 163
+#stdCellValidViaAp     = 8558
+#stdCellPinNoAp        = 8
+#stdCellPinCnt         = 72319
+#instTermValidViaApCnt = 0
+#macroGenAp            = 0
+#macroValidPlanarAp    = 0
+#macroValidViaAp       = 0
+#macroNoAp             = 0
+[INFO DRT-0166] Complete pin access.
+[INFO DRT-0267] cpu time = 00:16:19, elapsed time = 00:02:09, memory = 306.71 (MB), peak = 322.02 (MB)
+global_route -congestion_report_file ./reports/sky130hd/sha256_unrolled_pipelined/base/congestion.rpt -congestion_iterations 30 -congestion_report_iter_step 5 -verbose
+[INFO GRT-0020] Min routing layer: met1
+[INFO GRT-0021] Max routing layer: met5
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer li1     Track-Pitch = 0.4600  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met1    Track-Pitch = 0.3400  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met2    Track-Pitch = 0.4600  line-2-Via Pitch: 0.3500
+[INFO GRT-0088] Layer met3    Track-Pitch = 0.6800  line-2-Via Pitch: 0.6150
+[INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 1.0400
+[INFO GRT-0088] Layer met5    Track-Pitch = 3.4000  line-2-Via Pitch: 3.1100
+[INFO GRT-0003] Macros: 0
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0004] Blockages: 113517
+[INFO GRT-0019] Found 337 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 257
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical            0             0          0.00%
+met1       Horizontal     239146         97985          59.03%
+met2       Vertical       179305        117504          34.47%
+met3       Horizontal     119573         86940          27.29%
+met4       Vertical        71940         41904          41.75%
+met5       Horizontal      23871         11774          50.68%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 131600
+[INFO GRT-0198] Via related Steiner nodes: 4678
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 176087
+[INFO GRT-0112] Final usage 3D: 674663
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                  0             0            0.00%             0 /  0 /  0
+met1             97985         38555           39.35%             0 /  0 /  0
+met2            117504         63133           53.73%             0 /  0 /  0
+met3             86940         28076           32.29%             0 /  0 /  0
+met4             41904         14388           34.34%             0 /  0 /  0
+met5             11774          2250           19.11%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total           356107        146402           41.11%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 1441389 um
+[INFO GRT-0014] Routed nets: 19348
+Perform buffer insertion and gate resizing...
+repair_design -verbose
+[INFO RSZ-0058] Using max wire length 2154um.
+Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------------------
+        0 |     +0.0% |       0 |       0 |             0 |     20158
+     1000 |     +0.0% |       0 |       0 |             0 |     19158
+     2000 |     +0.0% |       0 |       0 |             0 |     18158
+     3000 |     +0.0% |       0 |       0 |             0 |     17158
+     4000 |     +0.0% |       0 |       0 |             0 |     16158
+     5000 |     +0.0% |       0 |       0 |             0 |     15158
+     6000 |     +0.0% |       0 |       0 |             0 |     14158
+     7000 |     +0.0% |       0 |       0 |             0 |     13158
+     8000 |     +0.0% |       0 |       0 |             0 |     12158
+     9000 |     +0.0% |       0 |       0 |             0 |     11158
+    10000 |     +0.0% |       0 |       0 |             0 |     10158
+    11000 |     +0.0% |       0 |       0 |             0 |      9158
+    12000 |     +0.0% |       0 |       0 |             0 |      8158
+    13000 |     +0.0% |       0 |       0 |             0 |      7158
+    14000 |     +0.0% |       0 |       0 |             0 |      6158
+    15000 |     +0.0% |       0 |       2 |             1 |      5158
+    16000 |     +0.0% |       0 |       2 |             1 |      4158
+    17000 |     +0.0% |       0 |       2 |             1 |      3158
+    18000 |     +0.0% |       2 |       2 |             3 |      2158
+    19000 |     +0.0% |       2 |       2 |             3 |      1158
+    20000 |     +0.0% |       2 |       2 |             3 |       158
+    final |     +0.0% |       2 |       2 |             3 |         0
+---------------------------------------------------------------------
+[INFO RSZ-0034] Found 3 slew violations.
+[INFO RSZ-0039] Resized 2 instances.
+[INFO RSZ-0038] Inserted 2 buffers in 3 nets.
+global_route -start_incremental
+detailed_placement
+Placement Analysis
+---------------------------------
+total displacement         63.5 u
+average displacement        0.0 u
+max displacement            6.4 u
+original HPWL          766262.1 u
+legalized HPWL         766287.5 u
+delta HPWL                    0 %
+
+global_route -end_incremental -congestion_report_file ./reports/sky130hd/sha256_unrolled_pipelined/base/congestion_post_repair_design.rpt
+Repair setup and hold violations...
+repair_timing -verbose -setup_margin 0 -hold_margin 0 -repair_tns 100
+[INFO RSZ-0094] Found 103 endpoints with setup violations.
+[INFO RSZ-0099] Repairing 103 out of 103 (100.00%) violating endpoints...
+   Iter   | Removed | Resized | Inserted | Cloned |  Pin  |   Area   |    WNS   |   TNS      |  Viol  | Worst
+          | Buffers |  Gates  | Buffers  |  Gates | Swaps |          |          |            | Endpts | Endpt
+--------------------------------------------------------------------------------------------------------------
+        0 |       0 |       0 |        0 |      0 |     0 |    +0.0% |   -0.655 |      -18.1 |    103 | hash/p1_cap\[31\]$_DFF_P_/D
+       10 |       0 |       8 |        0 |      0 |     1 |    +0.0% |   -0.539 |      -16.6 |    103 | hash/p2_cap\[31\]$_DFF_P_/D
+       20 |       0 |      14 |        2 |      0 |     4 |    +0.0% |   -0.488 |      -15.1 |    103 | hash/p2_cap\[30\]$_DFF_P_/D
+       30 |       0 |      18 |        2 |      0 |    10 |    +0.0% |   -0.437 |      -13.6 |    103 | hash/p2_cap\[31\]$_DFF_P_/D
+       40 |       0 |      25 |        2 |      0 |    13 |    +0.0% |   -0.417 |      -13.1 |    103 | hash/p2_cap\[31\]$_DFF_P_/D
+       50 |       0 |      29 |        2 |      0 |    19 |    +0.1% |   -0.408 |      -12.2 |    103 | hash/p2_cap\[30\]$_DFF_P_/D
+       60 |       0 |      32 |        2 |      0 |    26 |    +0.1% |   -0.448 |      -12.5 |    103 | hash/p2_cap\[30\]$_DFF_P_/D
+       70 |       0 |      38 |       10 |      0 |    28 |    +0.1% |   -0.318 |      -10.5 |    103 | hash/p2_cap\[30\]$_DFF_P_/D
+       78 |       0 |      44 |       10 |      1 |    29 |    +0.1% |   -0.289 |       -7.4 |    101 | hash/p1_cap\[31\]$_DFF_P_/D
+       80 |       0 |      45 |       10 |      1 |    29 |    +0.1% |   -0.289 |       -7.4 |    101 | hash/p1_cap\[31\]$_DFF_P_/D
+       90 |       0 |      51 |       10 |      1 |    33 |    +0.1% |   -0.289 |       -7.0 |    101 | hash/p1_cap\[31\]$_DFF_P_/D
+       95 |       0 |      54 |       12 |      1 |    34 |    +0.1% |   -0.289 |       -6.9 |     99 | hash/p1_cap\[31\]$_DFF_P_/D
+      100 |       0 |      55 |       14 |      1 |    36 |    +0.1% |   -0.289 |       -6.7 |     99 | hash/p1_cap\[31\]$_DFF_P_/D
+      110 |       0 |      63 |       14 |      1 |    38 |    +0.1% |   -0.289 |       -6.7 |     99 | hash/p1_cap\[31\]$_DFF_P_/D
+      120 |       0 |      68 |       14 |      1 |    43 |    +0.1% |   -0.355 |       -8.3 |     99 | hash/p3_cap\[29\]$_DFF_P_/D
+      130 |       0 |      68 |       14 |      1 |    53 |    +0.1% |   -0.445 |       -9.9 |     99 | hash/p2_cap\[30\]$_DFF_P_/D
+      140 |       0 |      69 |       14 |      1 |    62 |    +0.1% |   -0.463 |      -10.2 |     99 | hash/p2_cap\[30\]$_DFF_P_/D
+      150 |       0 |      74 |       14 |      1 |    67 |    +0.1% |   -0.468 |       -9.9 |     99 | hash/p2_cap\[30\]$_DFF_P_/D
+      160 |       1 |      78 |       14 |      1 |    72 |    +0.1% |   -0.384 |       -8.1 |     99 | hash/p2_cap\[30\]$_DFF_P_/D
+      168 |       0 |      67 |       14 |      1 |    42 |    +0.1% |   -0.289 |       -6.7 |     99 | hash/p1_cap\[31\]$_DFF_P_/D
+      170 |       0 |      68 |       14 |      1 |    42 |    +0.1% |   -0.289 |       -6.6 |     99 | hash/p1_cap\[31\]$_DFF_P_/D
+      180 |       0 |      73 |       14 |      1 |    47 |    +0.1% |   -0.289 |       -6.3 |     99 | hash/p1_cap\[31\]$_DFF_P_/D
+      190 |       0 |      78 |       14 |      1 |    52 |    +0.2% |   -0.289 |       -6.2 |     99 | hash/p1_cap\[31\]$_DFF_P_/D
+      193 |       0 |      80 |       14 |      1 |    53 |    +0.2% |   -0.289 |       -6.0 |     97 | hash/p1_cap\[31\]$_DFF_P_/D
+      199 |       0 |      80 |       14 |      1 |    55 |    +0.2% |   -0.289 |       -5.8 |     97 | hash/p1_cap\[31\]$_DFF_P_/D
+      200 |       0 |      80 |       14 |      1 |    55 |    +0.2% |   -0.289 |       -5.8 |     97 | hash/p1_cap\[31\]$_DFF_P_/D
+      202 |       0 |      80 |       14 |      1 |    55 |    +0.2% |   -0.289 |       -5.8 |     97 | hash/p1_cap\[31\]$_DFF_P_/D
+      206 |       0 |      80 |       14 |      1 |    58 |    +0.2% |   -0.289 |       -5.8 |     97 | hash/p1_cap\[31\]$_DFF_P_/D
+      210 |       0 |      83 |       14 |      1 |    58 |    +0.2% |   -0.289 |       -5.6 |     97 | hash/p1_cap\[31\]$_DFF_P_/D
+      220 |       0 |      88 |       14 |      1 |    63 |    +0.2% |   -0.289 |       -5.5 |     97 | hash/p1_cap\[31\]$_DFF_P_/D
+      226 |       0 |      92 |       14 |      1 |    65 |    +0.2% |   -0.289 |       -5.4 |     95 | hash/p1_cap\[31\]$_DFF_P_/D
+      229 |       0 |      93 |       14 |      1 |    66 |    +0.2% |   -0.289 |       -5.4 |     93 | hash/p1_cap\[31\]$_DFF_P_/D
+      230 |       0 |      93 |       14 |      1 |    66 |    +0.2% |   -0.289 |       -5.4 |     93 | hash/p1_cap\[31\]$_DFF_P_/D
+      232 |       0 |      95 |       14 |      1 |    66 |    +0.2% |   -0.289 |       -5.2 |     91 | hash/p1_cap\[31\]$_DFF_P_/D
+      234 |       0 |      96 |       14 |      1 |    66 |    +0.2% |   -0.289 |       -5.2 |     89 | hash/p1_cap\[31\]$_DFF_P_/D
+      236 |       0 |      96 |       14 |      1 |    67 |    +0.2% |   -0.289 |       -5.2 |     87 | hash/p1_cap\[31\]$_DFF_P_/D
+      237 |       0 |      96 |       14 |      1 |    67 |    +0.2% |   -0.289 |       -5.2 |     86 | hash/p1_cap\[31\]$_DFF_P_/D
+      238 |       0 |      96 |       14 |      1 |    67 |    +0.2% |   -0.289 |       -5.2 |     85 | hash/p1_cap\[31\]$_DFF_P_/D
+      240 |       0 |      96 |       14 |      1 |    68 |    +0.2% |   -0.289 |       -5.2 |     85 | hash/p1_cap\[31\]$_DFF_P_/D
+      241 |       0 |      96 |       14 |      1 |    67 |    +0.2% |   -0.289 |       -5.2 |     85 | hash/p1_cap\[31\]$_DFF_P_/D
+      242 |       0 |      96 |       14 |      1 |    67 |    +0.2% |   -0.289 |       -5.2 |     84 | hash/p1_cap\[31\]$_DFF_P_/D
+      248 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     82 | hash/p2_cap\[30\]$_DFF_P_/D
+      249 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     81 | hash/p2_cap\[30\]$_DFF_P_/D
+      250 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     81 | hash/p2_cap\[30\]$_DFF_P_/D
+      250 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     80 | hash/p2_cap\[30\]$_DFF_P_/D
+      251 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     79 | hash/p2_cap\[30\]$_DFF_P_/D
+      252 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     78 | hash/p2_cap\[30\]$_DFF_P_/D
+      253 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     77 | hash/p2_cap\[30\]$_DFF_P_/D
+      254 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     76 | hash/p2_cap\[30\]$_DFF_P_/D
+      255 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     75 | hash/p2_cap\[30\]$_DFF_P_/D
+      256 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     74 | hash/p2_cap\[30\]$_DFF_P_/D
+      257 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     73 | hash/p2_cap\[30\]$_DFF_P_/D
+      258 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     72 | hash/p2_cap\[30\]$_DFF_P_/D
+      259 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     71 | hash/p2_cap\[30\]$_DFF_P_/D
+      260 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     71 | hash/p2_cap\[30\]$_DFF_P_/D
+      260 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     70 | hash/p2_cap\[30\]$_DFF_P_/D
+      261 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     69 | hash/p2_cap\[30\]$_DFF_P_/D
+      262 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     68 | hash/p2_cap\[30\]$_DFF_P_/D
+      263 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     67 | hash/p2_cap\[30\]$_DFF_P_/D
+      264 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     66 | hash/p2_cap\[30\]$_DFF_P_/D
+      265 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     65 | hash/p2_cap\[30\]$_DFF_P_/D
+      266 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     64 | hash/p2_cap\[30\]$_DFF_P_/D
+      267 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     63 | hash/p2_cap\[30\]$_DFF_P_/D
+      268 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     62 | hash/p2_cap\[30\]$_DFF_P_/D
+      269 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     61 | hash/p2_cap\[30\]$_DFF_P_/D
+      270 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     61 | hash/p2_cap\[30\]$_DFF_P_/D
+      270 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     60 | hash/p2_cap\[30\]$_DFF_P_/D
+      271 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     59 | hash/p2_cap\[30\]$_DFF_P_/D
+      272 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     58 | hash/p2_cap\[30\]$_DFF_P_/D
+      273 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     57 | hash/p2_cap\[30\]$_DFF_P_/D
+      274 |       0 |      99 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -5.0 |     56 | hash/p2_cap\[30\]$_DFF_P_/D
+      276 |       0 |     100 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -2.5 |     54 | hash/p2_cap\[30\]$_DFF_P_/D
+      277 |       0 |     100 |       14 |      1 |    69 |    +0.2% |   -0.179 |       -2.5 |     53 | hash/p2_cap\[30\]$_DFF_P_/D
+      279 |       0 |     100 |       14 |      2 |    69 |    +0.2% |   -0.179 |       -2.2 |     51 | hash/p2_cap\[30\]$_DFF_P_/D
+      280 |       0 |     100 |       14 |      2 |    69 |    +0.2% |   -0.179 |       -2.2 |     51 | hash/p2_cap\[30\]$_DFF_P_/D
+      280 |       0 |     100 |       14 |      2 |    69 |    +0.2% |   -0.179 |       -2.2 |     50 | hash/p2_cap\[30\]$_DFF_P_/D
+      281 |       0 |     100 |       14 |      2 |    69 |    +0.2% |   -0.179 |       -2.2 |     49 | hash/p2_cap\[30\]$_DFF_P_/D
+      282 |       0 |     100 |       14 |      2 |    69 |    +0.2% |   -0.179 |       -2.2 |     48 | hash/p2_cap\[30\]$_DFF_P_/D
+      285 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     46 | hash/p2_cap\[30\]$_DFF_P_/D
+      286 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     45 | hash/p2_cap\[30\]$_DFF_P_/D
+      287 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     44 | hash/p2_cap\[30\]$_DFF_P_/D
+      288 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     43 | hash/p2_cap\[30\]$_DFF_P_/D
+      289 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     42 | hash/p2_cap\[30\]$_DFF_P_/D
+      290 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     42 | hash/p2_cap\[30\]$_DFF_P_/D
+      290 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     41 | hash/p2_cap\[30\]$_DFF_P_/D
+      291 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     40 | hash/p2_cap\[30\]$_DFF_P_/D
+      292 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     39 | hash/p2_cap\[30\]$_DFF_P_/D
+      293 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     38 | hash/p2_cap\[30\]$_DFF_P_/D
+      294 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     37 | hash/p2_cap\[30\]$_DFF_P_/D
+      295 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     36 | hash/p2_cap\[30\]$_DFF_P_/D
+      296 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     35 | hash/p2_cap\[30\]$_DFF_P_/D
+      297 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     34 | hash/p2_cap\[30\]$_DFF_P_/D
+      298 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     33 | hash/p2_cap\[30\]$_DFF_P_/D
+      299 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     32 | hash/p2_cap\[30\]$_DFF_P_/D
+      300 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     32 | hash/p2_cap\[30\]$_DFF_P_/D
+      300 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     31 | hash/p2_cap\[30\]$_DFF_P_/D
+      301 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     30 | hash/p2_cap\[30\]$_DFF_P_/D
+      302 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     29 | hash/p2_cap\[30\]$_DFF_P_/D
+      303 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     28 | hash/p2_cap\[30\]$_DFF_P_/D
+      304 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     27 | hash/p2_cap\[30\]$_DFF_P_/D
+      305 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     26 | hash/p2_cap\[30\]$_DFF_P_/D
+      306 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     25 | hash/p2_cap\[30\]$_DFF_P_/D
+      307 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     24 | hash/p2_cap\[30\]$_DFF_P_/D
+      308 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     23 | hash/p2_cap\[30\]$_DFF_P_/D
+      309 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     22 | hash/p2_cap\[30\]$_DFF_P_/D
+      310 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     22 | hash/p2_cap\[30\]$_DFF_P_/D
+      310 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     21 | hash/p2_cap\[30\]$_DFF_P_/D
+      311 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     20 | hash/p2_cap\[30\]$_DFF_P_/D
+      312 |       0 |     101 |       14 |      3 |    69 |    +0.2% |   -0.179 |       -1.2 |     19 | hash/p2_cap\[30\]$_DFF_P_/D
+      314 |       0 |     101 |       14 |      4 |    69 |    +0.2% |   -0.179 |       -1.0 |     17 | hash/p2_cap\[30\]$_DFF_P_/D
+      315 |       0 |     101 |       14 |      4 |    69 |    +0.2% |   -0.179 |       -1.0 |     16 | hash/p2_cap\[30\]$_DFF_P_/D
+      316 |       0 |     101 |       14 |      4 |    69 |    +0.2% |   -0.179 |       -1.0 |     15 | hash/p2_cap\[30\]$_DFF_P_/D
+      317 |       0 |     101 |       14 |      4 |    69 |    +0.2% |   -0.179 |       -1.0 |     14 | hash/p2_cap\[30\]$_DFF_P_/D
+      318 |       0 |     101 |       14 |      4 |    69 |    +0.2% |   -0.179 |       -1.0 |     13 | hash/p2_cap\[30\]$_DFF_P_/D
+      319 |       0 |     101 |       14 |      4 |    69 |    +0.2% |   -0.179 |       -1.0 |     12 | hash/p2_cap\[30\]$_DFF_P_/D
+      320 |       0 |     101 |       14 |      4 |    69 |    +0.2% |   -0.179 |       -1.0 |     12 | hash/p2_cap\[30\]$_DFF_P_/D
+      320 |       0 |     101 |       14 |      4 |    69 |    +0.2% |   -0.179 |       -1.0 |     11 | hash/p2_cap\[30\]$_DFF_P_/D
+      321 |       0 |     101 |       14 |      4 |    69 |    +0.2% |   -0.179 |       -1.0 |     10 | hash/p2_cap\[30\]$_DFF_P_/D
+      322 |       0 |     101 |       14 |      4 |    69 |    +0.2% |   -0.179 |       -1.0 |      9 | hash/p2_cap\[30\]$_DFF_P_/D
+      323 |       0 |     101 |       14 |      4 |    69 |    +0.2% |   -0.179 |       -1.0 |      8 | hash/p2_cap\[30\]$_DFF_P_/D
+      324 |       0 |     101 |       14 |      4 |    69 |    +0.2% |   -0.179 |       -1.0 |      7 | hash/p2_cap\[30\]$_DFF_P_/D
+      325 |       0 |     101 |       14 |      4 |    69 |    +0.2% |   -0.179 |       -1.0 |      6 | hash/p2_cap\[30\]$_DFF_P_/D
+      326 |       0 |     101 |       14 |      4 |    69 |    +0.2% |   -0.179 |       -1.0 |      5 | hash/p2_cap\[30\]$_DFF_P_/D
+      327 |       0 |     101 |       14 |      4 |    69 |    +0.2% |   -0.179 |       -1.0 |      4 | hash/p2_cap\[30\]$_DFF_P_/D
+      328 |       0 |     101 |       14 |      4 |    69 |    +0.2% |   -0.179 |       -1.0 |      3 | hash/p2_cap\[30\]$_DFF_P_/D
+      329 |       0 |     101 |       14 |      4 |    69 |    +0.2% |   -0.179 |       -1.0 |      2 | hash/p2_cap\[30\]$_DFF_P_/D
+      330 |       0 |     101 |       14 |      4 |    69 |    +0.2% |   -0.179 |       -1.0 |      2 | hash/p2_cap\[30\]$_DFF_P_/D
+      330 |       0 |     101 |       14 |      4 |    69 |    +0.2% |   -0.179 |       -1.0 |      1 | hash/p2_cap\[30\]$_DFF_P_/D
+      331 |       0 |     101 |       14 |      4 |    69 |    +0.2% |   -0.179 |       -1.0 |      0 | hash/p2_cap\[30\]$_DFF_P_/D
+      332 |       0 |     101 |       14 |      4 |    69 |    +0.2% |   -0.179 |       -1.0 |      0 | hash/p2_cap\[30\]$_DFF_P_/D
+      334 |       0 |     101 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -1.4 |      0 | hash/p2_cap\[30\]$_DFF_P_/D
+      335 |       0 |     101 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -1.4 |      0 | hash/p2_cap\[30\]$_DFF_P_/D
+      336 |       0 |     101 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -1.4 |      0 | hash/p2_cap\[30\]$_DFF_P_/D
+      337 |       0 |     101 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -1.4 |      0 | hash/p2_cap\[30\]$_DFF_P_/D
+      338 |       0 |     101 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -1.4 |      0 | hash/p2_cap\[30\]$_DFF_P_/D
+      339 |       0 |     101 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -1.4 |      0 | hash/p2_cap\[30\]$_DFF_P_/D
+      340 |       0 |     101 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -1.4 |      0 | hash/p2_cap\[30\]$_DFF_P_/D
+      340 |       0 |     101 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -1.4 |      0 | hash/p2_cap\[30\]$_DFF_P_/D
+     340* |       0 |     101 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -1.4 |     38 | hash/p2_cap\[30\]$_DFF_P_/D
+     341* |       0 |     101 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -1.4 |     38 | hash/p2_cap\[30\]$_DFF_P_/D
+     350* |       0 |     109 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -1.3 |     38 | hash/p2_cap\[30\]$_DFF_P_/D
+     351* |       0 |     111 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -1.3 |     38 | hash/p2_cap\[30\]$_DFF_P_/D
+     352* |       0 |     111 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -1.3 |     38 | hash/p2_cap\[30\]$_DFF_P_/D
+     356* |       0 |     114 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -1.3 |     38 | hash/p2_cap\[30\]$_DFF_P_/D
+     358* |       0 |     115 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.8 |     36 | hash/p2_cap\[30\]$_DFF_P_/D
+     359* |       0 |     115 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.8 |     35 | hash/p2_cap\[30\]$_DFF_P_/D
+     360* |       0 |     115 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.8 |     35 | hash/p2_cap\[30\]$_DFF_P_/D
+     360* |       0 |     115 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.8 |     34 | hash/p2_cap\[30\]$_DFF_P_/D
+     361* |       0 |     115 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.8 |     33 | hash/p2_cap\[30\]$_DFF_P_/D
+     362* |       0 |     115 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.8 |     32 | hash/p2_cap\[30\]$_DFF_P_/D
+     363* |       0 |     115 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.8 |     32 | hash/p2_cap\[30\]$_DFF_P_/D
+     364* |       0 |     115 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.8 |     31 | hash/p2_cap\[30\]$_DFF_P_/D
+     366* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     29 | hash/p2_cap\[30\]$_DFF_P_/D
+     367* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     28 | hash/p2_cap\[30\]$_DFF_P_/D
+     368* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     27 | hash/p2_cap\[30\]$_DFF_P_/D
+     369* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     26 | hash/p2_cap\[30\]$_DFF_P_/D
+     370* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     26 | hash/p2_cap\[30\]$_DFF_P_/D
+     370* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     25 | hash/p2_cap\[30\]$_DFF_P_/D
+     371* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     25 | hash/p2_cap\[30\]$_DFF_P_/D
+     372* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     24 | hash/p2_cap\[30\]$_DFF_P_/D
+     373* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     23 | hash/p2_cap\[30\]$_DFF_P_/D
+     374* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     22 | hash/p2_cap\[30\]$_DFF_P_/D
+     375* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     21 | hash/p2_cap\[30\]$_DFF_P_/D
+     376* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     20 | hash/p2_cap\[30\]$_DFF_P_/D
+     377* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     19 | hash/p2_cap\[30\]$_DFF_P_/D
+     378* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     18 | hash/p2_cap\[30\]$_DFF_P_/D
+     379* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     17 | hash/p2_cap\[30\]$_DFF_P_/D
+     380* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     17 | hash/p2_cap\[30\]$_DFF_P_/D
+     380* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     16 | hash/p2_cap\[30\]$_DFF_P_/D
+     381* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     15 | hash/p2_cap\[30\]$_DFF_P_/D
+     382* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     14 | hash/p2_cap\[30\]$_DFF_P_/D
+     383* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     13 | hash/p2_cap\[30\]$_DFF_P_/D
+     384* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     12 | hash/p2_cap\[30\]$_DFF_P_/D
+     385* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     11 | hash/p2_cap\[30\]$_DFF_P_/D
+     386* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |     10 | hash/p2_cap\[30\]$_DFF_P_/D
+     387* |       0 |     116 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |      9 | hash/p2_cap\[30\]$_DFF_P_/D
+     389* |       0 |     117 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |      7 | hash/p2_cap\[30\]$_DFF_P_/D
+     390* |       0 |     117 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |      7 | hash/p2_cap\[30\]$_DFF_P_/D
+     390* |       0 |     117 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |      6 | hash/p2_cap\[30\]$_DFF_P_/D
+     391* |       0 |     117 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |      5 | hash/p2_cap\[30\]$_DFF_P_/D
+     392* |       0 |     117 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |      4 | hash/p2_cap\[30\]$_DFF_P_/D
+     393* |       0 |     117 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |      3 | hash/p2_cap\[30\]$_DFF_P_/D
+    final |       0 |     117 |       14 |      5 |    69 |    +0.2% |   -0.179 |       -0.5 |      3 | hash/p2_cap\[30\]$_DFF_P_/D
+--------------------------------------------------------------------------------------------------------------
+[INFO RSZ-0040] Inserted 9 buffers.
+[INFO RSZ-0041] Resized 117 instances.
+[INFO RSZ-0043] Swapped pins on 69 instances.
+[INFO RSZ-0049] Cloned 5 instances.
+[WARNING RSZ-0062] Unable to repair all setup violations.
+[INFO RSZ-0033] No hold violations found.
+Took 5 seconds: repair_timing -verbose -setup_margin 0 -hold_margin 0 -repair_tns 100
+global_route -start_incremental
+detailed_placement
+Placement Analysis
+---------------------------------
+total displacement        505.0 u
+average displacement        0.0 u
+max displacement           16.5 u
+original HPWL          767960.0 u
+legalized HPWL         768395.7 u
+delta HPWL                    0 %
+
+global_route -end_incremental -congestion_report_file ./reports/sky130hd/sha256_unrolled_pipelined/base/congestion_post_repair_timing.rpt
+global_route -start_incremental
+Downsizing/switching to higher Vt for non critical gates for power recovery
+Percent of paths optimized 100
+tns -0.51
+wns -0.18
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             1.87e-02   2.61e-03   2.80e-08   2.13e-02   5.3%
+Combinational          1.50e-01   2.17e-01   6.59e-08   3.68e-01  91.4%
+Clock                  7.22e-03   6.01e-03   5.42e-09   1.32e-02   3.3%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  1.76e-01   2.26e-01   9.93e-08   4.02e-01 100.0%
+                          43.9%      56.1%       0.0%
+repair_timing -verbose -recover_power 100
+Iteration |   Area    |  Resized |   WNS    | Endpt
+---------------------------------------------------
+        0 |     +0.0% |        0 |   -0.179 | hash/p2_cap\[30\]$_DFF_P_/D
+      100 |     -0.0% |        7 |   -0.179 | hash/p2_cap\[30\]$_DFF_P_/D
+      200 |     -0.0% |       35 |   -0.179 | hash/p2_cap\[30\]$_DFF_P_/D
+      300 |     -0.0% |       49 |   -0.179 | hash/p2_cap\[30\]$_DFF_P_/D
+      400 |     -0.0% |       91 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+      500 |     -0.0% |      110 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+      600 |     -0.0% |      112 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+      700 |     -0.0% |      121 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+      800 |     -0.0% |      146 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+      900 |     -0.0% |      162 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+     1000 |     -0.0% |      173 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+     1100 |     -0.0% |      183 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+     1200 |     -0.0% |      188 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+     1300 |     -0.0% |      188 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+     1400 |     -0.0% |      190 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+     1500 |     -0.0% |      191 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+     1600 |     -0.0% |      193 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+     1700 |     -0.0% |      193 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+     1800 |     -0.0% |      194 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+     1900 |     -0.0% |      194 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+     2000 |     -0.0% |      194 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+     2100 |     -0.0% |      196 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+     2200 |     -0.0% |      196 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+     2300 |     -0.0% |      196 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+     2400 |     -0.0% |      197 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+     2500 |     -0.0% |      199 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+     2600 |     -0.0% |      199 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+     2700 |     -0.0% |      209 |   -0.180 | hash/p2_cap\[30\]$_DFF_P_/D
+     2800 |     -0.0% |      248 |   -0.181 | hash/p2_cap\[30\]$_DFF_P_/D
+     2900 |     -0.0% |      303 |   -0.188 | hash/p2_cap\[30\]$_DFF_P_/D
+     3000 |     -0.0% |      365 |   -0.189 | hash/p2_cap\[30\]$_DFF_P_/D
+     3100 |     -0.0% |      438 |   -0.187 | hash/p2_cap\[30\]$_DFF_P_/D
+[INFO RSZ-0142] 500 successive tries yielded negative slack. Ending power recovery
+    final |     -0.0% |      503 |   -0.190 | hash/p2_cap\[30\]$_DFF_P_/D
+---------------------------------------------------
+[INFO RSZ-0141] Resized 503 instances.
+Took 83 seconds: repair_timing -verbose -recover_power 100
+tns -0.58
+wns -0.19
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             1.87e-02   2.61e-03   2.80e-08   2.13e-02   5.3%
+Combinational          1.50e-01   2.17e-01   6.59e-08   3.68e-01  91.4%
+Clock                  7.22e-03   6.01e-03   5.42e-09   1.32e-02   3.3%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  1.76e-01   2.26e-01   9.93e-08   4.02e-01 100.0%
+                          43.8%      56.2%       0.0%
+global_route -end_incremental -congestion_report_file ./reports/sky130hd/sha256_unrolled_pipelined/base/congestion_post_recover_power.rpt
+Repair antennas...
+[INFO GRT-0012] Found 85 antenna violations.
+[INFO GRT-0302] Inserted 47 jumpers for 47 nets.
+[INFO GRT-0012] Found 42 antenna violations.
+[INFO GRT-0015] Inserted 231 diodes.
+[INFO GRT-0012] Found 11 antenna violations.
+[INFO GRT-0302] Inserted 1 jumpers for 1 nets.
+[INFO GRT-0012] Found 10 antenna violations.
+[INFO GRT-0015] Inserted 54 diodes.
+[INFO GRT-0012] Found 2 antenna violations.
+[INFO GRT-0302] Inserted 0 jumpers for 0 nets.
+[INFO GRT-0012] Found 2 antenna violations.
+[INFO GRT-0015] Inserted 4 diodes.
+[INFO GRT-0012] Found 0 antenna violations.
+[INFO ANT-0002] Found 0 net violations.
+[INFO ANT-0001] Found 0 pin violations.
+Estimate parasitics...
+Report metrics stage 5, global route...
+
+==========================================================================
+global route report_design_area
+--------------------------------------------------------------------------
+Design area 268020 u^2 47% utilization.
+[INFO FLW-0007] clock core_clock period 10.000000
+[INFO FLW-0008] Clock core_clock period 9.680
+[INFO FLW-0009] Clock core_clock slack -0.190
+[INFO FLW-0011] Path endpoint path count 6038
+Elapsed time: 4:57.61[h:]min:sec. CPU time: user 1399.47 sys 1.12 (470%). Peak memory: 1307608KB.
