@@ -1,0 +1,145 @@
+OpenROAD v2.0-19814-g250e48e05 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 8 thread(s).
+clock_tree_synthesis -sink_clustering_enable -balance_levels
+[INFO CTS-0050] Root buffer is sky130_fd_sc_hd__clkbuf_16.
+[INFO CTS-0051] Sink buffer is sky130_fd_sc_hd__clkbuf_16.
+[INFO CTS-0052] The following clock buffers will be used for CTS:
+                    sky130_fd_sc_hd__clkbuf_16
+[INFO CTS-0049] Characterization buffer is sky130_fd_sc_hd__clkbuf_16.
+[INFO CTS-0007] Net "clk" found for clock "core_clock".
+[INFO CTS-0010]  Clock net "clk" has 2787 sinks.
+[INFO CTS-0008] TritonCTS found 1 clock nets.
+[INFO CTS-0097] Characterization used 1 buffer(s) types.
+[INFO CTS-0201] 0 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net clk.
+[INFO CTS-0028]  Total number of sinks: 2787.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 13600  dbu (13 um).
+[INFO CTS-0206] Best clustering solution was found from clustering size of 30 and clustering diameter of 50.
+[INFO CTS-0019]  Total number of sinks after clustering: 299.
+[INFO CTS-0024]  Normalized sink region: [(3.36838, 1.05419), (54.7801, 54.2467)].
+[INFO CTS-0025]     Width:  51.4118.
+[INFO CTS-0026]     Height: 53.1925.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 150
+    Sub-region size: 51.4118 X 26.5962
+[INFO CTS-0034]     Segment length (rounded): 14.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 75
+    Sub-region size: 25.7059 X 26.5962
+[INFO CTS-0034]     Segment length (rounded): 12.
+ Level 3
+    Direction: Vertical
+    Sinks per sub-region: 38
+    Sub-region size: 25.7059 X 13.2981
+[INFO CTS-0034]     Segment length (rounded): 6.
+ Level 4
+    Direction: Horizontal
+    Sinks per sub-region: 19
+    Sub-region size: 12.8529 X 13.2981
+[INFO CTS-0034]     Segment length (rounded): 6.
+ Level 5
+    Direction: Vertical
+    Sinks per sub-region: 10
+    Sub-region size: 12.8529 X 6.6491
+[INFO CTS-0034]     Segment length (rounded): 4.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 299.
+[INFO CTS-0018]     Created 336 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 4.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 4.
+[INFO CTS-0015]     Created 336 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 3:1, 4:1, 5:5, 6:19, 7:25, 8:50, 9:72, 10:75, 11:41, 12:32, 13:8, 14:2..
+[INFO CTS-0017]     Max level of the clock tree: 5.
+[INFO CTS-0098] Clock net "clk"
+[INFO CTS-0099]  Sinks 3063
+[INFO CTS-0100]  Leaf buffers 299
+[INFO CTS-0101]  Average sink wire length 1265.79 um
+[INFO CTS-0102]  Path depth 3 - 4
+[INFO CTS-0207]  Leaf load cells 276
+[INFO RSZ-0058] Using max wire length 2154um.
+Placement Analysis
+---------------------------------
+total displacement       7512.6 u
+average displacement        0.3 u
+max displacement           24.3 u
+original HPWL          742032.4 u
+legalized HPWL         759674.0 u
+delta HPWL                    2 %
+
+repair_timing -verbose -setup_margin 0 -hold_margin 0 -repair_tns 100 -match_cell_footprint
+[INFO RSZ-0094] Found 31 endpoints with setup violations.
+[INFO RSZ-0099] Repairing 31 out of 31 (100.00%) violating endpoints...
+   Iter   | Removed | Resized | Inserted | Cloned |  Pin  |   Area   |    WNS   |   TNS      |  Viol  | Worst
+          | Buffers |  Gates  | Buffers  |  Gates | Swaps |          |          |            | Endpts | Endpt
+--------------------------------------------------------------------------------------------------------------
+        0 |       0 |       0 |        0 |      0 |     0 |    +0.0% |   -0.677 |      -11.5 |     31 | hash/p3_cap\[31\]$_DFF_P_/D
+       10 |       0 |       5 |        0 |      0 |     4 |    +0.0% |   -0.476 |       -6.3 |     31 | hash/p3_cap\[31\]$_DFF_P_/D
+       20 |       0 |      14 |        0 |      0 |     5 |    +0.0% |   -0.447 |       -5.4 |     31 | hash/p3_cap\[31\]$_DFF_P_/D
+       30 |       0 |      20 |        2 |      0 |     8 |    +0.0% |   -0.369 |       -4.5 |     31 | hash/p2_cap\[24\]$_DFF_P_/D
+       40 |       0 |      26 |        7 |      0 |    10 |    +0.0% |   -0.237 |       -2.1 |     31 | hash/p3_cap\[29\]$_DFF_P_/D
+       50 |       0 |      32 |        7 |      0 |    14 |    +0.1% |   -0.164 |       -1.3 |     31 | hash/p3_cap\[29\]$_DFF_P_/D
+       60 |       0 |      39 |        9 |      0 |    16 |    +0.1% |   -0.074 |       -0.3 |     31 | hash/p3_cap\[29\]$_DFF_P_/D
+       69 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     29 | w\[11\]\[25\]$_DFFE_PP_/D
+       70 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     29 | w\[11\]\[25\]$_DFFE_PP_/D
+       70 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     28 | w\[11\]\[25\]$_DFFE_PP_/D
+       71 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     27 | w\[11\]\[25\]$_DFFE_PP_/D
+       72 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     26 | w\[11\]\[25\]$_DFFE_PP_/D
+       73 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     25 | w\[11\]\[25\]$_DFFE_PP_/D
+       74 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     24 | w\[11\]\[25\]$_DFFE_PP_/D
+       75 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     23 | w\[11\]\[25\]$_DFFE_PP_/D
+       76 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     22 | w\[11\]\[25\]$_DFFE_PP_/D
+       77 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     21 | w\[11\]\[25\]$_DFFE_PP_/D
+       78 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     20 | w\[11\]\[25\]$_DFFE_PP_/D
+       79 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     19 | w\[11\]\[25\]$_DFFE_PP_/D
+       80 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     19 | w\[11\]\[25\]$_DFFE_PP_/D
+       80 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     18 | w\[11\]\[25\]$_DFFE_PP_/D
+       81 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     17 | w\[11\]\[25\]$_DFFE_PP_/D
+       82 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     16 | w\[11\]\[25\]$_DFFE_PP_/D
+       83 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     15 | w\[11\]\[25\]$_DFFE_PP_/D
+       84 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     14 | w\[11\]\[25\]$_DFFE_PP_/D
+       85 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     13 | w\[11\]\[25\]$_DFFE_PP_/D
+       86 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     12 | w\[11\]\[25\]$_DFFE_PP_/D
+       87 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     11 | w\[11\]\[25\]$_DFFE_PP_/D
+       88 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |     10 | w\[11\]\[25\]$_DFFE_PP_/D
+       89 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |      9 | w\[11\]\[25\]$_DFFE_PP_/D
+       90 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |      9 | w\[11\]\[25\]$_DFFE_PP_/D
+       90 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |      8 | w\[11\]\[25\]$_DFFE_PP_/D
+       91 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |      7 | w\[11\]\[25\]$_DFFE_PP_/D
+       92 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |      6 | w\[11\]\[25\]$_DFFE_PP_/D
+       93 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |      5 | w\[11\]\[25\]$_DFFE_PP_/D
+       94 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |      4 | w\[11\]\[25\]$_DFFE_PP_/D
+       95 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |      3 | w\[11\]\[25\]$_DFFE_PP_/D
+       96 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |      2 | w\[11\]\[25\]$_DFFE_PP_/D
+       97 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |      1 | w\[11\]\[25\]$_DFFE_PP_/D
+       98 |       0 |      45 |        9 |      0 |    19 |    +0.1% |   -0.022 |       -0.0 |      0 | w\[11\]\[25\]$_DFFE_PP_/D
+      100 |       0 |      46 |        9 |      0 |    19 |    +0.1% |    0.003 |        0.0 |      0 | hash/p3_cap\[29\]$_DFF_P_/D
+      100 |       0 |      46 |        9 |      0 |    19 |    +0.1% |    0.003 |        0.0 |      0 | hash/p3_cap\[29\]$_DFF_P_/D
+    final |       0 |      46 |        9 |      0 |    19 |    +0.1% |    0.003 |        0.0 |      0 | hash/p3_cap\[29\]$_DFF_P_/D
+--------------------------------------------------------------------------------------------------------------
+[INFO RSZ-0040] Inserted 5 buffers.
+[INFO RSZ-0041] Resized 46 instances.
+[INFO RSZ-0043] Swapped pins on 19 instances.
+[INFO RSZ-0033] No hold violations found.
+Placement Analysis
+---------------------------------
+total displacement        191.8 u
+average displacement        0.0 u
+max displacement           13.3 u
+original HPWL          759738.4 u
+legalized HPWL         759911.9 u
+delta HPWL                    0 %
+
+Report metrics stage 4, cts final...
+
+==========================================================================
+cts final report_design_area
+--------------------------------------------------------------------------
+Design area 266641 u^2 47% utilization.
+Elapsed time: 0:30.11[h:]min:sec. CPU time: user 29.74 sys 0.35 (99%). Peak memory: 893880KB.

@@ -1,4 +1,0 @@
-violation type: Vertical congestion
-	srcs: net:_00094_ net:net523 net:net468 net:_05515_ net:net72 net:net29 net:message[357] net:message[360] net:message[424] net:message[485] net:w\[13\]\[23\] net:w\[7\]\[23\]
-	comment: capacity:11 usage:12 overflow:1
-	bbox = (172.5000, 607.2000) - (179.4000, 614.1000) on Layer -

@@ -1,0 +1,54 @@
+violation type: Short
+	srcs: net:_03867_ net:net363
+	bbox = (485.4600, 202.0600) - (485.6000, 202.5400) on Layer met1
+violation type: Short
+	srcs: net:_03867_ net:net363
+	bbox = (485.4600, 202.4000) - (485.6000, 202.5400) on Layer met1
+violation type: Short
+	srcs: net:_03867_ net:net363
+	bbox = (485.4600, 202.4100) - (485.6000, 202.5400) on Layer met1
+violation type: Short
+	srcs: net:_03867_ net:net363
+	bbox = (485.4600, 202.0600) - (485.6000, 202.2000) on Layer met1
+violation type: Short
+	srcs: net:_03867_ net:_03868_
+	bbox = (486.3800, 202.9100) - (486.5200, 202.9250) on Layer met1
+violation type: Short
+	srcs: net:_03867_ net:_03868_
+	bbox = (486.3050, 202.9100) - (486.5200, 202.9250) on Layer met1
+violation type: Short
+	srcs: net:_07763_ net:VDD
+	bbox = (405.8800, 152.0800) - (406.0200, 152.5600) on Layer met1
+violation type: Short
+	srcs: net:_03999_ net:clknet_leaf_148_clk
+	bbox = (469.8450, 550.2200) - (469.9850, 550.3600) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_03677_
+	bbox = (482.7400, 202.7400) - (482.8050, 203.2200) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_03677_
+	bbox = (482.7400, 202.7400) - (482.8050, 203.0350) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_03677_
+	bbox = (482.7400, 202.7400) - (482.8050, 203.2800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_03677_
+	bbox = (483.0950, 202.8500) - (483.2200, 202.9900) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_03677_
+	bbox = (483.0950, 202.7400) - (483.2200, 202.9900) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_03677_
+	bbox = (483.0950, 202.9900) - (483.2200, 203.0200) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_03868_
+	bbox = (485.4600, 202.8800) - (486.1350, 202.9100) on Layer met1
+violation type: NS Metal
+	srcs: net:_03677_
+	bbox = (482.8050, 203.0200) - (482.9300, 203.0350) on Layer met1
+violation type: Min Hole
+	srcs: net:_03677_
+	bbox = (482.7400, 202.8800) - (482.8050, 203.0200) on Layer met1
+violation type: Min Hole
+	srcs: net:_03868_
+	bbox = (485.6000, 202.8800) - (485.8450, 202.9100) on Layer met1

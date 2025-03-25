@@ -1,4 +1,4 @@
-OpenROAD v2.0-17941-g7fb347f37 
+OpenROAD v2.0-19814-g250e48e05 
 Features included (+) or not (-): +GPU +GUI +Python
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
 Components of this program may be licensed under more restrictive licenses which must be honored.
@@ -6,11 +6,11 @@ Components of this program may be licensed under more restrictive licenses which
 place_pins -hor_layers met3 -ver_layers met2
 Found 0 macro blocks.
 Using 2 tracks default min distance between IO pins.
-[INFO PPL-0001] Number of slots           2282
+[INFO PPL-0001] Number of available slots 2748
 [INFO PPL-0002] Number of I/O             771
 [INFO PPL-0003] Number of I/O w/sink      771
 [INFO PPL-0004] Number of I/O w/o sink    0
 [INFO PPL-0005] Slots per section         200
 [INFO PPL-0008] Successfully assigned pins to sections.
-[INFO PPL-0012] I/O nets HPWL: 79580.12 um.
-Elapsed time: 0:00.48[h:]min:sec. CPU time: user 0.45 sys 0.02 (98%). Peak memory: 164352KB.
+[INFO PPL-0012] I/O nets HPWL: 117051.52 um.
+Elapsed time: 0:00.52[h:]min:sec. CPU time: user 0.47 sys 0.04 (99%). Peak memory: 169204KB.

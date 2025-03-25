@@ -1,0 +1,151 @@
+OpenROAD v2.0-19814-g250e48e05 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 8 thread(s).
+clock_tree_synthesis -sink_clustering_enable -balance_levels
+[INFO CTS-0050] Root buffer is sky130_fd_sc_hd__clkbuf_16.
+[INFO CTS-0051] Sink buffer is sky130_fd_sc_hd__clkbuf_16.
+[INFO CTS-0052] The following clock buffers will be used for CTS:
+                    sky130_fd_sc_hd__clkbuf_16
+[INFO CTS-0049] Characterization buffer is sky130_fd_sc_hd__clkbuf_16.
+[INFO CTS-0007] Net "clk" found for clock "core_clock".
+[INFO CTS-0010]  Clock net "clk" has 2787 sinks.
+[INFO CTS-0008] TritonCTS found 1 clock nets.
+[INFO CTS-0097] Characterization used 1 buffer(s) types.
+[INFO CTS-0201] 0 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net clk.
+[INFO CTS-0028]  Total number of sinks: 2787.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 13600  dbu (13 um).
+[INFO CTS-0206] Best clustering solution was found from clustering size of 30 and clustering diameter of 50.
+[INFO CTS-0019]  Total number of sinks after clustering: 298.
+[INFO CTS-0024]  Normalized sink region: [(4.67189, 1.03812), (54.5265, 54.3715)].
+[INFO CTS-0025]     Width:  49.8546.
+[INFO CTS-0026]     Height: 53.3334.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 149
+    Sub-region size: 49.8546 X 26.6667
+[INFO CTS-0034]     Segment length (rounded): 14.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 75
+    Sub-region size: 24.9273 X 26.6667
+[INFO CTS-0034]     Segment length (rounded): 12.
+ Level 3
+    Direction: Vertical
+    Sinks per sub-region: 38
+    Sub-region size: 24.9273 X 13.3334
+[INFO CTS-0034]     Segment length (rounded): 6.
+ Level 4
+    Direction: Horizontal
+    Sinks per sub-region: 19
+    Sub-region size: 12.4636 X 13.3334
+[INFO CTS-0034]     Segment length (rounded): 6.
+ Level 5
+    Direction: Vertical
+    Sinks per sub-region: 10
+    Sub-region size: 12.4636 X 6.6667
+[INFO CTS-0034]     Segment length (rounded): 4.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 298.
+[INFO CTS-0018]     Created 335 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 4.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 4.
+[INFO CTS-0015]     Created 335 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 4:1, 5:5, 6:19, 7:32, 8:51, 9:64, 10:65, 11:51, 12:27, 13:13, 15:2..
+[INFO CTS-0017]     Max level of the clock tree: 5.
+[INFO CTS-0098] Clock net "clk"
+[INFO CTS-0099]  Sinks 3070
+[INFO CTS-0100]  Leaf buffers 298
+[INFO CTS-0101]  Average sink wire length 1270.76 um
+[INFO CTS-0102]  Path depth 3 - 4
+[INFO CTS-0207]  Leaf load cells 283
+[INFO RSZ-0058] Using max wire length 2154um.
+Placement Analysis
+---------------------------------
+total displacement       9408.3 u
+average displacement        0.4 u
+max displacement           19.3 u
+original HPWL          737983.0 u
+legalized HPWL         758179.2 u
+delta HPWL                    3 %
+
+repair_timing -verbose -setup_margin 0 -hold_margin 0 -repair_tns 100 -match_cell_footprint
+[INFO RSZ-0094] Found 32 endpoints with setup violations.
+[INFO RSZ-0099] Repairing 32 out of 32 (100.00%) violating endpoints...
+   Iter   | Removed | Resized | Inserted | Cloned |  Pin  |   Area   |    WNS   |   TNS      |  Viol  | Worst
+          | Buffers |  Gates  | Buffers  |  Gates | Swaps |          |          |            | Endpts | Endpt
+--------------------------------------------------------------------------------------------------------------
+        0 |       0 |       0 |        0 |      0 |     0 |    +0.0% |   -0.771 |      -11.7 |     32 | hash/p3_cap\[31\]$_DFF_P_/D
+       10 |       0 |       9 |        0 |      0 |     0 |    +0.0% |   -0.609 |       -8.5 |     32 | hash/p3_cap\[31\]$_DFF_P_/D
+       20 |       0 |      15 |        0 |      0 |     4 |    +0.0% |   -0.574 |       -7.8 |     32 | hash/p3_cap\[31\]$_DFF_P_/D
+       30 |       0 |      21 |        2 |      0 |     7 |    +0.0% |   -0.367 |       -4.7 |     32 | hash/p3_cap\[29\]$_DFF_P_/D
+       40 |       0 |      28 |        2 |      0 |    10 |    +0.1% |   -0.351 |       -3.9 |     32 | hash/p3_cap\[29\]$_DFF_P_/D
+       50 |       0 |      33 |        7 |      0 |    13 |    +0.1% |   -0.356 |       -4.4 |     32 | hash/p2_cap\[31\]$_DFF_P_/D
+       60 |       0 |      41 |        7 |      0 |    15 |    +0.1% |   -0.150 |       -1.1 |     32 | hash/p2_cap\[31\]$_DFF_P_/D
+       70 |       0 |      45 |        7 |      0 |    21 |    +0.1% |   -0.116 |       -0.9 |     32 | hash/p2_cap\[30\]$_DFF_P_/D
+       80 |       0 |      49 |        7 |      0 |    27 |    +0.1% |   -0.227 |       -1.6 |     32 | hash/p3_cap\[28\]$_DFF_P_/D
+       90 |       0 |      56 |        7 |      0 |    30 |    +0.1% |   -0.079 |       -0.4 |     32 | hash/p2_cap\[27\]$_DFF_P_/D
+      100 |       0 |      58 |        9 |      0 |    37 |    +0.1% |   -0.072 |       -0.4 |     32 | hash/p3_cap\[28\]$_DFF_P_/D
+      110 |       0 |      59 |        9 |      0 |    46 |    +0.1% |   -0.069 |       -0.4 |     32 | hash/p3_cap\[29\]$_DFF_P_/D
+      118 |       0 |      63 |       11 |      0 |    49 |    +0.1% |   -0.040 |       -0.1 |     30 | hash/p3_cap\[28\]$_DFF_P_/D
+      120 |       0 |      63 |       11 |      0 |    50 |    +0.1% |   -0.023 |       -0.0 |     30 | hash/p3_cap\[28\]$_DFF_P_/D
+      121 |       0 |      63 |       11 |      0 |    51 |    +0.1% |   -0.004 |       -0.0 |     28 | hash/p3_cap\[28\]$_DFF_P_/D
+      124 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |     26 | hash/p2_cap\[31\]$_DFF_P_/D
+      125 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |     25 | hash/p2_cap\[31\]$_DFF_P_/D
+      126 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |     24 | hash/p2_cap\[31\]$_DFF_P_/D
+      127 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |     23 | hash/p2_cap\[31\]$_DFF_P_/D
+      128 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |     22 | hash/p2_cap\[31\]$_DFF_P_/D
+      129 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |     21 | hash/p2_cap\[31\]$_DFF_P_/D
+      130 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |     21 | hash/p2_cap\[31\]$_DFF_P_/D
+      130 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |     20 | hash/p2_cap\[31\]$_DFF_P_/D
+      131 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |     19 | hash/p2_cap\[31\]$_DFF_P_/D
+      132 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |     18 | hash/p2_cap\[31\]$_DFF_P_/D
+      133 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |     17 | hash/p2_cap\[31\]$_DFF_P_/D
+      134 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |     16 | hash/p2_cap\[31\]$_DFF_P_/D
+      135 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |     15 | hash/p2_cap\[31\]$_DFF_P_/D
+      136 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |     14 | hash/p2_cap\[31\]$_DFF_P_/D
+      137 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |     13 | hash/p2_cap\[31\]$_DFF_P_/D
+      138 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |     12 | hash/p2_cap\[31\]$_DFF_P_/D
+      139 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |     11 | hash/p2_cap\[31\]$_DFF_P_/D
+      140 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |     11 | hash/p2_cap\[31\]$_DFF_P_/D
+      140 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |     10 | hash/p2_cap\[31\]$_DFF_P_/D
+      141 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |      9 | hash/p2_cap\[31\]$_DFF_P_/D
+      142 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |      8 | hash/p2_cap\[31\]$_DFF_P_/D
+      143 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |      7 | hash/p2_cap\[31\]$_DFF_P_/D
+      144 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |      6 | hash/p2_cap\[31\]$_DFF_P_/D
+      145 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |      5 | hash/p2_cap\[31\]$_DFF_P_/D
+      146 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |      4 | hash/p2_cap\[31\]$_DFF_P_/D
+      147 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |      3 | hash/p2_cap\[31\]$_DFF_P_/D
+      148 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |      2 | hash/p2_cap\[31\]$_DFF_P_/D
+      149 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |      1 | hash/p2_cap\[31\]$_DFF_P_/D
+      150 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |      1 | hash/p2_cap\[31\]$_DFF_P_/D
+      150 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |      0 | hash/p2_cap\[31\]$_DFF_P_/D
+      151 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |      0 | hash/p2_cap\[31\]$_DFF_P_/D
+      152 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |      0 | hash/p2_cap\[31\]$_DFF_P_/D
+      153 |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |      0 | hash/p2_cap\[31\]$_DFF_P_/D
+    final |       0 |      64 |       11 |      0 |    52 |    +0.1% |    0.006 |        0.0 |      0 | hash/p2_cap\[31\]$_DFF_P_/D
+--------------------------------------------------------------------------------------------------------------
+[INFO RSZ-0040] Inserted 6 buffers.
+[INFO RSZ-0041] Resized 64 instances.
+[INFO RSZ-0043] Swapped pins on 52 instances.
+[INFO RSZ-0033] No hold violations found.
+Placement Analysis
+---------------------------------
+total displacement        229.4 u
+average displacement        0.0 u
+max displacement            8.6 u
+original HPWL          758249.3 u
+legalized HPWL         758459.7 u
+delta HPWL                    0 %
+
+Report metrics stage 4, cts final...
+
+==========================================================================
+cts final report_design_area
+--------------------------------------------------------------------------
+Design area 267140 u^2 47% utilization.
+Elapsed time: 0:29.99[h:]min:sec. CPU time: user 29.61 sys 0.37 (99%). Peak memory: 866640KB.
