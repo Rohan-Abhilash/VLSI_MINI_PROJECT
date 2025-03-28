@@ -1,0 +1,197 @@
+OpenROAD v2.0-17941-g7fb347f37 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 16 thread(s).
+clock_tree_synthesis -sink_clustering_enable -balance_levels
+[INFO CTS-0050] Root buffer is CLKBUF_X3.
+[INFO CTS-0051] Sink buffer is CLKBUF_X3.
+[INFO CTS-0052] The following clock buffers will be used for CTS:
+                    CLKBUF_X3
+[INFO CTS-0049] Characterization buffer is CLKBUF_X3.
+[INFO CTS-0007] Net "clk" found for clock "core_clock".
+[INFO CTS-0010]  Clock net "clk" has 35 sinks.
+[INFO CTS-0008] TritonCTS found 1 clock nets.
+[INFO CTS-0097] Characterization used 1 buffer(s) types.
+[INFO CTS-0200] 0 placement blockages have been identified.
+[INFO CTS-0201] 0 placed hard macros will be treated like blockages.
+[INFO CTS-0027] Generating H-Tree topology for net clk.
+[INFO CTS-0028]  Total number of sinks: 35.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 14000  dbu (7 um).
+[INFO CTS-0023]  Original sink region: [(5890, 7170), (67070, 65660)].
+[INFO CTS-0024]  Normalized sink region: [(0.420714, 0.512143), (4.79071, 4.69)].
+[INFO CTS-0025]     Width:  4.3700.
+[INFO CTS-0026]     Height: 4.1779.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 18
+    Sub-region size: 2.1850 X 4.1779
+[INFO CTS-0034]     Segment length (rounded): 1.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 9
+    Sub-region size: 2.1850 X 2.0889
+[INFO CTS-0034]     Segment length (rounded): 1.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 35.
+[INFO CTS-0018]     Created 5 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 5 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 5:1, 8:1, 10:1, 12:1..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0098] Clock net "clk"
+[INFO CTS-0099]  Sinks 38
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 55.17 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Leaf load cells 3
+[INFO RSZ-0058] Using max wire length 640um.
+Placement Analysis
+---------------------------------
+total displacement         29.5 u
+average displacement        0.0 u
+max displacement            2.9 u
+original HPWL            2942.2 u
+legalized HPWL           3044.2 u
+delta HPWL                    3 %
+
+repair_timing -verbose -setup_margin 0 -hold_margin 0 -repair_tns 100
+[INFO RSZ-0094] Found 44 endpoints with setup violations.
+[INFO RSZ-0099] Repairing 44 out of 44 (100.00%) violating endpoints...
+   Iter   | Removed | Resized | Inserted | Cloned |  Pin  |    WNS   |   TNS      |  Viol  | Worst
+          | Buffers |  Gates  | Buffers  |  Gates | Swaps |          |            | Endpts | Endpt
+---------------------------------------------------------------------------------------------------
+        0 |       0 |       0 |        0 |      0 |     0 |   -0.085 |       -1.2 |     44 | resp_msg[11]
+       10 |       0 |       9 |        0 |      0 |     0 |   -0.071 |       -0.7 |     44 | resp_msg[13]
+       20 |       0 |      16 |        4 |      0 |     1 |   -0.065 |       -0.6 |     44 | resp_msg[12]
+       30 |       0 |      25 |        4 |      0 |     2 |   -0.061 |       -0.5 |     44 | resp_msg[12]
+       40 |       0 |      33 |        8 |      0 |     2 |   -0.060 |       -0.5 |     44 | resp_msg[11]
+       50 |       0 |      34 |       26 |      0 |     2 |   -0.059 |       -0.5 |     44 | resp_msg[15]
+       60 |       0 |      38 |       38 |      0 |     2 |   -0.057 |       -0.5 |     44 | resp_msg[11]
+       70 |       0 |      45 |       46 |      0 |     2 |   -0.054 |       -0.5 |     44 | resp_msg[15]
+       80 |       0 |      52 |       51 |      0 |     3 |   -0.062 |       -0.5 |     44 | resp_msg[13]
+       90 |       0 |      61 |       51 |      0 |     4 |   -0.054 |       -0.5 |     44 | resp_msg[11]
+      100 |       0 |      70 |       51 |      0 |     5 |   -0.054 |       -0.5 |     44 | resp_msg[13]
+      110 |       0 |      79 |       51 |      0 |     6 |   -0.058 |       -0.5 |     44 | resp_msg[14]
+      114 |       0 |      55 |       48 |      0 |     2 |   -0.053 |       -0.5 |     44 | resp_msg[15]
+      120 |       0 |      58 |       53 |      0 |     2 |   -0.067 |       -0.5 |     44 | resp_msg[13]
+      130 |       0 |      67 |       53 |      0 |     3 |   -0.060 |       -0.5 |     44 | resp_msg[13]
+      140 |       0 |      76 |       55 |      0 |     3 |   -0.060 |       -0.5 |     44 | resp_msg[13]
+      150 |       0 |      85 |       55 |      0 |     4 |   -0.060 |       -0.5 |     44 | resp_msg[13]
+      151 |       0 |      62 |       51 |      0 |     2 |   -0.053 |       -0.5 |     44 | resp_msg[15]
+      160 |       0 |      69 |       51 |      0 |     3 |   -0.054 |       -0.5 |     44 | resp_msg[13]
+      170 |       0 |      75 |       55 |      0 |     5 |   -0.052 |       -0.5 |     44 | resp_msg[15]
+      180 |       0 |      82 |       59 |      0 |     6 |   -0.052 |       -0.5 |     44 | resp_msg[15]
+      190 |       0 |      89 |       63 |      0 |     7 |   -0.054 |       -0.5 |     44 | resp_msg[13]
+      198 |       0 |      84 |       62 |      0 |     6 |   -0.052 |       -0.5 |     44 | resp_msg[15]
+      200 |       0 |      84 |       64 |      0 |     6 |   -0.052 |       -0.5 |     44 | resp_msg[15]
+      210 |       0 |      92 |       66 |      0 |     7 |   -0.057 |       -0.5 |     44 | resp_msg[15]
+      220 |       0 |     101 |       68 |      0 |     7 |   -0.057 |       -0.5 |     44 | resp_msg[15]
+      230 |       0 |     109 |       70 |      0 |     8 |   -0.064 |       -0.5 |     44 | resp_msg[15]
+      240 |       0 |     119 |       70 |      0 |     8 |   -0.064 |       -0.5 |     44 | resp_msg[15]
+      240 |       0 |      97 |       68 |      0 |     6 |   -0.052 |       -0.4 |     44 | resp_msg[15]
+      250 |       0 |     102 |       71 |      0 |     9 |   -0.051 |       -0.4 |     44 | resp_msg[15]
+      260 |       0 |     108 |       75 |      0 |    11 |   -0.053 |       -0.5 |     44 | resp_msg[15]
+      270 |       0 |     117 |       75 |      0 |    12 |   -0.054 |       -0.5 |     44 | resp_msg[15]
+      271 |       0 |     107 |       74 |      0 |     9 |   -0.051 |       -0.4 |     44 | resp_msg[15]
+      280 |       0 |     115 |       74 |      0 |     9 |   -0.056 |       -0.4 |     44 | resp_msg[15]
+      290 |       0 |     121 |       78 |      0 |    11 |   -0.053 |       -0.4 |     44 | resp_msg[15]
+      300 |       0 |     128 |       78 |      0 |    14 |   -0.057 |       -0.5 |     44 | resp_msg[15]
+      301 |       0 |     112 |       77 |      0 |     9 |   -0.051 |       -0.4 |     44 | resp_msg[15]
+      310 |       0 |     117 |       81 |      0 |    10 |   -0.051 |       -1.1 |     44 | resp_msg[15]
+      320 |       1 |     125 |       83 |      0 |    10 |   -0.051 |       -0.7 |     44 | resp_msg[15]
+      330 |       1 |     131 |       87 |      0 |    12 |   -0.051 |       -0.8 |     44 | resp_msg[15]
+      337 |       0 |     122 |       83 |      0 |     9 |   -0.051 |       -0.4 |     44 | resp_msg[15]
+      340 |       0 |     123 |       83 |      0 |    10 |   -0.051 |       -0.4 |     44 | resp_msg[15]
+      350 |       0 |     132 |       83 |      0 |    11 |   -0.052 |       -0.4 |     44 | resp_msg[15]
+      360 |       0 |     142 |       83 |      0 |    11 |   -0.057 |       -0.6 |     44 | resp_msg[15]
+      370 |       0 |     150 |       85 |      0 |    12 |   -0.059 |       -0.7 |     44 | resp_msg[15]
+      373 |       0 |     131 |       84 |      0 |    10 |   -0.051 |       -0.4 |     44 | resp_msg[15]
+      380 |       0 |     136 |       86 |      0 |    10 |   -0.053 |       -0.4 |     44 | resp_msg[15]
+      390 |       0 |     145 |       86 |      0 |    11 |   -0.053 |       -0.4 |     44 | resp_msg[13]
+      400 |       0 |     152 |       90 |      0 |    12 |   -0.055 |       -0.5 |     44 | resp_msg[15]
+      408 |       0 |     142 |       89 |      0 |    10 |   -0.051 |       -0.4 |     44 | resp_msg[15]
+      410 |       0 |     143 |       89 |      0 |    10 |   -0.051 |       -0.4 |     44 | resp_msg[15]
+      420 |       0 |     152 |       91 |      0 |    10 |   -0.051 |       -0.5 |     44 | resp_msg[15]
+      424 |       0 |     147 |       90 |      0 |    10 |   -0.051 |       -0.4 |     44 | resp_msg[15]
+      430 |       0 |     152 |       90 |      0 |    10 |   -0.051 |       -0.5 |     44 | resp_msg[15]
+      435 |       0 |     155 |       92 |      0 |    11 |   -0.051 |       -0.4 |     42 | resp_msg[15]
+      437 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     40 | resp_msg[15]
+      438 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     39 | resp_msg[15]
+      439 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     38 | resp_msg[15]
+      440 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     38 | resp_msg[15]
+      440 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     37 | resp_msg[15]
+      441 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     36 | resp_msg[15]
+      442 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     35 | resp_msg[15]
+      443 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     34 | resp_msg[15]
+      444 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     33 | resp_msg[15]
+      445 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     32 | resp_msg[15]
+      446 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     31 | resp_msg[15]
+      447 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     30 | resp_msg[15]
+      448 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     29 | resp_msg[15]
+      449 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     28 | resp_msg[15]
+      450 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     28 | resp_msg[15]
+      450 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     27 | resp_msg[15]
+      451 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     26 | resp_msg[15]
+      452 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     25 | resp_msg[15]
+      453 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     24 | resp_msg[15]
+      454 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     23 | resp_msg[15]
+      455 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     22 | resp_msg[15]
+      456 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     21 | resp_msg[15]
+      457 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     20 | resp_msg[15]
+      458 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     19 | resp_msg[15]
+      459 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     18 | resp_msg[15]
+      460 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     18 | resp_msg[15]
+      460 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     17 | resp_msg[15]
+      461 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     16 | resp_msg[15]
+      462 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     15 | resp_msg[15]
+      463 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     14 | resp_msg[15]
+      464 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     13 | resp_msg[15]
+      465 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     12 | resp_msg[15]
+      466 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     11 | resp_msg[15]
+      467 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |     10 | resp_msg[15]
+      468 |       0 |     156 |       92 |      0 |    11 |   -0.051 |       -0.4 |      9 | resp_msg[15]
+      470 |       0 |     156 |       92 |      0 |    12 |   -0.051 |       -0.4 |      9 | resp_msg[15]
+      480 |       0 |     166 |       92 |      0 |    12 |   -0.051 |       -0.4 |      9 | resp_msg[15]
+      490 |       0 |     176 |       92 |      0 |    12 |   -0.051 |       -0.4 |      9 | resp_msg[15]
+      500 |       0 |     185 |       94 |      0 |    12 |   -0.051 |       -0.4 |      9 | resp_msg[15]
+      506 |       0 |     184 |       93 |      0 |    12 |   -0.051 |       -0.4 |      9 | resp_msg[15]
+     507* |       0 |     184 |       93 |      0 |    12 |   -0.051 |       -0.4 |     11 | resp_msg[15]
+     509* |       0 |     185 |       93 |      0 |    12 |   -0.051 |       -0.4 |     11 | resp_msg[15]
+     510* |       0 |     185 |       93 |      0 |    12 |   -0.051 |       -0.4 |     11 | resp_msg[15]
+     510* |       0 |     185 |       93 |      0 |    12 |   -0.051 |       -0.4 |     11 | resp_msg[15]
+     512* |       0 |     186 |       93 |      0 |    12 |   -0.051 |       -0.4 |     11 | resp_msg[15]
+     513* |       0 |     186 |       93 |      0 |    12 |   -0.051 |       -0.4 |     11 | resp_msg[15]
+     514* |       0 |     186 |       93 |      0 |    12 |   -0.051 |       -0.4 |     11 | resp_msg[15]
+     517* |       0 |     188 |       93 |      0 |    12 |   -0.051 |       -0.4 |     11 | resp_msg[15]
+     520* |       0 |     190 |       93 |      0 |    12 |   -0.051 |       -0.4 |     11 | resp_msg[15]
+     524* |       0 |     194 |       93 |      0 |    12 |   -0.051 |       -0.4 |     11 | resp_msg[15]
+     526* |       0 |     195 |       93 |      0 |    12 |   -0.051 |       -0.4 |     11 | resp_msg[15]
+     527* |       0 |     195 |       93 |      0 |    12 |   -0.051 |       -0.4 |     11 | resp_msg[15]
+     528* |       0 |     195 |       93 |      0 |    12 |   -0.051 |       -0.4 |     11 | resp_msg[15]
+    final |       0 |     195 |       93 |      0 |    12 |   -0.051 |       -0.4 |     11 | resp_msg[15]
+---------------------------------------------------------------------------------------------------
+[INFO RSZ-0040] Inserted 37 buffers.
+[INFO RSZ-0041] Resized 195 instances.
+[INFO RSZ-0043] Swapped pins on 12 instances.
+[WARNING RSZ-0062] Unable to repair all setup violations.
+[INFO RSZ-0033] No hold violations found.
+Placement Analysis
+---------------------------------
+total displacement        458.9 u
+average displacement        0.7 u
+max displacement            6.6 u
+original HPWL            3093.8 u
+legalized HPWL           3563.5 u
+delta HPWL                   15 %
+
+Report metrics stage 4, cts final...
+
+==========================================================================
+cts final report_design_area
+--------------------------------------------------------------------------
+Design area 794 u^2 69% utilization.
+Elapsed time: 0:03.20[h:]min:sec. CPU time: user 3.02 sys 0.18 (100%). Peak memory: 354200KB.

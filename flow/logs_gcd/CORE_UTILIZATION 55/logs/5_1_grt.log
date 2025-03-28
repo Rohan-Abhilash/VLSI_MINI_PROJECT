@@ -1,0 +1,173 @@
+OpenROAD v2.0-17941-g7fb347f37 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 16 thread(s).
+global_route -congestion_report_file ./reports/nangate45/gcd/base/congestion.rpt -congestion_iterations 30 -congestion_report_iter_step 5 -verbose
+[INFO GRT-0020] Min routing layer: metal2
+[INFO GRT-0021] Max routing layer: metal10
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer metal1  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1350
+[INFO GRT-0088] Layer metal2  Track-Pitch = 0.1900  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal3  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal4  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal5  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal6  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal7  Track-Pitch = 0.8000  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal8  Track-Pitch = 0.8000  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal9  Track-Pitch = 1.6000  line-2-Via Pitch: 1.6000
+[INFO GRT-0088] Layer metal10 Track-Pitch = 1.6000  line-2-Via Pitch: 1.6000
+[INFO GRT-0019] Found 6 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 13
+[INFO GRT-0003] Macros: 0
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0004] Blockages: 0
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+metal1     Horizontal          0             0          0.00%
+metal2     Vertical         3230          1368          57.65%
+metal3     Horizontal       4403          1936          56.03%
+metal4     Vertical         2057          1314          36.12%
+metal5     Horizontal       2057          1376          33.11%
+metal6     Vertical         2057          1376          33.11%
+metal7     Horizontal        595           288          51.60%
+metal8     Vertical          595           288          51.60%
+metal9     Horizontal        289           256          11.42%
+metal10    Vertical          289           256          11.42%
+---------------------------------------------------------------
+
+[INFO GRT-0197] Via related to pin nodes: 3387
+[INFO GRT-0198] Via related Steiner nodes: 48
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 4282
+[INFO GRT-0112] Final usage 3D: 14726
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+metal1               0             0            0.00%             0 /  0 /  0
+metal2            1368           701           51.24%             0 /  0 /  0
+metal3            1936           822           42.46%             0 /  0 /  0
+metal4            1314           233           17.73%             0 /  0 /  0
+metal5            1376           109            7.92%             0 /  0 /  0
+metal6            1376            15            1.09%             0 /  0 /  0
+metal7             288             0            0.00%             0 /  0 /  0
+metal8             288             0            0.00%             0 /  0 /  0
+metal9             256             0            0.00%             0 /  0 /  0
+metal10            256             0            0.00%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total             8458          1880           22.23%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 6604 um
+[INFO GRT-0014] Routed nets: 635
+Perform buffer insertion and gate resizing...
+repair_design 
+[INFO RSZ-0058] Using max wire length 640um.
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL            3563.5 u
+legalized HPWL           3563.5 u
+delta HPWL                    0 %
+
+Repair setup and hold violations...
+repair_timing -verbose -setup_margin 0 -hold_margin 0 -repair_tns 100
+[INFO RSZ-0094] Found 19 endpoints with setup violations.
+[INFO RSZ-0099] Repairing 19 out of 19 (100.00%) violating endpoints...
+   Iter   | Removed | Resized | Inserted | Cloned |  Pin  |    WNS   |   TNS      |  Viol  | Worst
+          | Buffers |  Gates  | Buffers  |  Gates | Swaps |          |            | Endpts | Endpt
+---------------------------------------------------------------------------------------------------
+        0 |       0 |       0 |        0 |      0 |     0 |   -0.064 |       -0.5 |     19 | resp_msg[15]
+       10 |       0 |       8 |        2 |      0 |     0 |   -0.059 |       -0.5 |     19 | resp_msg[15]
+       20 |       0 |      13 |        6 |      0 |     3 |   -0.070 |       -0.6 |     19 | resp_msg[13]
+       30 |       0 |      20 |        6 |      0 |     6 |   -0.065 |       -0.5 |     19 | resp_msg[13]
+       40 |       0 |      30 |        6 |      0 |     6 |   -0.063 |       -0.6 |     19 | resp_msg[13]
+       50 |       0 |      38 |        6 |      0 |     8 |   -0.068 |       -0.6 |     19 | resp_msg[13]
+       56 |       0 |      23 |        6 |      0 |     3 |   -0.058 |       -0.5 |     19 | resp_msg[15]
+       60 |       0 |      26 |        6 |      0 |     3 |   -0.058 |       -0.5 |     19 | resp_msg[15]
+       70 |       0 |      34 |        6 |      0 |     5 |   -0.063 |       -0.5 |     19 | resp_msg[15]
+       80 |       0 |      44 |        6 |      0 |     5 |   -0.071 |       -0.6 |     19 | resp_msg[15]
+       85 |       0 |      34 |        6 |      0 |     3 |   -0.058 |       -0.5 |     19 | resp_msg[15]
+       90 |       0 |      36 |        6 |      0 |     5 |   -0.058 |       -0.5 |     19 | resp_msg[15]
+      100 |       0 |      44 |        6 |      0 |     7 |   -0.058 |       -0.7 |     19 | resp_msg[15]
+      101 |       0 |      40 |        6 |      0 |     7 |   -0.058 |       -0.5 |     19 | resp_msg[15]
+      110 |       0 |      46 |        8 |      0 |     8 |   -0.058 |       -0.5 |     19 | resp_msg[15]
+      120 |       0 |      51 |       14 |      0 |    10 |   -0.062 |       -0.5 |     19 | resp_msg[15]
+      130 |       0 |      60 |       14 |      0 |    11 |   -0.066 |       -0.5 |     19 | resp_msg[15]
+      131 |       0 |      54 |       14 |      0 |     9 |   -0.058 |       -0.5 |     19 | resp_msg[15]
+      140 |       0 |      59 |       14 |      0 |    12 |   -0.060 |       -0.5 |     19 | resp_msg[15]
+      150 |       0 |      67 |       16 |      0 |    13 |   -0.060 |       -0.6 |     19 | resp_msg[15]
+      160 |       0 |      75 |       16 |      0 |    15 |   -0.069 |       -0.6 |     19 | resp_msg[15]
+      170 |       0 |      82 |       21 |      0 |    16 |   -0.069 |       -0.6 |     19 | resp_msg[15]
+      180 |       0 |      89 |       24 |      0 |    18 |   -0.069 |       -0.8 |     19 | resp_msg[15]
+      184 |       0 |      62 |       18 |      0 |    11 |   -0.058 |       -0.5 |     19 | resp_msg[15]
+      190 |       0 |      66 |       18 |      0 |    12 |   -0.061 |       -0.5 |     19 | resp_msg[15]
+      199 |       0 |      65 |       20 |      0 |    11 |   -0.058 |       -0.5 |     19 | resp_msg[15]
+      200 |       0 |      65 |       20 |      0 |    11 |   -0.058 |       -0.5 |     19 | resp_msg[15]
+      210 |       0 |      72 |       20 |      0 |    14 |   -0.058 |       -0.6 |     19 | resp_msg[15]
+      220 |       0 |      79 |       22 |      0 |    16 |   -0.058 |       -0.5 |     19 | resp_msg[15]
+      230 |       0 |      87 |       24 |      0 |    17 |   -0.058 |       -0.6 |     19 | resp_msg[15]
+      240 |       0 |      94 |       24 |      0 |    20 |   -0.061 |       -0.6 |     19 | resp_msg[15]
+      244 |       0 |      79 |       23 |      0 |    14 |   -0.058 |       -0.5 |     19 | resp_msg[15]
+      250 |       0 |      82 |       25 |      0 |    15 |   -0.058 |       -0.7 |     19 | resp_msg[15]
+      253 |       0 |      79 |       24 |      0 |    14 |   -0.058 |       -0.5 |     19 | resp_msg[15]
+      259 |       3 |      80 |       24 |      0 |    15 |   -0.058 |       -0.5 |     17 | resp_msg[15]
+      260 |       3 |      80 |       24 |      0 |    15 |   -0.058 |       -0.5 |     17 | resp_msg[15]
+      270 |       3 |      86 |       31 |      0 |    16 |   -0.063 |       -0.9 |     17 | resp_msg[15]
+      277 |       3 |      84 |       29 |      0 |    15 |   -0.058 |       -0.9 |     17 | resp_msg[15]
+      280 |       3 |      86 |       29 |      0 |    15 |   -0.058 |       -0.9 |     17 | resp_msg[15]
+      290 |       3 |      94 |       29 |      0 |    17 |   -0.069 |       -0.9 |     17 | resp_msg[10]
+      292 |       3 |      88 |       29 |      0 |    15 |   -0.058 |       -0.9 |     17 | resp_msg[15]
+      300 |       3 |      93 |       29 |      0 |    17 |   -0.058 |       -0.9 |     17 | resp_msg[15]
+      310 |       3 |     101 |       31 |      0 |    18 |   -0.058 |       -1.0 |     17 | resp_msg[15]
+      310 |       3 |      97 |       30 |      0 |    17 |   -0.058 |       -0.9 |     17 | resp_msg[15]
+      317 |       3 |      99 |       30 |      0 |    17 |   -0.058 |       -0.8 |     16 | resp_msg[15]
+      320 |       3 |     101 |       30 |      0 |    17 |   -0.058 |       -0.6 |     16 | resp_msg[10]
+      320 |       3 |      99 |       30 |      0 |    17 |   -0.058 |       -0.8 |     15 | resp_msg[15]
+      325 |       3 |      99 |       30 |      0 |    17 |   -0.058 |       -0.8 |     14 | resp_msg[15]
+      330 |       3 |     103 |       30 |      0 |    17 |   -0.063 |       -0.7 |     14 | resp_msg[10]
+      331 |       3 |     102 |       30 |      0 |    17 |   -0.058 |       -0.9 |     14 | resp_msg[15]
+      333 |       3 |     102 |       30 |      0 |    17 |   -0.058 |       -0.9 |     13 | resp_msg[15]
+      335 |       3 |     102 |       30 |      0 |    17 |   -0.058 |       -0.9 |     12 | resp_msg[15]
+      337 |       3 |     102 |       30 |      0 |    17 |   -0.058 |       -0.9 |     11 | resp_msg[15]
+    final |       3 |     102 |       30 |      0 |    17 |   -0.058 |       -0.9 |     44 | resp_msg[15]
+---------------------------------------------------------------------------------------------------
+[INFO RSZ-0059] Removed 3 buffers.
+[INFO RSZ-0040] Inserted 10 buffers.
+[INFO RSZ-0041] Resized 102 instances.
+[INFO RSZ-0043] Swapped pins on 17 instances.
+[WARNING RSZ-0062] Unable to repair all setup violations.
+[INFO RSZ-0033] No hold violations found.
+Placement Analysis
+---------------------------------
+total displacement        512.8 u
+average displacement        0.8 u
+max displacement            6.0 u
+original HPWL            3564.3 u
+legalized HPWL           4082.1 u
+delta HPWL                   15 %
+
+Repair antennas...
+[WARNING GRT-0246] No diode with LEF class CORE ANTENNACELL found.
+[INFO ANT-0002] Found 0 net violations.
+[INFO ANT-0001] Found 0 pin violations.
+Estimate parasitics...
+Report metrics stage 5, global route...
+
+==========================================================================
+global route report_design_area
+--------------------------------------------------------------------------
+Design area 854 u^2 74% utilization.
+[INFO FLW-0007] clock core_clock period 0.460000
+[INFO FLW-0008] Clock core_clock period 0.497
+[INFO FLW-0009] Clock core_clock slack -0.063
+[INFO FLW-0011] Path endpoint count 90
+Elapsed time: 0:02.30[h:]min:sec. CPU time: user 2.65 sys 0.13 (121%). Peak memory: 357912KB.
