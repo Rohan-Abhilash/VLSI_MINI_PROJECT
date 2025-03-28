@@ -1,0 +1,186 @@
+OpenROAD v2.0-17941-g7fb347f37 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 16 thread(s).
+clock_tree_synthesis -sink_clustering_enable -balance_levels
+[INFO CTS-0050] Root buffer is CLKBUF_X3.
+[INFO CTS-0051] Sink buffer is CLKBUF_X3.
+[INFO CTS-0052] The following clock buffers will be used for CTS:
+                    CLKBUF_X3
+[INFO CTS-0049] Characterization buffer is CLKBUF_X3.
+[INFO CTS-0007] Net "clk" found for clock "core_clock".
+[INFO CTS-0010]  Clock net "clk" has 35 sinks.
+[INFO CTS-0008] TritonCTS found 1 clock nets.
+[INFO CTS-0097] Characterization used 1 buffer(s) types.
+[INFO CTS-0200] 0 placement blockages have been identified.
+[INFO CTS-0201] 0 placed hard macros will be treated like blockages.
+[INFO CTS-0027] Generating H-Tree topology for net clk.
+[INFO CTS-0028]  Total number of sinks: 35.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 14000  dbu (7 um).
+[INFO CTS-0023]  Original sink region: [(5890, 4030), (61370, 60060)].
+[INFO CTS-0024]  Normalized sink region: [(0.420714, 0.287857), (4.38357, 4.29)].
+[INFO CTS-0025]     Width:  3.9629.
+[INFO CTS-0026]     Height: 4.0021.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 18
+    Sub-region size: 3.9629 X 2.0011
+[INFO CTS-0034]     Segment length (rounded): 1.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 9
+    Sub-region size: 1.9814 X 2.0011
+[INFO CTS-0034]     Segment length (rounded): 1.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 35.
+[INFO CTS-0018]     Created 5 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 5 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 7:1, 8:1, 10:2..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0098] Clock net "clk"
+[INFO CTS-0099]  Sinks 38
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 51.68 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Leaf load cells 3
+[INFO RSZ-0058] Using max wire length 640um.
+Placement Analysis
+---------------------------------
+total displacement         29.0 u
+average displacement        0.0 u
+max displacement            2.7 u
+original HPWL            3051.6 u
+legalized HPWL           3159.4 u
+delta HPWL                    4 %
+
+repair_timing -verbose -setup_margin 0 -hold_margin 0 -repair_tns 100
+[INFO RSZ-0094] Found 36 endpoints with setup violations.
+[INFO RSZ-0099] Repairing 36 out of 36 (100.00%) violating endpoints...
+   Iter   | Removed | Resized | Inserted | Cloned |  Pin  |    WNS   |   TNS      |  Viol  | Worst
+          | Buffers |  Gates  | Buffers  |  Gates | Swaps |          |            | Endpts | Endpt
+---------------------------------------------------------------------------------------------------
+        0 |       0 |       0 |        0 |      0 |     0 |   -0.085 |       -1.1 |     36 | resp_msg[11]
+       10 |       0 |       8 |        0 |      0 |     1 |   -0.071 |       -0.7 |     36 | resp_msg[13]
+       20 |       0 |      18 |        0 |      0 |     1 |   -0.065 |       -0.6 |     36 | resp_msg[11]
+       30 |       0 |      24 |        6 |      0 |     2 |   -0.059 |       -0.5 |     36 | resp_msg[11]
+       40 |       0 |      33 |        8 |      0 |     2 |   -0.057 |       -0.5 |     36 | resp_msg[12]
+       50 |       0 |      41 |       12 |      0 |     2 |   -0.054 |       -0.5 |     36 | resp_msg[11]
+       60 |       0 |      50 |       14 |      0 |     2 |   -0.052 |       -0.4 |     36 | resp_msg[11]
+       70 |       0 |      56 |       20 |      0 |     3 |   -0.067 |       -0.5 |     36 | resp_msg[13]
+       80 |       0 |      64 |       22 |      0 |     4 |   -0.058 |       -0.4 |     36 | resp_msg[13]
+       90 |       0 |      74 |       22 |      0 |     4 |   -0.056 |       -0.5 |     36 | resp_msg[13]
+      100 |       0 |      83 |       22 |      0 |     5 |   -0.056 |       -0.5 |     36 | resp_msg[13]
+      110 |       0 |      84 |       38 |      0 |     6 |   -0.061 |       -0.5 |     36 | resp_msg[13]
+      113 |       0 |      62 |       30 |      0 |     2 |   -0.050 |       -0.4 |     36 | resp_msg[15]
+      120 |       0 |      65 |       34 |      0 |     3 |   -0.049 |       -0.4 |     36 | resp_msg[15]
+      130 |       0 |      73 |       38 |      0 |     3 |   -0.053 |       -0.4 |     36 | resp_msg[15]
+      140 |       0 |      83 |       38 |      0 |     3 |   -0.059 |       -0.4 |     36 | resp_msg[15]
+      146 |       0 |      70 |       36 |      0 |     2 |   -0.049 |       -0.4 |     36 | resp_msg[15]
+      150 |       0 |      72 |       38 |      0 |     2 |   -0.054 |       -0.4 |     36 | resp_msg[15]
+      160 |       0 |      80 |       42 |      0 |     2 |   -0.052 |       -0.4 |     36 | resp_msg[13]
+      170 |       0 |      89 |       44 |      0 |     2 |   -0.055 |       -0.4 |     36 | resp_msg[15]
+      180 |       0 |      99 |       44 |      0 |     2 |   -0.055 |       -0.4 |     36 | resp_msg[15]
+      181 |       0 |      79 |       40 |      0 |     2 |   -0.049 |       -0.4 |     36 | resp_msg[15]
+      190 |       0 |      84 |       44 |      0 |     3 |   -0.050 |       -0.4 |     36 | resp_msg[15]
+      200 |       0 |      91 |       46 |      0 |     5 |   -0.050 |       -0.4 |     36 | resp_msg[15]
+      210 |       0 |      96 |       55 |      0 |     6 |   -0.050 |       -0.4 |     36 | resp_msg[15]
+      220 |       0 |     103 |       59 |      0 |     7 |   -0.050 |       -0.4 |     36 | resp_msg[15]
+      230 |       0 |     109 |       61 |      0 |    10 |   -0.049 |       -0.4 |     36 | resp_msg[15]
+      238 |       0 |     111 |       61 |      0 |    10 |   -0.049 |       -0.4 |     36 | resp_msg[15]
+      240 |       0 |     112 |       61 |      0 |    10 |   -0.049 |       -0.4 |     36 | resp_msg[15]
+      250 |       0 |     119 |       61 |      0 |    13 |   -0.049 |       -0.4 |     36 | resp_msg[15]
+      256 |       0 |     117 |       61 |      0 |    10 |   -0.049 |       -0.4 |     36 | resp_msg[15]
+      260 |       0 |     120 |       61 |      0 |    10 |   -0.052 |       -0.4 |     36 | resp_msg[15]
+      270 |       0 |     126 |       65 |      0 |    12 |   -0.049 |       -0.4 |     36 | resp_msg[15]
+      280 |       0 |     132 |       67 |      0 |    15 |   -0.049 |       -0.4 |     36 | resp_msg[13]
+      280 |       0 |     128 |       66 |      0 |    12 |   -0.049 |       -0.4 |     36 | resp_msg[15]
+      290 |       0 |     135 |       68 |      0 |    13 |   -0.049 |       -0.4 |     36 | resp_msg[15]
+      300 |       0 |     143 |       70 |      0 |    14 |   -0.051 |       -0.4 |     36 | resp_msg[11]
+      310 |       0 |     150 |       72 |      0 |    16 |   -0.051 |       -0.7 |     36 | resp_msg[11]
+      314 |       0 |     140 |       71 |      0 |    13 |   -0.049 |       -0.3 |     36 | resp_msg[15]
+      320 |       0 |     144 |       71 |      0 |    14 |   -0.049 |       -0.3 |     36 | resp_msg[15]
+      330 |       0 |     153 |       71 |      0 |    15 |   -0.051 |       -0.3 |     36 | resp_msg[11]
+      340 |       0 |     163 |       71 |      0 |    15 |   -0.051 |       -0.4 |     36 | resp_msg[11]
+      350 |       0 |     173 |       71 |      0 |    15 |   -0.055 |       -0.5 |     36 | resp_msg[15]
+      360 |       0 |     179 |       73 |      0 |    18 |   -0.058 |       -0.4 |     36 | resp_msg[15]
+      370 |       0 |     181 |       89 |      0 |    18 |   -0.062 |       -0.4 |     36 | resp_msg[15]
+      370 |       0 |     153 |       81 |      0 |    14 |   -0.049 |       -0.3 |     36 | resp_msg[15]
+      380 |       0 |     162 |       81 |      0 |    14 |   -0.049 |       -0.3 |     36 | resp_msg[15]
+      390 |       0 |     167 |       83 |      0 |    18 |   -0.049 |       -0.3 |     36 | resp_msg[15]
+      398 |       0 |     171 |       89 |      0 |    19 |   -0.049 |       -0.6 |     34 | resp_msg[15]
+      400 |       0 |     172 |       89 |      0 |    19 |   -0.049 |       -0.7 |     34 | resp_msg[15]
+      408 |       0 |     174 |       89 |      0 |    19 |   -0.049 |       -0.7 |     34 | resp_msg[15]
+      410 |       0 |     175 |       89 |      0 |    19 |   -0.049 |       -0.5 |     34 | resp_msg[15]
+      413 |       0 |     176 |       89 |      1 |    20 |   -0.049 |       -0.4 |     32 | resp_msg[15]
+      415 |       0 |     177 |       89 |      1 |    20 |   -0.049 |       -0.3 |     30 | resp_msg[15]
+      416 |       0 |     177 |       89 |      1 |    20 |   -0.049 |       -0.3 |     29 | resp_msg[15]
+      417 |       0 |     177 |       89 |      1 |    20 |   -0.049 |       -0.3 |     28 | resp_msg[15]
+      418 |       0 |     177 |       89 |      1 |    20 |   -0.049 |       -0.3 |     27 | resp_msg[15]
+      420 |       0 |     178 |       89 |      1 |    20 |   -0.049 |       -0.4 |     26 | resp_msg[15]
+      420 |       0 |     178 |       89 |      1 |    20 |   -0.049 |       -0.4 |     25 | resp_msg[15]
+      423 |       0 |     179 |       89 |      2 |    20 |   -0.049 |       -0.3 |     23 | resp_msg[15]
+      425 |       0 |     180 |       89 |      2 |    20 |   -0.049 |       -0.3 |     21 | resp_msg[15]
+      426 |       0 |     180 |       89 |      2 |    20 |   -0.049 |       -0.3 |     20 | resp_msg[15]
+      430 |       1 |     182 |       89 |      2 |    20 |   -0.049 |       -0.3 |     20 | resp_msg[15]
+      437 |       1 |     187 |       89 |      2 |    22 |   -0.049 |       -0.3 |     18 | resp_msg[15]
+      438 |       1 |     187 |       89 |      2 |    22 |   -0.049 |       -0.3 |     17 | resp_msg[15]
+      439 |       1 |     187 |       89 |      2 |    22 |   -0.049 |       -0.3 |     16 | resp_msg[15]
+      440 |       1 |     187 |       89 |      2 |    22 |   -0.049 |       -0.3 |     16 | resp_msg[15]
+      440 |       1 |     187 |       89 |      2 |    22 |   -0.049 |       -0.3 |     15 | resp_msg[15]
+      441 |       1 |     187 |       89 |      2 |    22 |   -0.049 |       -0.3 |     14 | resp_msg[15]
+      442 |       1 |     187 |       89 |      2 |    22 |   -0.049 |       -0.3 |     13 | resp_msg[15]
+      443 |       1 |     187 |       89 |      2 |    22 |   -0.049 |       -0.3 |     12 | resp_msg[15]
+      444 |       1 |     187 |       89 |      2 |    22 |   -0.049 |       -0.3 |     11 | resp_msg[15]
+      449 |       1 |     188 |       89 |      2 |    22 |   -0.049 |       -0.3 |     11 | resp_msg[15]
+      450 |       1 |     188 |       89 |      2 |    22 |   -0.049 |       -0.3 |     11 | resp_msg[15]
+      450 |       1 |     188 |       89 |      2 |    22 |   -0.049 |       -0.3 |     10 | resp_msg[15]
+      451 |       1 |     188 |       89 |      2 |    22 |   -0.049 |       -0.3 |      9 | resp_msg[15]
+      452 |       1 |     188 |       89 |      2 |    22 |   -0.049 |       -0.3 |      8 | resp_msg[15]
+      453 |       1 |     188 |       89 |      2 |    22 |   -0.049 |       -0.3 |      7 | resp_msg[15]
+      454 |       1 |     188 |       89 |      2 |    22 |   -0.049 |       -0.3 |      6 | resp_msg[15]
+      455 |       1 |     188 |       89 |      2 |    22 |   -0.049 |       -0.3 |      5 | resp_msg[15]
+      456 |       1 |     188 |       89 |      2 |    22 |   -0.049 |       -0.3 |      4 | resp_msg[15]
+      457 |       1 |     188 |       89 |      2 |    22 |   -0.049 |       -0.3 |      3 | resp_msg[15]
+     458* |       1 |     188 |       89 |      2 |    22 |   -0.049 |       -0.3 |     11 | resp_msg[15]
+     460* |       1 |     189 |       89 |      2 |    22 |   -0.049 |       -0.3 |     11 | resp_msg[15]
+     461* |       1 |     190 |       89 |      2 |    22 |   -0.047 |       -0.3 |     11 | resp_msg[15]
+     462* |       1 |     190 |       89 |      2 |    22 |   -0.047 |       -0.3 |     11 | resp_msg[15]
+     463* |       1 |     190 |       89 |      2 |    22 |   -0.047 |       -0.3 |     11 | resp_msg[15]
+     465* |       1 |     191 |       89 |      2 |    22 |   -0.047 |       -0.3 |     11 | resp_msg[15]
+     469* |       1 |     194 |       89 |      2 |    22 |   -0.047 |       -0.3 |     11 | resp_msg[15]
+     470* |       1 |     194 |       89 |      2 |    22 |   -0.047 |       -0.3 |     11 | resp_msg[15]
+     470* |       1 |     194 |       89 |      2 |    22 |   -0.047 |       -0.3 |     11 | resp_msg[15]
+     472* |       1 |     195 |       89 |      2 |    22 |   -0.047 |       -0.3 |     11 | resp_msg[15]
+     473* |       1 |     195 |       89 |      2 |    22 |   -0.047 |       -0.3 |     11 | resp_msg[15]
+     474* |       1 |     195 |       89 |      2 |    22 |   -0.047 |       -0.3 |     11 | resp_msg[15]
+     475* |       1 |     195 |       89 |      2 |    22 |   -0.047 |       -0.3 |     11 | resp_msg[15]
+    final |       1 |     195 |       89 |      2 |    22 |   -0.047 |       -0.3 |     11 | resp_msg[15]
+---------------------------------------------------------------------------------------------------
+[INFO RSZ-0059] Removed 1 buffers.
+[INFO RSZ-0040] Inserted 28 buffers.
+[INFO RSZ-0041] Resized 195 instances.
+[INFO RSZ-0043] Swapped pins on 22 instances.
+[INFO RSZ-0049] Cloned 2 instances.
+[WARNING RSZ-0062] Unable to repair all setup violations.
+[INFO RSZ-0033] No hold violations found.
+Placement Analysis
+---------------------------------
+total displacement       1073.9 u
+average displacement        1.7 u
+max displacement           21.9 u
+original HPWL            3263.4 u
+legalized HPWL           4622.1 u
+delta HPWL                   42 %
+
+Report metrics stage 4, cts final...
+
+==========================================================================
+cts final report_design_area
+--------------------------------------------------------------------------
+Design area 811 u^2 84% utilization.
+Elapsed time: 0:03.38[h:]min:sec. CPU time: user 3.20 sys 0.17 (99%). Peak memory: 353628KB.

@@ -18,7 +18,7 @@ DESIGN_NAME="$2"
 SHUTDOWN_ON_END="$3"
 VARIABLE="$4"
 shift 4
-PUSH_TO_GIT=$0
+PUSH_TO_GIT=1
 
 CONFIG_FILE="./designs/$PLATFORM/$DESIGN_NAME/config.mk"
 LOGS_DIR="./logs/$PLATFORM/$DESIGN_NAME/base"
@@ -109,12 +109,12 @@ for VALUE in "$@"; do
     #openroad -no_init -exit command.tcl | tee output.txt
 
 	# Copy output.txt to LOG_DEST
-	if [ -f output.txt ]; then
-		cp output.txt "$LOG_DEST/"
-		echo "output.txt successfully copied to '$LOG_DEST'"
-	else
-		echo "warning: output.txt not found"
-	fi
+	# if [ -f output.txt ]; then
+	# 	cp output.txt "$LOG_DEST/"
+	# 	echo "output.txt successfully copied to '$LOG_DEST'"
+	# else
+	# 	echo "warning: output.txt not found"
+	# fi
 	
 	# Check if the copy was successful
 	if [ $? -eq 0 ]; then
@@ -124,7 +124,7 @@ for VALUE in "$@"; do
 	    exit 1
 	fi
 
-    Copy reports to the destination folder
+    #Copy reports to the destination folder
    if [ -d "$REPORTS_DIR" ]; then
        cp -r "$REPORTS_DIR"/* "$REPORTS_DEST/"
        if [ $? -eq 0 ]; then
@@ -153,14 +153,14 @@ for VALUE in "$@"; do
    fi
 done
 
-BRANCH_NAME="Ahan"
+
 
 if [ "$PUSH_TO_GIT" -eq 1 ]; then
     echo "Pushing to GIT ..."
-    cd "$LOGS_SHA256"
+    cd "$logs_gcd"
     git add .
     git commit -m "auto-update logs for $DESIGN_NAME"
-    git push origin "$BRANCH_NAME"
+    git push origin master
 fi
 
 
