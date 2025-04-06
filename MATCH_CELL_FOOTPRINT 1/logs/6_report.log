@@ -8,24 +8,24 @@ Deleted 0 routing obstructions
 [INFO RCX-0029] Defined extraction corner X
 [INFO RCX-0435] Reading extraction model file /home/rohan/VLSI/OpenROAD-flow-scripts/flow/platforms/sky130hd/rcx_patterns.rules ...
 [INFO RCX-0436] RC segment generation sha256_unrolled_pipelined (max_merge_res 50.0) ...
-[INFO RCX-0040] Final 96330 rc segments
+[INFO RCX-0040] Final 90810 rc segments
 [INFO RCX-0439] Coupling Cap extraction sha256_unrolled_pipelined ...
 [INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
-[INFO RCX-0442] 54% of 207883 wires extracted
-[INFO RCX-0442] 100% of 207883 wires extracted
-[INFO RCX-0045] Extract 19350 nets, 115662 rsegs, 115662 caps, 239923 ccs
-[INFO RCX-0443] 19350 nets finished
+[INFO RCX-0442] 54% of 197149 wires extracted
+[INFO RCX-0442] 100% of 197149 wires extracted
+[INFO RCX-0045] Extract 17802 nets, 108588 rsegs, 108588 caps, 230282 ccs
+[INFO RCX-0443] 17802 nets finished
 [INFO PSM-0040] All shapes on net VDD are connected.
 [INFO PSM-0073] Using bump pattern with x-pitch 140.0000um, y-pitch 140.0000um, and size 70.0000um with an reduction factor of 3x.
 ########## IR report #################
 Net              : VDD
 Corner           : default
 Supply voltage   : 1.80e+00 V
-Worstcase voltage: 1.79e+00 V
+Worstcase voltage: 1.78e+00 V
 Average voltage  : 1.80e+00 V
-Average IR drop  : 2.48e-03 V
-Worstcase IR drop: 1.26e-02 V
-Percentage drop  : 0.70 %
+Average IR drop  : 3.17e-03 V
+Worstcase IR drop: 2.27e-02 V
+Percentage drop  : 1.26 %
 ######################################
 [INFO PSM-0040] All shapes on net VSS are connected.
 [INFO PSM-0073] Using bump pattern with x-pitch 140.0000um, y-pitch 140.0000um, and size 70.0000um with an reduction factor of 3x.
@@ -33,27 +33,27 @@ Percentage drop  : 0.70 %
 Net              : VSS
 Corner           : default
 Supply voltage   : 0.00e+00 V
-Worstcase voltage: 1.17e-02 V
-Average voltage  : 2.58e-03 V
-Average IR drop  : 2.58e-03 V
-Worstcase IR drop: 1.17e-02 V
-Percentage drop  : 0.65 %
+Worstcase voltage: 2.23e-02 V
+Average voltage  : 3.32e-03 V
+Average IR drop  : 3.32e-03 V
+Worstcase IR drop: 2.23e-02 V
+Percentage drop  : 1.24 %
 ######################################
 Cell type report:                       Count       Area
-  Fill cell                             46502  289157.32
-  Tap cell                               7506    9391.51
-  Antenna cell                            210     525.50
-  Clock buffer                            406    8891.03
-  Timing Repair Buffer                   1078    8554.45
-  Inverter                                582    2518.67
-  Clock inverter                          207    2388.54
-  Sequential cell                        2787   78941.96
-  Multi-Input combinational cell        13051  165974.18
-  Total                                 72329  566343.17
+  Fill cell                             36695  216906.78
+  Tap cell                               6247    7816.25
+  Antenna cell                            223     558.04
+  Clock buffer                            401    8720.86
+  Timing Repair Buffer                   1123    8614.51
+  Inverter                                635    2787.67
+  Clock inverter                          192    2110.77
+  Sequential cell                        2787   78964.48
+  Multi-Input combinational cell        11653  148034.48
+  Total                                 59956  474513.85
 Report metrics stage 6, finish...
 
 ==========================================================================
 finish report_design_area
 --------------------------------------------------------------------------
-Design area 267794 u^2 47% utilization.
-Elapsed time: 0:50.83[h:]min:sec. CPU time: user 49.71 sys 0.80 (99%). Peak memory: 710236KB.
+Design area 249791 u^2 53% utilization.
+Elapsed time: 0:42.64[h:]min:sec. CPU time: user 41.82 sys 0.79 (99%). Peak memory: 687768KB.

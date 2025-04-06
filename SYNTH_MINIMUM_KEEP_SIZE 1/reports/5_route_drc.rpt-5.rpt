@@ -1,0 +1,27 @@
+violation type: Metal Spacing
+	srcs: net:net526
+	bbox = (120.1450, 231.8400) - (120.4350, 231.9350) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_05978_ inst:_14956_
+	bbox = (427.9600, 371.5700) - (428.1000, 371.6750) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_05978_ inst:_14956_
+	bbox = (427.9600, 371.5650) - (428.2100, 371.6750) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_05978_ inst:_14956_
+	bbox = (427.9600, 371.5700) - (428.2100, 371.6750) on Layer met1
+violation type: Short
+	srcs: net:_02889_ net:_05978_
+	bbox = (428.4200, 371.4300) - (428.5600, 371.5100) on Layer met1
+violation type: Short
+	srcs: net:_02889_ net:_05978_
+	bbox = (428.4200, 371.4300) - (428.5600, 371.5700) on Layer met1
+violation type: Short
+	srcs: net:_02889_ net:_05978_
+	bbox = (428.4200, 371.4300) - (428.5600, 371.5650) on Layer met1
+violation type: Short
+	srcs: net:_02889_ net:_05978_
+	bbox = (428.4100, 371.4300) - (428.7000, 371.5100) on Layer met1
+violation type: Short
+	srcs: net:_02889_ net:_05978_
+	bbox = (428.4100, 371.4300) - (428.7000, 371.5650) on Layer met1
