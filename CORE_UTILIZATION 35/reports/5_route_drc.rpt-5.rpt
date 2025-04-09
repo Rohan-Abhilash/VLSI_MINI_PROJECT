@@ -1,54 +1,27 @@
 violation type: Short
-	srcs: net:_01314_
-	bbox = (515.9900, 84.0800) - (516.1300, 84.5600) on Layer met1
+	srcs: net:_08374_ net:_12911_
+	bbox = (573.3200, 582.8600) - (573.4600, 583.0000) on Layer met1
 violation type: Short
-	srcs: net:net1087 net:_09132_
-	bbox = (514.8850, 85.4900) - (515.2100, 85.5800) on Layer met1
+	srcs: net:_08374_ net:_12911_
+	bbox = (572.6300, 582.8600) - (572.7700, 583.0000) on Layer met1
 violation type: Short
-	srcs: net:net1087 net:_09132_
-	bbox = (514.8850, 85.4900) - (515.1750, 85.6250) on Layer met1
+	srcs: net:_08374_ net:_12911_
+	bbox = (572.6300, 582.8600) - (573.4600, 583.0000) on Layer met1
 violation type: Short
-	srcs: net:net1087 net:_09132_
-	bbox = (514.8850, 85.4900) - (515.2100, 85.5500) on Layer met1
+	srcs: net:_08366_ net:_08512_
+	bbox = (572.9450, 584.2200) - (573.0750, 584.3600) on Layer met1
 violation type: Short
-	srcs: net:net1087 net:_09132_
-	bbox = (515.0700, 85.4900) - (515.1750, 85.6250) on Layer met1
-violation type: Short
-	srcs: net:net1087 net:_09132_
-	bbox = (515.0700, 85.4900) - (515.2100, 85.5800) on Layer met1
-violation type: Short
-	srcs: net:net1087 net:_09132_
-	bbox = (515.0700, 85.4900) - (515.2100, 85.5500) on Layer met1
-violation type: Short
-	srcs: net:net1087 net:_09132_
-	bbox = (514.8850, 85.4900) - (515.1750, 85.5900) on Layer met1
-violation type: Short
-	srcs: net:net1087 net:_09132_
-	bbox = (515.0700, 85.4900) - (515.1750, 85.5900) on Layer met1
-violation type: Short
-	srcs: net:_01314_ net:net1087
-	bbox = (513.0600, 84.7600) - (513.2000, 84.9450) on Layer met1
-violation type: Short
-	srcs: net:_01314_ net:net1087
-	bbox = (513.0600, 84.7600) - (513.2750, 84.9000) on Layer met1
-violation type: Short
-	srcs: net:_01314_ net:net1087
-	bbox = (513.0600, 84.7600) - (513.2000, 84.9000) on Layer met1
-violation type: Short
-	srcs: net:VDD net:_10771_
-	bbox = (512.1400, 86.8000) - (512.2800, 87.2800) on Layer met1
-violation type: Short
-	srcs: net:_01314_ net:VSS
-	bbox = (513.0600, 84.0800) - (513.2000, 84.5600) on Layer met1
-violation type: Short
-	srcs: net:_01314_ net:VSS
-	bbox = (515.9900, 84.0800) - (516.1300, 84.5600) on Layer met1
+	srcs: net:_08366_ net:_08512_
+	bbox = (572.9450, 584.1750) - (573.0750, 584.3600) on Layer met1
 violation type: Metal Spacing
-	srcs: net:clknet_leaf_213_clk net:_09132_
-	bbox = (515.2100, 85.6300) - (515.2700, 85.7200) on Layer met1
+	srcs: net:_12916_
+	bbox = (574.5850, 583.4000) - (574.6100, 583.4950) on Layer met1
 violation type: Metal Spacing
-	srcs: net:clknet_leaf_213_clk net:_09132_
-	bbox = (515.2100, 85.7200) - (515.2700, 85.9800) on Layer met1
+	srcs: net:_08366_ net:_12916_
+	bbox = (574.8450, 583.4000) - (574.9300, 583.4950) on Layer met1
 violation type: Metal Spacing
-	srcs: net:net1087 net:clknet_leaf_213_clk
-	bbox = (515.1750, 85.6250) - (515.2700, 85.7200) on Layer met1
+	srcs: net:_08366_ net:_12916_
+	bbox = (574.8500, 583.4000) - (574.9300, 583.4950) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_08366_
+	bbox = (565.8150, 585.8600) - (565.8700, 586.0750) on Layer met1

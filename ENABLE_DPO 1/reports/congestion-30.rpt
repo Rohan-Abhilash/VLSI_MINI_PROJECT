@@ -1,0 +1,4 @@
+violation type: Horizontal congestion
+	srcs: net:_02637_ net:_02640_ net:net503 net:net366 net:net359 net:_03184_ net:_03415_ net:_04834_ net:_05912_ net:_07617_ net:w\[10\]\[30\] net:w\[24\]\[6\] net:w\[26\]\[6\] net:w\[28\]\[6\] net:w\[30\]\[6\]
+	comment: capacity:14 usage:15 overflow:1
+	bbox = (62.1000, 579.6000) - (69.0000, 586.5000) on Layer -

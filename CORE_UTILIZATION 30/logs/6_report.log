@@ -1,4 +1,4 @@
-OpenROAD v2.0-17941-g7fb347f37 
+OpenROAD v2.0-19814-g250e48e05 
 Features included (+) or not (-): +GPU +GUI +Python
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
 Components of this program may be licensed under more restrictive licenses which must be honored.
@@ -8,24 +8,24 @@ Deleted 0 routing obstructions
 [INFO RCX-0029] Defined extraction corner X
 [INFO RCX-0435] Reading extraction model file /home/rohan/VLSI/OpenROAD-flow-scripts/flow/platforms/sky130hd/rcx_patterns.rules ...
 [INFO RCX-0436] RC segment generation sha256_unrolled_pipelined (max_merge_res 50.0) ...
-[INFO RCX-0040] Final 93167 rc segments
+[INFO RCX-0040] Final 91412 rc segments
 [INFO RCX-0439] Coupling Cap extraction sha256_unrolled_pipelined ...
 [INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
-[INFO RCX-0442] 55% of 206011 wires extracted
-[INFO RCX-0442] 100% of 206011 wires extracted
-[INFO RCX-0045] Extract 17918 nets, 111063 rsegs, 111063 caps, 230934 ccs
-[INFO RCX-0443] 17918 nets finished
+[INFO RCX-0442] 55% of 200321 wires extracted
+[INFO RCX-0442] 100% of 200321 wires extracted
+[INFO RCX-0045] Extract 17778 nets, 109165 rsegs, 109165 caps, 224669 ccs
+[INFO RCX-0443] 17778 nets finished
 [INFO PSM-0040] All shapes on net VDD are connected.
 [INFO PSM-0073] Using bump pattern with x-pitch 140.0000um, y-pitch 140.0000um, and size 70.0000um with an reduction factor of 3x.
 ########## IR report #################
 Net              : VDD
 Corner           : default
 Supply voltage   : 1.80e+00 V
-Worstcase voltage: 1.77e+00 V
+Worstcase voltage: 1.78e+00 V
 Average voltage  : 1.80e+00 V
-Average IR drop  : 2.32e-03 V
-Worstcase IR drop: 2.51e-02 V
-Percentage drop  : 1.40 %
+Average IR drop  : 1.90e-03 V
+Worstcase IR drop: 1.73e-02 V
+Percentage drop  : 0.96 %
 ######################################
 [INFO PSM-0040] All shapes on net VSS are connected.
 [INFO PSM-0073] Using bump pattern with x-pitch 140.0000um, y-pitch 140.0000um, and size 70.0000um with an reduction factor of 3x.
@@ -33,25 +33,27 @@ Percentage drop  : 1.40 %
 Net              : VSS
 Corner           : default
 Supply voltage   : 0.00e+00 V
-Worstcase voltage: 3.10e-02 V
-Average voltage  : 2.88e-03 V
-Average IR drop  : 2.88e-03 V
-Worstcase IR drop: 3.10e-02 V
-Percentage drop  : 1.72 %
+Worstcase voltage: 1.90e-02 V
+Average voltage  : 2.14e-03 V
+Average IR drop  : 2.14e-03 V
+Worstcase IR drop: 1.90e-02 V
+Percentage drop  : 1.06 %
 ######################################
 Cell type report:                       Count       Area
-  Antenna cell                            160     400.38
-  Clock buffer                            424    9008.64
-  Timing Repair Buffer                   1080   10811.62
-  Inverter                                658    2688.83
-  Clock inverter                          192    2213.37
-  Sequential cell                        2787   79283.54
-  Multi-Input combinational cell        11780  158200.48
-  Total                                 17081  262606.86
+  Fill cell                             65570  449521.13
+  Tap cell                               9516   11906.42
+  Antenna cell                            171     427.91
+  Clock buffer                            396    8603.25
+  Timing Repair Buffer                   1104    8365.52
+  Inverter                                635    2746.38
+  Clock inverter                          205    2399.80
+  Sequential cell                        2787   78930.70
+  Multi-Input combinational cell        11649  149231.88
+  Total                                 92033  712132.99
 Report metrics stage 6, finish...
 
 ==========================================================================
 finish report_design_area
 --------------------------------------------------------------------------
-Design area 274513 u^2 39% utilization.
-Elapsed time: 0:47.46[h:]min:sec. CPU time: user 44.43 sys 0.44 (94%). Peak memory: 718820KB.
+Design area 250705 u^2 35% utilization.
+Elapsed time: 0:47.29[h:]min:sec. CPU time: user 46.07 sys 0.87 (99%). Peak memory: 751916KB.

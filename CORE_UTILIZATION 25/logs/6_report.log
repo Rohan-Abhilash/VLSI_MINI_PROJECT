@@ -1,4 +1,4 @@
-OpenROAD v2.0-17941-g7fb347f37 
+OpenROAD v2.0-19814-g250e48e05 
 Features included (+) or not (-): +GPU +GUI +Python
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
 Components of this program may be licensed under more restrictive licenses which must be honored.
@@ -8,15 +8,15 @@ Deleted 0 routing obstructions
 [INFO RCX-0029] Defined extraction corner X
 [INFO RCX-0435] Reading extraction model file /home/rohan/VLSI/OpenROAD-flow-scripts/flow/platforms/sky130hd/rcx_patterns.rules ...
 [INFO RCX-0436] RC segment generation sha256_unrolled_pipelined (max_merge_res 50.0) ...
-[INFO RCX-0040] Final 93681 rc segments
+[INFO RCX-0040] Final 92073 rc segments
 [INFO RCX-0439] Coupling Cap extraction sha256_unrolled_pipelined ...
 [INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
-[INFO RCX-0442] 26% of 210621 wires extracted
-[INFO RCX-0442] 56% of 210621 wires extracted
-[INFO RCX-0442] 77% of 210621 wires extracted
-[INFO RCX-0442] 100% of 210621 wires extracted
-[INFO RCX-0045] Extract 17944 nets, 111603 rsegs, 111603 caps, 231073 ccs
-[INFO RCX-0443] 17944 nets finished
+[INFO RCX-0442] 29% of 205599 wires extracted
+[INFO RCX-0442] 56% of 205599 wires extracted
+[INFO RCX-0442] 79% of 205599 wires extracted
+[INFO RCX-0442] 100% of 205599 wires extracted
+[INFO RCX-0045] Extract 17811 nets, 109861 rsegs, 109861 caps, 227349 ccs
+[INFO RCX-0443] 17811 nets finished
 [INFO PSM-0040] All shapes on net VDD are connected.
 [INFO PSM-0073] Using bump pattern with x-pitch 140.0000um, y-pitch 140.0000um, and size 70.0000um with an reduction factor of 3x.
 ########## IR report #################
@@ -25,9 +25,9 @@ Corner           : default
 Supply voltage   : 1.80e+00 V
 Worstcase voltage: 1.78e+00 V
 Average voltage  : 1.80e+00 V
-Average IR drop  : 1.60e-03 V
-Worstcase IR drop: 1.54e-02 V
-Percentage drop  : 0.85 %
+Average IR drop  : 1.50e-03 V
+Worstcase IR drop: 1.64e-02 V
+Percentage drop  : 0.91 %
 ######################################
 [INFO PSM-0040] All shapes on net VSS are connected.
 [INFO PSM-0073] Using bump pattern with x-pitch 140.0000um, y-pitch 140.0000um, and size 70.0000um with an reduction factor of 3x.
@@ -35,25 +35,27 @@ Percentage drop  : 0.85 %
 Net              : VSS
 Corner           : default
 Supply voltage   : 0.00e+00 V
-Worstcase voltage: 1.93e-02 V
-Average voltage  : 2.02e-03 V
-Average IR drop  : 2.02e-03 V
-Worstcase IR drop: 1.93e-02 V
-Percentage drop  : 1.07 %
+Worstcase voltage: 1.74e-02 V
+Average voltage  : 1.79e-03 V
+Average IR drop  : 1.79e-03 V
+Worstcase IR drop: 1.74e-02 V
+Percentage drop  : 0.96 %
 ######################################
 Cell type report:                       Count       Area
-  Antenna cell                            159     397.88
-  Clock buffer                            425    9130.01
-  Timing Repair Buffer                   1104   11120.67
-  Inverter                                658    2677.57
-  Clock inverter                          201    2432.33
-  Sequential cell                        2787   79282.29
-  Multi-Input combinational cell        11778  158515.78
-  Total                                 17112  263556.52
+  Fill cell                             82192  587327.04
+  Tap cell                              11423   14292.46
+  Antenna cell                            226     565.54
+  Clock buffer                            406    8684.58
+  Timing Repair Buffer                   1143    8852.24
+  Inverter                                635    2788.92
+  Clock inverter                          180    2076.99
+  Sequential cell                        2787   78941.96
+  Multi-Input combinational cell        11650  149449.58
+  Total                                110642  852979.32
 Report metrics stage 6, finish...
 
 ==========================================================================
 finish report_design_area
 --------------------------------------------------------------------------
-Design area 277892 u^2 32% utilization.
-Elapsed time: 0:48.96[h:]min:sec. CPU time: user 46.57 sys 0.89 (96%). Peak memory: 786020KB.
+Design area 251360 u^2 29% utilization.
+Elapsed time: 0:49.63[h:]min:sec. CPU time: user 48.61 sys 0.87 (99%). Peak memory: 821852KB.

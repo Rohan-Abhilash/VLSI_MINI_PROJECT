@@ -1,4 +1,1332 @@
 violation type: Horizontal congestion
-	srcs: net:_00096_ net:_00124_ net:_09099_ net:net729 net:net348 net:net334 net:net276 net:net135 net:message[156] net:message[159] net:message[220] net:message[223] net:message[259] net:message[3] net:message[412] net:message[95] net:w\[12\]\[3\]
+	srcs: net:net915 net:_16927_ net:_17101_ net:net162 net:net1377 net:net1370 net:net1354 net:net1193 net:_25841_ net:_26550_ net:_26553_ net:w\[19\]\[10\] net:w\[21\]\[10\]
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (324.3000, 62.1000) - (331.2000, 69.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1001 net:_03097_ net:_03901_ net:_09259_ net:_09280_ net:_09352_ net:_09615_ net:_09634_ net:clknet_5_19__leaf_clk net:_22702_ net:_22705_ net:net1528 net:net1174 net:w\[54\]\[13\] net:w\[56\]\[13\]
+	comment: capacity:14 usage:15 overflow:1
+	bbox = (310.5000, 503.7000) - (317.4000, 510.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net894 net:net867 net:_16910_ net:_16997_ net:_17640_ net:_20633_ net:_20639_ net:net154 net:net149 net:net11 net:net1391 net:net1379 net:net1372 net:net1352 net:net1338 net:net1334 net:net1076 net:net1062
+	comment: capacity:16 usage:18 overflow:2
+	bbox = (255.3000, 27.6000) - (262.2000, 34.5000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_02891_ net:_04454_ net:_04468_ net:_06615_ net:_06616_ net:_17593_ net:net482 net:net396 net:net254 net:net183 net:net136 net:net1608 net:net1532 net:net1530 net:net1438 net:net1417 net:net1412 net:net1292 net:net1159 net:w\[10\]\[23\] net:w\[6\]\[2\] net:w\[8\]\[23\]
+	comment: capacity:21 usage:22 overflow:1
+	bbox = (448.5000, 683.1000) - (455.4000, 690.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04407_ net:_04409_ net:_06432_ net:_09568_ net:_16605_ net:net474 net:net275 net:net258 net:net188 net:net118 net:net110 net:net89 net:net39 net:_23102_ net:_23103_ net:net1522 net:net1499 net:net1434 net:net1419 net:net1159
+	comment: capacity:19 usage:20 overflow:1
+	bbox = (338.1000, 648.6000) - (345.0000, 655.5000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00116_ net:_00125_ net:net476 net:net388 net:net106 net:net104 net:net1611 net:net1303 net:net1213 net:net1141 net:w\[10\]\[30\] net:w\[12\]\[30\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (227.7000, 607.2000) - (234.6000, 614.1000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00116_ net:net1022 net:net961 net:net902 net:_04696_ net:_05511_ net:_09259_ net:_12603_ net:_12605_ net:_16783_ net:net412 net:net406 net:net343 net:net200 net:net122 net:net114 net:net1555 net:net1532 net:net1298 net:w\[24\]\[27\] net:w\[30\]\[27\]
+	comment: capacity:16 usage:21 overflow:5
+	bbox = (393.3000, 662.4000) - (400.2000, 669.3000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00116_ net:_02954_ net:net986 net:_03665_ net:_11579_ net:_11591_ net:_16540_ net:_16845_ net:net477 net:net412 net:net343 net:net248 net:net122 net:net114 net:net1554 net:net1497 net:net1135 net:net1099 net:net1056
+	comment: capacity:18 usage:19 overflow:1
+	bbox = (434.7000, 662.4000) - (441.6000, 669.3000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00124_ net:_00125_ net:_00127_ net:_00414_ net:_11286_ net:_11290_ net:_17500_ net:net494 net:net483 net:net480 net:net134 net:net53 net:net1545 net:net1532 net:net1412 net:w\[10\]\[7\] net:w\[4\]\[7\] net:w\[6\]\[20\] net:w\[8\]\[22\] net:w\[8\]\[7\]
+	comment: capacity:17 usage:20 overflow:3
+	bbox = (317.4000, 683.1000) - (324.3000, 690.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net894 net:net878 net:_17547_ net:_17556_ net:_17826_ net:net440 net:net310 net:net309 net:net283 net:net240 net:net229 net:net218 net:net168 net:net158 net:net153 net:net16
+	comment: capacity:14 usage:16 overflow:2
+	bbox = (296.7000, 20.7000) - (303.6000, 27.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00116_ net:net1022 net:_03506_ net:_09630_ net:_12194_ net:_12203_ net:net512 net:net347 net:net338 net:net111 net:net45 net:net1314 net:net1302 net:net1298 net:net1297 net:net1289
+	comment: capacity:15 usage:16 overflow:1
+	bbox = (351.9000, 669.3000) - (358.8000, 676.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net961 net:_04387_ net:_04389_ net:clknet_leaf_92_clk net:net479 net:_17800_ net:net406 net:net343 net:net336 net:net200 net:net127 net:net122 net:net114 net:_24616_ net:net1315 net:net1290 net:net1225 net:net1099 net:w\[26\]\[22\] net:w\[28\]\[22\] net:w\[30\]\[22\]
+	comment: capacity:19 usage:21 overflow:2
+	bbox = (338.1000, 662.4000) - (345.0000, 669.3000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00598_ net:_02891_ net:_03121_ net:_05521_ net:_08392_ net:_14078_ net:net482 net:net396 net:net136 net:net64 net:net1532 net:net1530 net:net1521 net:net1496 net:net1417 net:net1412 net:net1321 net:w\[4\]\[2\]
+	comment: capacity:17 usage:18 overflow:1
+	bbox = (469.2000, 683.1000) - (476.1000, 690.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00528_ net:_00655_ net:_04451_ net:clknet_5_29__leaf_clk net:clknet_leaf_137_clk net:net341 net:net198 net:net63 net:net57 net:net44 net:net23 net:net1522 net:net1497 net:net1321 net:net1291
+	comment: capacity:14 usage:15 overflow:1
+	bbox = (441.6000, 690.0000) - (448.5000, 696.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00117_ net:_00118_ net:net980 net:_04157_ net:clknet_5_23__leaf_clk net:clknet_leaf_83_clk net:_16660_ net:_16837_ net:net414 net:net391 net:net252 net:net177 net:net132 net:_22917_ net:net1524 net:net1500 net:net1137 net:net1091
+	comment: capacity:16 usage:18 overflow:2
+	bbox = (282.9000, 634.8000) - (289.8000, 641.7000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00065_ net:_00419_ net:net898 net:net878 net:net867 net:clknet_leaf_273_clk net:_16997_ net:_17547_ net:_17557_ net:net467 net:_18012_ net:net381 net:net298 net:net85
+	comment: capacity:12 usage:14 overflow:2
+	bbox = (310.5000, 13.8000) - (317.4000, 20.7000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net986 net:net950 net:_04680_ net:_04681_ net:_04685_ net:_09597_ net:_16809_ net:_16845_ net:net512 net:net487 net:net392 net:net325 net:net270 net:net250 net:net201 net:net186 net:net179 net:net12 net:net1556 net:net1555 net:_24600_ net:w\[10\]\[29\]
+	comment: capacity:19 usage:22 overflow:3
+	bbox = (407.1000, 676.2000) - (414.0000, 683.1000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00105_ net:_00127_ net:_00455_ net:clknet_leaf_141_clk net:_16570_ net:net263 net:net196 net:net128 net:net46 net:message[268] net:message[272] net:message[332] net:message[460] net:message[464] net:w\[8\]\[2\]
+	comment: capacity:11 usage:15 overflow:4
+	bbox = (510.6000, 696.9000) - (517.5000, 703.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00097_ net:_00528_ net:_00655_ net:clknet_leaf_137_clk net:_17686_ net:net445 net:net397 net:net341 net:net320 net:net107 net:net63 net:net57 net:net44 net:net23 net:net1321 net:net1291 net:w\[12\]\[23\]
+	comment: capacity:14 usage:17 overflow:3
+	bbox = (434.7000, 690.0000) - (441.6000, 696.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00116_ net:_16725_ net:net503 net:_17901_ net:_18058_ net:_18089_ net:net346 net:net266 net:net253 net:net120 net:net109 net:net62 net:net58 net:net49
+	comment: capacity:13 usage:14 overflow:1
+	bbox = (296.7000, 690.0000) - (303.6000, 696.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00124_ net:_00125_ net:_00126_ net:_00127_ net:_00148_ net:_16440_ net:net485 net:net483 net:_17872_ net:net397 net:net326 net:net255 net:net250 net:net204 net:net1530 net:net1491 net:net1412
+	comment: capacity:14 usage:17 overflow:3
+	bbox = (386.4000, 690.0000) - (393.3000, 696.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net896 net:net865 net:_17026_ net:_17156_ net:net452 net:net441 net:net438 net:_18105_ net:net285 net:net170 net:message[316] net:message[60]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (282.9000, 6.9000) - (289.8000, 13.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net510 net:net444 net:net441 net:net433 net:net362 net:net295 net:net228 net:net170 net:net169 net:net86 net:message[169] net:message[188] net:message[290] net:message[356] net:message[369] net:message[41] net:message[433] net:message[494]
+	comment: capacity:17 usage:18 overflow:1
+	bbox = (296.7000, 0.0000) - (303.6000, 6.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00127_ net:_03609_ net:_16440_ net:net499 net:_17965_ net:net445 net:net399 net:net327 net:net167 net:net116 net:net59 net:net37 net:net23 net:w\[10\]\[9\]
+	comment: capacity:13 usage:14 overflow:1
+	bbox = (393.3000, 696.9000) - (400.2000, 703.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net930 net:net909 net:_09280_ net:_16845_ net:net1562 net:net1501 net:net1489 net:_24634_ net:net1444 net:net1414 net:_24731_ net:_27709_ net:reset_hash
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (441.6000, 524.4000) - (448.5000, 531.3000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00015_ net:_00125_ net:net1039 net:_02898_ net:net1022 net:_05497_ net:_09280_ net:net426 net:net420 net:net1521 net:net1496 net:net1301 net:net1159 net:net1157 net:net1099 net:w\[0\]\[29\]
+	comment: capacity:15 usage:16 overflow:1
+	bbox = (483.0000, 655.5000) - (489.9000, 662.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00124_ net:_00125_ net:net485 net:net483 net:net397 net:net326 net:net255 net:net1530 net:net1491 net:net1412 net:w\[10\]\[27\]
+	comment: capacity:9 usage:11 overflow:2
+	bbox = (393.3000, 690.0000) - (400.2000, 696.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00124_ net:net1039 net:_02910_ net:net1022 net:net951 net:_04447_ net:_09562_ net:_15100_ net:_16809_ net:net484 net:_17965_ net:net328 net:net325 net:net1555 net:net1297 net:net1157 net:w\[24\]\[23\]
+	comment: capacity:15 usage:17 overflow:2
+	bbox = (455.4000, 669.3000) - (462.3000, 676.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net902 net:_04283_ net:_10517_ net:net479 net:net406 net:net343 net:net200 net:net122 net:net114 net:net1532 net:_24616_ net:net1315 net:w\[30\]\[20\]
+	comment: capacity:11 usage:13 overflow:2
+	bbox = (365.7000, 662.4000) - (372.6000, 669.3000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net900 net:net878 net:net867 net:_11398_ net:_14225_ net:_17640_ net:net431 net:net354 net:net290 net:net239 net:net154 net:net149 net:net1588 net:net1469 net:net1391 net:net1372 net:net1338 net:net1334 net:_26114_ net:net1076 net:net1062 net:w\[15\]\[4\] net:w\[3\]\[5\]
+	comment: capacity:21 usage:23 overflow:2
+	bbox = (276.0000, 27.6000) - (282.9000, 34.5000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00065_ net:net987 net:net966 net:_05005_ net:_08958_ net:_08963_ net:_14228_ net:net425 net:net383 net:net382 net:net361 net:net291 net:net96 net:net1573 net:net1455 net:net1372 net:net1262 net:_26114_ net:_26115_
+	comment: capacity:18 usage:19 overflow:1
+	bbox = (282.9000, 34.5000) - (289.8000, 41.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00655_ net:net1039 net:_03139_ net:_10596_ net:_10599_ net:_17593_ net:net491 net:_17686_ net:_18058_ net:net339 net:net223 net:net198 net:net117 net:net65 net:net1496 net:net1321 net:message[285] net:message[413] net:w\[12\]\[2\]
+	comment: capacity:18 usage:19 overflow:1
+	bbox = (496.8000, 690.0000) - (503.7000, 696.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00019_ net:net1038 net:_02944_ net:_02945_ net:_02953_ net:net1000 net:_04458_ net:_04461_ net:_09352_ net:_16837_ net:net193 net:net41 net:net1555 net:net1522 net:net1496 net:net1438 net:net1417 net:net1301 net:net1159 net:w\[22\]\[23\]
+	comment: capacity:19 usage:20 overflow:1
+	bbox = (441.6000, 648.6000) - (448.5000, 655.5000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net902 net:_09352_ net:net479 net:net406 net:net343 net:net200 net:net122 net:net114 net:_24616_ net:net1315 net:net1099
+	comment: capacity:10 usage:11 overflow:1
+	bbox = (358.8000, 662.4000) - (365.7000, 669.3000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00105_ net:_00124_ net:_00170_ net:_05511_ net:_16660_ net:net494 net:net480 net:_17779_ net:_17872_ net:_17965_ net:_18058_ net:net410 net:net394 net:net269 net:net174 net:net53 net:w\[6\]\[20\]
 	comment: capacity:16 usage:17 overflow:1
-	bbox = (393.3000, 0.0000) - (400.2000, 6.9000) on Layer -
+	bbox = (282.9000, 683.1000) - (289.8000, 690.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00126_ net:_17715_ net:net417 net:net416 net:net407 net:net271 net:net266 net:net203 net:net184 net:net181
+	comment: capacity:9 usage:10 overflow:1
+	bbox = (338.1000, 696.9000) - (345.0000, 703.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net900 net:net878 net:net867 net:_07440_ net:_14223_ net:_17640_ net:net431 net:net354 net:net290 net:net239 net:_20557_ net:net154 net:net149 net:net1617 net:net1588 net:net1379 net:net1334 net:net1185 net:net1076 net:net1062 net:_26802_ net:w\[13\]\[15\] net:w\[3\]\[5\]
+	comment: capacity:20 usage:23 overflow:3
+	bbox = (282.9000, 27.6000) - (289.8000, 34.5000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00014_ net:_00096_ net:_02954_ net:net985 net:_03974_ net:_10608_ net:_10609_ net:_13945_ net:_16837_ net:_17965_ net:net234 net:net175 net:_22783_ net:net1292 net:net1220 net:net1082 net:hash.CA1.w_i1\[13\] net:hash.CA1.w_i1\[16\] net:hash.CA1.w_i1\[7\]
+	comment: capacity:18 usage:19 overflow:1
+	bbox = (483.0000, 614.1000) - (489.9000, 621.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00124_ net:_00125_ net:_00127_ net:_00414_ net:_00591_ net:_00606_ net:clknet_leaf_89_clk net:_17500_ net:net494 net:net483 net:net480 net:_17779_ net:net53 net:w\[10\]\[7\] net:w\[6\]\[20\]
+	comment: capacity:13 usage:15 overflow:2
+	bbox = (310.5000, 683.1000) - (317.4000, 690.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_02891_ net:_07818_ net:_09597_ net:_11210_ net:_11218_ net:net392 net:net318 net:net270 net:net254 net:net250 net:net183 net:net179 net:_22104_ net:net12 net:_22567_ net:net1554 net:net1496 net:w\[0\]\[9\] net:w\[10\]\[29\] net:w\[12\]\[29\] net:w\[8\]\[29\]
+	comment: capacity:18 usage:21 overflow:3
+	bbox = (476.1000, 676.2000) - (483.0000, 683.1000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00097_ net:_02891_ net:_03991_ net:_05521_ net:_06897_ net:_16876_ net:net1293 net:net1210 net:net1160 net:net1098 net:net1096 net:w\[18\]\[2\] net:w\[22\]\[2\]
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (441.6000, 621.0000) - (448.5000, 627.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1037 net:net1000 net:net981 net:_03952_ net:_04407_ net:_06433_ net:_09579_ net:_11294_ net:_14993_ net:net492 net:net481 net:net337 net:net272 net:net51 net:net42 net:net40 net:net1315 net:net1296 net:net1224 net:net1156 net:w\[22\]\[22\]
+	comment: capacity:18 usage:21 overflow:3
+	bbox = (338.1000, 641.7000) - (345.0000, 648.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_09259_ net:_09597_ net:_16845_ net:net392 net:net270 net:net250 net:net186 net:net179 net:net42 net:net12 net:_22487_ net:net1555 net:net1531 net:net1521 net:net1437 net:net1298 net:net1225 net:w\[0\]\[9\] net:w\[10\]\[29\] net:w\[6\]\[9\]
+	comment: capacity:19 usage:20 overflow:1
+	bbox = (434.7000, 676.2000) - (441.6000, 683.1000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net357 net:_20639_ net:net141 net:net1588 net:_24571_ net:net1352 net:net1263 net:net1194 net:net1104 net:_26201_ net:_26203_ net:_26204_ net:w\[17\]\[5\]
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (255.3000, 69.0000) - (262.2000, 75.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00116_ net:_02929_ net:net986 net:net949 net:_05538_ net:_09352_ net:net402 net:net398 net:net330 net:net260 net:net118 net:_24616_ net:net1417 net:net1225 net:net1159 net:net1156 net:w\[6\]\[21\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (407.1000, 655.5000) - (414.0000, 662.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00096_ net:clknet_leaf_134_clk net:net492 net:net272 net:net252 net:net51 net:net42 net:net1530 net:net1497 net:net1419 net:net1302 net:net1210 net:_25850_ net:net1091 net:net1084
+	comment: capacity:13 usage:15 overflow:2
+	bbox = (400.2000, 641.7000) - (407.1000, 648.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00125_ net:_02910_ net:_03353_ net:_08599_ net:_08600_ net:_09579_ net:net476 net:net388 net:net106 net:net104 net:net1611 net:net1527 net:net1412 net:net1223 net:net1141 net:w\[2\]\[5\] net:w\[6\]\[5\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (255.3000, 607.2000) - (262.2000, 614.1000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00096_ net:_09579_ net:_12140_ net:net492 net:_17779_ net:net272 net:net51 net:net42 net:net1533 net:net1419 net:net1210 net:net1156 net:w\[30\]\[14\]
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (358.8000, 641.7000) - (365.7000, 648.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00105_ net:_00125_ net:_00127_ net:net500 net:net494 net:_17974_ net:net394 net:net266 net:net253 net:net53
+	comment: capacity:9 usage:10 overflow:1
+	bbox = (255.3000, 683.1000) - (262.2000, 690.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1039 net:_02898_ net:net1022 net:net986 net:_03622_ net:_09259_ net:_09562_ net:_09630_ net:_12727_ net:_12731_ net:_16809_ net:_17500_ net:net484 net:_17965_ net:net328 net:net325 net:_22510_ net:net1417 net:net1320 net:net1298 net:net1297
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (420.9000, 669.3000) - (427.8000, 676.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net907 net:_09260_ net:_15084_ net:_22774_ net:_23433_ net:net1322 net:net1301 net:net1296 net:_25850_ net:hash.CA1.w_i1\[12\] net:hash.CA1.w_i1\[20\] net:w\[20\]\[11\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (448.5000, 634.8000) - (455.4000, 641.7000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net898 net:net894 net:_16997_ net:_17036_ net:_17919_ net:_17928_ net:net444 net:_18012_ net:_18022_ net:_18034_ net:_18105_ net:net76 net:message[429]
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (276.0000, 13.8000) - (282.9000, 20.7000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00097_ net:net950 net:_03509_ net:_05521_ net:_08732_ net:_08733_ net:_09259_ net:clknet_5_23__leaf_clk net:net487 net:_18058_ net:net323 net:net264 net:net201 net:net186 net:net156 net:net129 net:net47 net:net1532 net:net1419 net:net408 net:w\[0\]\[7\] net:w\[4\]\[7\]
+	comment: capacity:19 usage:22 overflow:3
+	bbox = (351.9000, 676.2000) - (358.8000, 683.1000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00126_ net:net1000 net:net974 net:net953 net:net951 net:_04700_ net:_04737_ net:_09893_ net:_14858_ net:_15468_ net:_16616_ net:_16876_ net:_24483_ net:net1533 net:_24576_ net:net1211 net:net1176 net:net1160 net:w\[20\]\[27\]
+	comment: capacity:17 usage:19 overflow:2
+	bbox = (407.1000, 579.6000) - (414.0000, 586.5000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00636_ net:net309 net:net299 net:net283 net:net229 net:net218 net:net212 net:net168 net:net158 net:net153 net:net86 net:net16 net:net1352
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (269.1000, 20.7000) - (276.0000, 27.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_01418_ net:_09280_ net:_09352_ net:_09579_ net:clknet_leaf_126_clk net:_13670_ net:_13681_ net:_16440_ net:net1490 net:net1298 net:net1155 net:net1135 net:net1082 net:hash.CA1.w_i1\[10\] net:hash.CA1.w_i1\[30\] net:w\[28\]\[0\]
+	comment: capacity:15 usage:16 overflow:1
+	bbox = (483.0000, 586.5000) - (489.9000, 593.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00124_ net:_01497_ net:_03730_ net:_03738_ net:_09562_ net:_13160_ net:_16825_ net:net506 net:_18058_ net:net350 net:net1298 net:w\[0\]\[29\] net:w\[30\]\[23\] net:w\[4\]\[29\]
+	comment: capacity:13 usage:14 overflow:1
+	bbox = (503.7000, 669.3000) - (510.6000, 676.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1037 net:net982 net:net950 net:net913 net:_04703_ net:_04705_ net:_08868_ net:clknet_leaf_131_clk net:_15449_ net:_22787_ net:_23359_ net:net1518 net:net1497 net:net1411 net:net1319 net:net1290 net:net1154 net:net1082 net:hash.CA1.w_i1\[5\] net:hash.CA1.w_i1\[6\] net:w\[22\]\[27\]
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (407.1000, 593.4000) - (414.0000, 600.3000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net900 net:net898 net:_17112_ net:_17576_ net:_17640_ net:_17733_ net:_17826_ net:net429 net:_18105_ net:net232 net:net150 net:net97 net:message[107] net:message[122]
+	comment: capacity:13 usage:14 overflow:1
+	bbox = (338.1000, 6.9000) - (345.0000, 13.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00096_ net:net951 net:_04323_ net:_06032_ net:_06034_ net:_09579_ net:clknet_5_23__leaf_clk net:net492 net:net272 net:net51 net:net42 net:net1433 net:net1419 net:net1210 net:_25850_ net:net1091
+	comment: capacity:15 usage:16 overflow:1
+	bbox = (379.5000, 641.7000) - (386.4000, 648.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00116_ net:net1022 net:net986 net:net961 net:_03479_ net:_03511_ net:_09259_ net:_09630_ net:net512 net:net347 net:net338 net:net336 net:net328 net:net111 net:net45 net:net1545 net:_24600_ net:net1314 net:net1302 net:net1298 net:net1297 net:net1156
+	comment: capacity:21 usage:22 overflow:1
+	bbox = (358.8000, 669.3000) - (365.7000, 676.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_17826_ net:net440 net:net310 net:net309 net:net299 net:net283 net:net240 net:net229 net:net218 net:net212 net:net168 net:net158 net:net153 net:net86 net:net16 net:net1352 net:net1338
+	comment: capacity:14 usage:17 overflow:3
+	bbox = (282.9000, 20.7000) - (289.8000, 27.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_08958_ net:_16910_ net:_17047_ net:_17086_ net:_24800_ net:_25826_ net:_26355_ net:w\[33\]\[7\] net:w\[47\]\[7\]
+	comment: capacity:8 usage:9 overflow:1
+	bbox = (407.1000, 248.4000) - (414.0000, 255.3000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net510 net:net371 net:net368 net:net362 net:net356 net:net295 net:net214 net:net77 net:net28 net:message[105] net:message[162] net:message[164] net:message[173] net:message[228] net:message[302] net:message[46] net:message[484] net:message[493] net:message[508]
+	comment: capacity:17 usage:19 overflow:2
+	bbox = (269.1000, 0.0000) - (276.0000, 6.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00017_ net:_02910_ net:_04378_ net:_05538_ net:_14839_ net:_14840_ net:_16712_ net:_16824_ net:_17872_ net:net1497 net:_24600_ net:net1290 net:net1135 net:hash.CA1.w_i1\[17\]
+	comment: capacity:13 usage:14 overflow:1
+	bbox = (386.4000, 600.3000) - (393.3000, 607.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_09259_ net:_09597_ net:_16845_ net:_17500_ net:net392 net:net270 net:net250 net:net186 net:net179 net:net42 net:net12 net:_22491_ net:net1555 net:net1531 net:net1521 net:net1437 net:net1298 net:net1225 net:w\[0\]\[9\] net:w\[10\]\[29\] net:w\[6\]\[9\]
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (427.8000, 676.2000) - (434.7000, 683.1000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_02953_ net:net986 net:net949 net:_03097_ net:_14834_ net:_16837_ net:_16845_ net:net258 net:net193 net:net188 net:net118 net:net89 net:_23076_ net:net1522 net:_24608_ net:net1314 net:net1177 net:net1156 net:net1099 net:net1084 net:w\[0\]\[21\] net:w\[10\]\[21\]
+	comment: capacity:21 usage:22 overflow:1
+	bbox = (386.4000, 648.6000) - (393.3000, 655.5000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00414_ net:_02891_ net:_03495_ net:_08737_ net:_09429_ net:_09597_ net:_17500_ net:net494 net:net483 net:net480 net:net53 net:_22389_ net:net1545 net:net1530 net:net1499 net:net1491 net:net1433 net:net1417 net:net1412 net:w\[4\]\[7\] net:w\[6\]\[20\]
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (338.1000, 683.1000) - (345.0000, 690.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00318_ net:net961 net:_05538_ net:_09597_ net:_16845_ net:_16861_ net:net479 net:_18058_ net:net406 net:net343 net:net336 net:net200 net:net189 net:net127 net:net124 net:net122 net:net1225 net:w\[24\]\[22\]
+	comment: capacity:15 usage:18 overflow:3
+	bbox = (317.4000, 662.4000) - (324.3000, 669.3000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net896 net:net865 net:_17026_ net:_17826_ net:net452 net:net441 net:net438 net:net400 net:net366 net:net285 net:net170 net:message[292] net:message[316] net:message[60]
+	comment: capacity:13 usage:14 overflow:1
+	bbox = (276.0000, 6.9000) - (282.9000, 13.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net894 net:_06562_ net:clknet_5_2__leaf_clk net:net460 net:_17919_ net:net440 net:net310 net:net309 net:net298 net:net240 net:_20932_ net:_20933_ net:_20934_ net:net158 net:net16 net:net1592 net:net1591 net:net1354 net:net1339 net:net1334
+	comment: capacity:18 usage:20 overflow:2
+	bbox = (324.3000, 20.7000) - (331.2000, 27.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00097_ net:net503 net:net496 net:net488 net:_17686_ net:_17901_ net:net403 net:net344 net:net321 net:net316 net:net266 net:net253 net:net120 net:net109 net:net62 net:net58 net:net49
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (276.0000, 690.0000) - (282.9000, 696.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00398_ net:net951 net:_06020_ net:_06023_ net:clknet_leaf_92_clk net:_10896_ net:net402 net:net398 net:net330 net:net260 net:_24592_ net:net1433 net:net1314 net:net1302 net:net1289 net:net1159 net:w\[0\]\[21\]
+	comment: capacity:15 usage:17 overflow:2
+	bbox = (379.5000, 655.5000) - (386.4000, 662.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net981 net:_04326_ net:_12710_ net:_17779_ net:net414 net:net185 net:_24483_ net:net1532 net:_24567_ net:_24584_ net:net1315 net:hash.CA1.w_i1\[12\] net:hash.CA1.w_i1\[20\]
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (407.1000, 634.8000) - (414.0000, 641.7000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00116_ net:_04397_ net:_06422_ net:_16440_ net:net503 net:net502 net:net397 net:net394 net:net326 net:net255 net:net253 net:net109 net:net62 net:net58 net:_23096_ net:net1523 net:net1499 net:net1419 net:w\[12\]\[22\]
+	comment: capacity:18 usage:19 overflow:1
+	bbox = (324.3000, 690.0000) - (331.2000, 696.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net900 net:net896 net:net865 net:_16997_ net:_18105_ net:net354 net:net300 net:net299 net:net283 net:net158 net:net143
+	comment: capacity:10 usage:11 overflow:1
+	bbox = (227.7000, 13.8000) - (234.6000, 20.7000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00007_ net:_00123_ net:_00126_ net:_05501_ net:_08594_ net:_11625_ net:_11629_ net:_13355_ net:_17636_ net:net274 net:net132 net:net110 net:_22292_ net:net1524 net:net1422 net:net1309 net:net1303 net:net1297 net:w\[10\]\[5\] net:w\[2\]\[13\] net:w\[8\]\[5\]
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (255.3000, 621.0000) - (262.2000, 627.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00116_ net:net980 net:_04149_ net:_05547_ net:_09475_ net:_09597_ net:clknet_5_23__leaf_clk net:_16524_ net:_17500_ net:net479 net:net404 net:net246 net:net200 net:net197 net:net189 net:net127 net:net124 net:net118 net:net1422 net:w\[0\]\[18\]
+	comment: capacity:18 usage:20 overflow:2
+	bbox = (282.9000, 662.4000) - (289.8000, 669.3000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00097_ net:net1037 net:net985 net:_03165_ net:_03167_ net:_03168_ net:_03991_ net:_05521_ net:_05554_ net:_06897_ net:_10583_ net:_16876_ net:net1322 net:net1210 net:net1160 net:net1098 net:net1096 net:w\[22\]\[2\]
+	comment: capacity:17 usage:18 overflow:1
+	bbox = (448.5000, 621.0000) - (455.4000, 627.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00025_ net:_01354_ net:net1038 net:net1017 net:net1000 net:_04223_ net:_05521_ net:_09438_ net:clknet_2_3_0_clk net:_14569_ net:_16861_ net:net1440 net:net1415 net:net1294 net:_25850_ net:net1151 net:hash.CA1.w_i1\[18\] net:hash.CA1.w_i1\[4\]
+	comment: capacity:17 usage:18 overflow:1
+	bbox = (489.9000, 565.8000) - (496.8000, 572.7000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00017_ net:_02910_ net:_02929_ net:net1000 net:net954 net:_03480_ net:_05538_ net:_05554_ net:_06688_ net:_08741_ net:_08747_ net:clknet_leaf_95_clk net:_16824_ net:_16876_ net:_17872_ net:_22395_ net:net1160 net:hash.CA1.w_i1\[17\] net:w\[30\]\[7\]
+	comment: capacity:18 usage:19 overflow:1
+	bbox = (365.7000, 600.3000) - (372.6000, 607.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00414_ net:_03488_ net:_08738_ net:_09436_ net:_09597_ net:_17500_ net:net494 net:net483 net:net480 net:net124 net:net53 net:_22389_ net:net1530 net:net1523 net:net1499 net:net1491 net:net1433 net:net1417 net:net1412 net:w\[2\]\[20\] net:w\[4\]\[7\] net:w\[6\]\[20\]
+	comment: capacity:21 usage:22 overflow:1
+	bbox = (345.0000, 683.1000) - (351.9000, 690.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00124_ net:_09562_ net:_16616_ net:_17593_ net:net491 net:_17686_ net:_17872_ net:_18058_ net:net405 net:net339 net:net223 net:net117 net:net65 net:message[285] net:message[413] net:w\[12\]\[2\]
+	comment: capacity:15 usage:16 overflow:1
+	bbox = (510.6000, 690.0000) - (517.5000, 696.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00097_ net:_06418_ net:_11287_ net:net487 net:net274 net:net264 net:net201 net:net156 net:net129 net:net125 net:net47 net:_23093_ net:net1530 net:net1523 net:net1499 net:net1491 net:net408 net:w\[2\]\[22\] net:w\[4\]\[22\]
+	comment: capacity:18 usage:19 overflow:1
+	bbox = (317.4000, 676.2000) - (324.3000, 683.1000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00096_ net:_00318_ net:net961 net:_05521_ net:net502 net:_17779_ net:net402 net:net395 net:net330 net:net260 net:net204 net:net134 net:net1530 net:net1412 net:net1225 net:net1156 net:w\[6\]\[14\]
+	comment: capacity:14 usage:17 overflow:3
+	bbox = (310.5000, 655.5000) - (317.4000, 662.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00096_ net:_02945_ net:net949 net:_09579_ net:_12140_ net:_12142_ net:net492 net:net481 net:net337 net:net272 net:net51 net:net42 net:net1533 net:net1224 net:net1210 net:net1156 net:w\[30\]\[14\]
+	comment: capacity:15 usage:17 overflow:2
+	bbox = (351.9000, 641.7000) - (358.8000, 648.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00598_ net:_03121_ net:_05511_ net:_08400_ net:_14078_ net:net482 net:net396 net:net64 net:_22095_ net:net1531 net:net1521 net:net1496 net:net1437 net:net1417 net:net1412 net:net1321 net:w\[0\]\[2\] net:w\[4\]\[2\] net:w\[8\]\[29\]
+	comment: capacity:17 usage:19 overflow:2
+	bbox = (476.1000, 683.1000) - (483.0000, 690.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net898 net:net894 net:_16997_ net:_17036_ net:_17919_ net:net444 net:_18012_ net:_18022_ net:_18034_ net:net76 net:message[429]
+	comment: capacity:10 usage:11 overflow:1
+	bbox = (282.9000, 13.8000) - (289.8000, 20.7000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00096_ net:net1037 net:net949 net:_09352_ net:_17779_ net:net402 net:net395 net:net330 net:net260 net:net249 net:net204 net:_24608_ net:w\[8\]\[14\]
+	comment: capacity:11 usage:13 overflow:2
+	bbox = (338.1000, 655.5000) - (345.0000, 662.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_16440_ net:_16828_ net:_17872_ net:net338 net:net323 net:net269 net:net262 net:net61 net:net55 net:net1524 net:net1500 net:net1492 net:w\[10\]\[4\]
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (255.3000, 669.3000) - (262.2000, 676.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00031_ net:_00116_ net:_02954_ net:net986 net:_11590_ net:_16540_ net:_16845_ net:net477 net:net412 net:net343 net:net248 net:net114 net:net1554 net:net1497 net:net1225 net:net1135 net:net1056 net:w\[2\]\[9\]
+	comment: capacity:17 usage:18 overflow:1
+	bbox = (441.6000, 662.4000) - (448.5000, 669.3000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1022 net:net961 net:_04679_ net:_09259_ net:_09562_ net:_09630_ net:_15455_ net:_15466_ net:_16540_ net:_17500_ net:net484 net:net328 net:net200 net:net1417 net:net1320 net:net1302 net:net1298 net:net1297 net:net1292 net:w\[0\]\[27\] net:w\[24\]\[9\] net:w\[2\]\[27\]
+	comment: capacity:20 usage:22 overflow:2
+	bbox = (407.1000, 669.3000) - (414.0000, 676.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00096_ net:_08855_ net:_16876_ net:net492 net:net272 net:net252 net:net51 net:net42 net:_22503_ net:_23354_ net:net1530 net:net1522 net:net1419 net:net1302 net:net1210 net:_25850_ net:net1082 net:w\[16\]\[9\] net:w\[22\]\[9\]
+	comment: capacity:18 usage:19 overflow:1
+	bbox = (407.1000, 641.7000) - (414.0000, 648.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1017 net:net982 net:_04458_ net:_06909_ net:clknet_5_29__leaf_clk net:_12735_ net:net272 net:net252 net:_23151_ net:net1532 net:net1530 net:net1522 net:net1322 net:net1292 net:net1177 net:net1082 net:w\[16\]\[23\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (434.7000, 641.7000) - (441.6000, 648.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00015_ net:net1022 net:net949 net:_03733_ net:_05497_ net:_05760_ net:_11226_ net:_11228_ net:_16837_ net:net426 net:net420 net:net1555 net:_24608_ net:net1292 net:net1159 net:net1157 net:net1135 net:net1099 net:w\[24\]\[11\] net:w\[30\]\[11\]
+	comment: capacity:19 usage:20 overflow:1
+	bbox = (469.2000, 655.5000) - (476.1000, 662.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00127_ net:_00451_ net:_00459_ net:_16570_ net:_17593_ net:_17621_ net:_17965_ net:net329 net:net263 net:message[268] net:message[272] net:message[460] net:w\[8\]\[2\]
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (517.5000, 696.9000) - (524.4000, 703.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1030 net:_02910_ net:net1000 net:_04156_ net:_04161_ net:_09438_ net:_09579_ net:_14399_ net:_16845_ net:_16861_ net:net481 net:net393 net:net274 net:net249 net:net40 net:net1611 net:_22918_ net:_22929_ net:_24592_ net:net1303 net:net1288
+	comment: capacity:19 usage:21 overflow:2
+	bbox = (282.9000, 641.7000) - (289.8000, 648.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00124_ net:_04686_ net:_07493_ net:_12597_ net:_12599_ net:net485 net:net483 net:net445 net:net397 net:net326 net:net57 net:net23 net:net1555 net:net1530 net:net1491 net:net1438 net:net1417 net:net1412 net:w\[10\]\[27\] net:w\[12\]\[27\]
+	comment: capacity:19 usage:20 overflow:1
+	bbox = (400.2000, 690.0000) - (407.1000, 696.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net987 net:net966 net:_08958_ net:_09689_ net:_16901_ net:_16910_ net:net431 net:net1617 net:net1573 net:net1473 net:net1397 net:net1377 net:net1262 net:_25723_ net:net1243 net:net1076 net:_26567_ net:_26571_ net:net1062 net:w\[11\]\[11\] net:w\[13\]\[11\]
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (324.3000, 27.6000) - (331.2000, 34.5000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00007_ net:_00120_ net:net955 net:_17636_ net:net334 net:net274 net:net132 net:net110 net:net1524 net:_24584_ net:net1303 net:net1297 net:w\[2\]\[13\]
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (269.1000, 621.0000) - (276.0000, 627.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net986 net:_04447_ net:_05521_ net:_09630_ net:_13086_ net:_13087_ net:_13099_ net:_16809_ net:net412 net:net248 net:net114 net:_23432_ net:net1554 net:net1531 net:net1521 net:net1417 net:net1321 net:net1297 net:w\[2\]\[9\] net:w\[4\]\[29\]
+	comment: capacity:18 usage:20 overflow:2
+	bbox = (483.0000, 662.4000) - (489.9000, 669.3000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_02954_ net:net986 net:_04447_ net:_05521_ net:_09630_ net:_13100_ net:_16540_ net:_16845_ net:_16861_ net:net412 net:net248 net:net114 net:_23433_ net:net1554 net:net1531 net:net1521 net:net1438 net:net1417 net:net1297 net:w\[2\]\[9\]
+	comment: capacity:19 usage:20 overflow:1
+	bbox = (469.2000, 662.4000) - (476.1000, 669.3000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00124_ net:net1039 net:_02898_ net:_02910_ net:net951 net:_09259_ net:_09562_ net:clknet_leaf_139_clk net:_13160_ net:_13168_ net:_16809_ net:net350 net:net328 net:net325 net:net1555 net:net1531 net:net1437 net:net1320 net:w\[30\]\[23\]
+	comment: capacity:18 usage:19 overflow:1
+	bbox = (469.2000, 669.3000) - (476.1000, 676.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00065_ net:net848 net:_05005_ net:_05021_ net:_07447_ net:clknet_2_0_0_clk net:net296 net:net6 net:_24596_ net:_24612_ net:net1451 net:net1354 net:net1244 net:net1116 net:_26816_ net:_26817_ net:w\[31\]\[15\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (282.9000, 55.2000) - (289.8000, 62.1000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00116_ net:_00125_ net:_00127_ net:net1022 net:net961 net:_12202_ net:_16440_ net:net503 net:net485 net:_17686_ net:net397 net:net394 net:net326 net:net255 net:net253 net:net109 net:net62 net:net58 net:net1523 net:net1314 net:w\[10\]\[20\] net:w\[12\]\[7\]
+	comment: capacity:19 usage:22 overflow:3
+	bbox = (338.1000, 690.0000) - (345.0000, 696.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00116_ net:_00133_ net:net503 net:net397 net:net394 net:net266 net:net253 net:net109 net:net62 net:net58 net:w\[14\]\[22\]
+	comment: capacity:9 usage:11 overflow:2
+	bbox = (310.5000, 690.0000) - (317.4000, 696.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_03609_ net:clknet_leaf_135_clk net:net499 net:_17887_ net:_17965_ net:net399 net:net327 net:net167 net:net116 net:net59 net:net37 net:net23 net:w\[10\]\[9\]
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (386.4000, 696.9000) - (393.3000, 703.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00124_ net:_00310_ net:net1039 net:_02910_ net:net951 net:_04800_ net:_04801_ net:_09562_ net:clknet_leaf_139_clk net:_13160_ net:_16809_ net:net350 net:net328 net:net325 net:net1437 net:net1320 net:w\[12\]\[29\] net:w\[30\]\[23\]
+	comment: capacity:15 usage:18 overflow:3
+	bbox = (476.1000, 669.3000) - (483.0000, 676.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_02953_ net:net986 net:net949 net:_03097_ net:_06025_ net:_16837_ net:net258 net:net193 net:net188 net:net118 net:net89 net:_23069_ net:_23072_ net:_23075_ net:net1522 net:_24608_ net:net1225 net:net1156 net:net1099 net:w\[0\]\[21\] net:w\[14\]\[21\]
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (379.5000, 648.6000) - (386.4000, 655.5000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_03097_ net:net913 net:_04769_ net:_04772_ net:clknet_leaf_77_clk net:_17593_ net:_17872_ net:_17964_ net:net1614 net:net1543 net:net1530 net:net1492 net:net1312 net:net1141 net:net1056 net:w\[14\]\[28\] net:w\[8\]\[28\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (172.5000, 621.0000) - (179.4000, 627.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00096_ net:_00105_ net:_00124_ net:_00125_ net:_00126_ net:_00127_ net:clknet_5_21__leaf_clk net:_16440_ net:net500 net:net494 net:_17593_ net:_17686_ net:_17891_ net:_18058_ net:net394 net:net340 net:net266 net:net253 net:net125 net:net53 net:w\[10\]\[12\] net:w\[8\]\[12\]
+	comment: capacity:20 usage:22 overflow:2
+	bbox = (241.5000, 683.1000) - (248.4000, 690.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00096_ net:_00318_ net:_00586_ net:net961 net:_05521_ net:clknet_leaf_88_clk net:net402 net:net395 net:net330 net:net204 net:net134 net:net1530 net:net1412 net:net1156 net:w\[8\]\[18\]
+	comment: capacity:13 usage:15 overflow:2
+	bbox = (296.7000, 655.5000) - (303.6000, 662.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1030 net:_02929_ net:_02953_ net:net980 net:_03807_ net:_03809_ net:_03810_ net:_09438_ net:_11530_ net:_16476_ net:_16861_ net:_16876_ net:net393 net:net249 net:net40 net:net1611 net:_22652_ net:net1303 net:net1288 net:net1178 net:net1170
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (262.2000, 641.7000) - (269.1000, 648.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00017_ net:_02929_ net:_02953_ net:net954 net:net953 net:net949 net:net903 net:_03558_ net:_03575_ net:_06442_ net:clknet_leaf_95_clk net:_16605_ net:_16824_ net:_17872_ net:_24584_ net:net1298 net:hash.CA1.w_i1\[17\] net:w\[28\]\[8\]
+	comment: capacity:14 usage:18 overflow:4
+	bbox = (338.1000, 600.3000) - (345.0000, 607.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00125_ net:_03551_ net:_05521_ net:_09260_ net:_09579_ net:_12444_ net:_12447_ net:_15013_ net:net476 net:net388 net:net106 net:net104 net:net36 net:net33 net:_22444_ net:_23112_ net:net1315 net:net1177 net:net1091 net:hash.CA1.w_i1\[13\] net:w\[14\]\[8\]
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (324.3000, 607.2000) - (331.2000, 614.1000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00127_ net:_04273_ net:_04278_ net:_05590_ net:_14720_ net:net485 net:net397 net:net326 net:net323 net:net255 net:net62 net:net58 net:_23025_ net:net1530 net:net1523 net:net1499 net:net1491 net:net1412 net:w\[12\]\[20\] net:w\[4\]\[20\]
+	comment: capacity:19 usage:20 overflow:1
+	bbox = (365.7000, 690.0000) - (372.6000, 696.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net956 net:net931 net:_03827_ net:_03829_ net:_05554_ net:_06132_ net:_07693_ net:_16496_ net:net1420 net:net1278 net:_27573_ net:count15_2\[5\] net:count2_1\[1\] net:w\[34\]\[12\]
+	comment: capacity:13 usage:14 overflow:1
+	bbox = (241.5000, 420.9000) - (248.4000, 427.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1017 net:net980 net:_05511_ net:_05538_ net:_05567_ net:_09597_ net:_09981_ net:net490 net:_17822_ net:_17965_ net:net413 net:net36 net:net33 net:net1422 net:hash.CA1.w_i1\[16\]
+	comment: capacity:14 usage:15 overflow:1
+	bbox = (310.5000, 614.1000) - (317.4000, 621.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_02891_ net:_02910_ net:net1017 net:_09568_ net:_11306_ net:_13746_ net:net474 net:net324 net:net275 net:net258 net:net249 net:net188 net:net132 net:net118 net:net110 net:net89 net:net39 net:net1545 net:net1419 net:net1290 net:net1159
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (324.3000, 648.6000) - (331.2000, 655.5000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00023_ net:net1032 net:net1017 net:net1008 net:_04327_ net:_04330_ net:_09260_ net:_09630_ net:_10884_ net:_14849_ net:_14852_ net:_23046_ net:net1528 net:net1517 net:_24592_ net:net1325 net:net1056 net:w\[48\]\[21\]
+	comment: capacity:17 usage:18 overflow:1
+	bbox = (407.1000, 572.7000) - (414.0000, 579.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06416_ net:_06421_ net:_06428_ net:net512 net:net347 net:net338 net:net323 net:net114 net:net111 net:net61 net:net55 net:net45 net:w\[0\]\[22\] net:w\[2\]\[7\] net:w\[6\]\[22\]
+	comment: capacity:13 usage:15 overflow:2
+	bbox = (317.4000, 669.3000) - (324.3000, 676.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00097_ net:net503 net:net496 net:_17686_ net:_17901_ net:net403 net:net346 net:net321 net:net316 net:net266 net:net253 net:net120 net:net109 net:net62 net:net58 net:net49
+	comment: capacity:13 usage:16 overflow:3
+	bbox = (282.9000, 690.0000) - (289.8000, 696.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00105_ net:_00116_ net:_00124_ net:_00127_ net:_00458_ net:_16660_ net:net500 net:net494 net:_17779_ net:_17872_ net:_17965_ net:_17992_ net:net394 net:net174 net:net53
+	comment: capacity:14 usage:15 overflow:1
+	bbox = (269.1000, 683.1000) - (276.0000, 690.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net988 net:net900 net:net867 net:_06333_ net:_08963_ net:_10203_ net:_17733_ net:net382 net:net370 net:net233 net:net1372 net:net1054 net:w\[11\]\[10\] net:w\[7\]\[11\]
+	comment: capacity:13 usage:14 overflow:1
+	bbox = (338.1000, 34.5000) - (345.0000, 41.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00116_ net:net1022 net:net986 net:net961 net:_09259_ net:_09280_ net:_09630_ net:net512 net:net347 net:net338 net:net336 net:net328 net:net275 net:net249 net:net204 net:net111 net:net45 net:net39 net:_24600_ net:net1302 net:net1298 net:net1297 net:net1156
+	comment: capacity:20 usage:23 overflow:3
+	bbox = (365.7000, 669.3000) - (372.6000, 676.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net890 net:_10203_ net:_17733_ net:net345 net:net312 net:net225 net:net148 net:net98 net:net13 net:_24620_ net:net1127 net:_26185_ net:_26197_ net:_26200_ net:_26210_
+	comment: capacity:14 usage:15 overflow:1
+	bbox = (255.3000, 48.3000) - (262.2000, 55.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00097_ net:net487 net:net264 net:net156 net:net129 net:net125 net:net47 net:net1499 net:net408
+	comment: capacity:7 usage:9 overflow:2
+	bbox = (310.5000, 676.2000) - (317.4000, 683.1000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_17156_ net:net309 net:net299 net:net283 net:net240 net:net229 net:net218 net:net212 net:net168 net:net158 net:net153 net:net86 net:net16 net:net1352 net:w\[11\]\[4\] net:w\[9\]\[5\]
+	comment: capacity:15 usage:16 overflow:1
+	bbox = (276.0000, 20.7000) - (282.9000, 27.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07437_ net:clknet_leaf_276_clk net:_17026_ net:_17826_ net:net440 net:net310 net:net309 net:net283 net:net240 net:net229 net:net218 net:net212 net:_21112_ net:net168 net:net158 net:net153 net:net16 net:net1352 net:net1338 net:_26802_ net:w\[11\]\[15\]
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (289.8000, 20.7000) - (296.7000, 27.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00125_ net:_00127_ net:_03609_ net:_16440_ net:_16465_ net:_16540_ net:net499 net:_17965_ net:_17997_ net:net399 net:net327 net:net167 net:net116 net:net115 net:net106 net:net59 net:net43 net:net37
+	comment: capacity:17 usage:18 overflow:1
+	bbox = (407.1000, 696.9000) - (414.0000, 703.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05444_ net:clknet_leaf_276_clk net:_11399_ net:_17733_ net:net466 net:net453 net:net432 net:net219 net:net157 net:net1352 net:net1340 net:_25723_
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (282.9000, 41.4000) - (289.8000, 48.3000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_03799_ net:_06156_ net:_06157_ net:_06158_ net:_09280_ net:clknet_leaf_84_clk net:_11514_ net:_12162_ net:_13367_ net:net395 net:net134 net:net108 net:net1530 net:net1431 net:net1422 net:net1412 net:net1303 net:net1170 net:net1142 net:w\[10\]\[25\] net:w\[14\]\[12\]
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (241.5000, 655.5000) - (248.4000, 662.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00097_ net:_00116_ net:_00539_ net:_17500_ net:net496 net:net488 net:_17686_ net:_17789_ net:net403 net:net344 net:net321 net:net316 net:net200 net:net131 net:net109 net:net62 net:net49
+	comment: capacity:14 usage:17 overflow:3
+	bbox = (255.3000, 690.0000) - (262.2000, 696.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00126_ net:_02986_ net:net950 net:_05521_ net:_08146_ net:_08150_ net:_09597_ net:_12412_ net:_21940_ net:net1561 net:net1560 net:net1540 net:net1516 net:net1498 net:_24608_ net:net1440 net:net1411 net:hash.CA1.w_i1\[5\] net:hash.CA1.w_i1\[6\] net:w\[4\]\[0\] net:w\[6\]\[0\]
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (483.0000, 593.4000) - (489.9000, 600.3000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00097_ net:net950 net:_04396_ net:_04403_ net:_09259_ net:net487 net:net264 net:net201 net:net189 net:net186 net:net156 net:net129 net:net125 net:net47 net:net1532 net:net1419 net:net1289 net:net408
+	comment: capacity:16 usage:18 overflow:2
+	bbox = (338.1000, 676.2000) - (345.0000, 683.1000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1022 net:_04385_ net:_04391_ net:_06428_ net:_14995_ net:net512 net:_18058_ net:net347 net:net338 net:net323 net:net189 net:net124 net:net114 net:net111 net:net61 net:net55 net:net45 net:net1314 net:net1156 net:w\[2\]\[7\] net:w\[4\]\[22\]
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (324.3000, 669.3000) - (331.2000, 676.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net890 net:_07434_ net:_10203_ net:_10236_ net:_11492_ net:_13986_ net:net345 net:net312 net:net148 net:net15 net:net1589 net:net1469 net:_24620_ net:net1452 net:net1391 net:net1229 net:_25826_ net:_26801_ net:net1053 net:w\[1\]\[15\] net:w\[3\]\[15\]
+	comment: capacity:16 usage:21 overflow:5
+	bbox = (282.9000, 48.3000) - (289.8000, 55.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00655_ net:net1039 net:_03742_ net:_03745_ net:_03748_ net:_11216_ net:_14084_ net:_17593_ net:net341 net:net339 net:net198 net:net63 net:net57 net:net44 net:net23 net:_22570_ net:net1554 net:net1491 net:net1291 net:w\[10\]\[11\]
+	comment: capacity:19 usage:20 overflow:1
+	bbox = (469.2000, 690.0000) - (476.1000, 696.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_02891_ net:_02910_ net:net980 net:_03946_ net:_03948_ net:_05511_ net:_09568_ net:_11306_ net:net474 net:net324 net:net275 net:net258 net:net249 net:net188 net:net132 net:net118 net:net89 net:net39 net:net1545 net:net1530 net:net1523 net:net1419 net:net1159 net:w\[10\]\[14\]
+	comment: capacity:21 usage:24 overflow:3
+	bbox = (317.4000, 648.6000) - (324.3000, 655.5000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00019_ net:_00031_ net:net1038 net:_02929_ net:_02944_ net:_02953_ net:net1000 net:_09352_ net:clknet_5_29__leaf_clk net:clknet_leaf_138_clk net:_11220_ net:_16837_ net:net272 net:net193 net:net137 net:net41 net:net1555 net:net1522 net:net1496 net:net1438 net:net1417
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (455.4000, 648.6000) - (462.3000, 655.5000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00097_ net:_02910_ net:_04395_ net:_04396_ net:_04403_ net:_09259_ net:net487 net:net264 net:net201 net:net186 net:net156 net:net129 net:net125 net:net47 net:net1532 net:net1433 net:net1419 net:net1289 net:net408 net:w\[2\]\[22\]
+	comment: capacity:19 usage:20 overflow:1
+	bbox = (331.2000, 676.2000) - (338.1000, 683.1000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00097_ net:net950 net:_08730_ net:_08740_ net:_09259_ net:clknet_5_23__leaf_clk net:net487 net:_18058_ net:net323 net:net264 net:net201 net:net186 net:net156 net:net129 net:net47 net:net1532 net:net1419 net:net408 net:w\[6\]\[7\]
+	comment: capacity:18 usage:19 overflow:1
+	bbox = (345.0000, 676.2000) - (351.9000, 683.1000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00096_ net:_00318_ net:net959 net:_05521_ net:_09473_ net:_09476_ net:_09481_ net:net402 net:net395 net:net330 net:net204 net:net134 net:net67 net:net1544 net:net1530 net:net1435 net:net1419 net:net1412 net:net1288 net:w\[8\]\[18\]
+	comment: capacity:19 usage:20 overflow:1
+	bbox = (282.9000, 655.5000) - (289.8000, 662.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net878 net:_17251_ net:_17547_ net:net460 net:net440 net:net367 net:net310 net:net304 net:net298 net:net240 net:_21416_ net:net1590 net:net1397 net:net1393 net:net1353 net:net1339 net:net1334
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (351.9000, 20.7000) - (358.8000, 27.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_02928_ net:net1000 net:_09259_ net:_09352_ net:_09579_ net:clknet_leaf_127_clk net:_16440_ net:_16825_ net:net1518 net:_24616_ net:net1298 net:net1176 net:net1161 net:net1155 net:net1135 net:net1082 net:hash.CA1.w_i1\[10\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (455.4000, 586.5000) - (462.3000, 593.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1017 net:net981 net:net974 net:_03752_ net:_03753_ net:_06909_ net:clknet_5_29__leaf_clk net:_13951_ net:net252 net:net1532 net:net1292 net:net1177 net:net1099 net:net1082 net:w\[18\]\[11\] net:w\[22\]\[11\]
+	comment: capacity:15 usage:16 overflow:1
+	bbox = (448.5000, 641.7000) - (455.4000, 648.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00015_ net:_00125_ net:net1022 net:_04799_ net:_04821_ net:_05497_ net:_07829_ net:_09280_ net:_09630_ net:_15639_ net:_15651_ net:_15652_ net:_16825_ net:net426 net:net1496 net:net1321 net:net1291 net:net1159 net:net1157 net:w\[2\]\[29\]
+	comment: capacity:19 usage:20 overflow:1
+	bbox = (496.8000, 655.5000) - (503.7000, 662.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00072_ net:_00074_ net:net1046 net:net964 net:_05021_ net:_05058_ net:_05072_ net:_05103_ net:_09821_ net:_14457_ net:_17239_ net:_21286_ net:_21292_ net:_24679_ net:_24718_ net:_24760_ net:_24776_ net:_25723_ net:_26992_ net:_26993_ net:_27007_ net:w\[39\]\[18\]
+	comment: capacity:21 usage:22 overflow:1
+	bbox = (124.2000, 207.0000) - (131.1000, 213.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00105_ net:_00124_ net:_00127_ net:_00131_ net:_08395_ net:clknet_leaf_141_clk net:_17872_ net:_17878_ net:net263 net:net196 net:net128 net:net46 net:net1496 net:net1291 net:message[268] net:message[272] net:message[332] net:message[460] net:message[464] net:w\[10\]\[2\] net:w\[8\]\[2\]
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (503.7000, 696.9000) - (510.6000, 703.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00400_ net:_02891_ net:_04468_ net:_06611_ net:_06614_ net:_17593_ net:net482 net:net396 net:net201 net:net183 net:net136 net:net1608 net:net1555 net:net1532 net:net1530 net:net1491 net:net1438 net:net1417 net:net1412 net:net1159 net:w\[4\]\[23\] net:w\[6\]\[2\]
+	comment: capacity:20 usage:22 overflow:2
+	bbox = (441.6000, 683.1000) - (448.5000, 690.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00116_ net:net1039 net:_02891_ net:_04821_ net:_11210_ net:_16809_ net:_17500_ net:_17779_ net:net254 net:net245 net:net183 net:net12 net:_22567_ net:net1320 net:net1301 net:w\[2\]\[29\]
+	comment: capacity:15 usage:16 overflow:1
+	bbox = (503.7000, 676.2000) - (510.6000, 683.1000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_01437_ net:_02953_ net:net986 net:net949 net:_03097_ net:_04364_ net:_16837_ net:_16845_ net:net258 net:net193 net:net188 net:net118 net:net89 net:net1522 net:_24608_ net:net1302 net:net1177 net:net1099
+	comment: capacity:16 usage:18 overflow:2
+	bbox = (393.3000, 648.6000) - (400.2000, 655.5000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_02954_ net:net986 net:_09630_ net:_13100_ net:_16540_ net:_16845_ net:net412 net:net248 net:net114 net:_23433_ net:net1554 net:net1531 net:net1521 net:_24592_ net:net1292 net:net1135 net:w\[24\]\[23\] net:w\[28\]\[23\] net:w\[2\]\[9\] net:w\[30\]\[23\]
+	comment: capacity:18 usage:20 overflow:2
+	bbox = (455.4000, 662.4000) - (462.3000, 669.3000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00097_ net:_00116_ net:_17500_ net:net496 net:net488 net:net403 net:net344 net:net321 net:net316 net:net131 net:net109 net:net49
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (241.5000, 690.0000) - (248.4000, 696.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00358_ net:net898 net:net894 net:_17275_ net:net229 net:net212 net:net168 net:net154 net:net153 net:net86 net:net16 net:net1352 net:net1338 net:_27314_ net:w\[1\]\[14\] net:w\[3\]\[14\]
+	comment: capacity:14 usage:16 overflow:2
+	bbox = (227.7000, 20.7000) - (234.6000, 27.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00124_ net:_00127_ net:_03138_ net:_08398_ net:clknet_leaf_141_clk net:clknet_leaf_140_clk net:_14080_ net:net196 net:net128 net:_22100_ net:net46 net:net1608 net:net1554 net:net1531 net:net1521 net:net1437 net:message[268] net:message[272] net:message[29] net:message[336] net:w\[8\]\[2\]
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (496.8000, 696.9000) - (503.7000, 703.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net950 net:_09280_ net:_09597_ net:_16809_ net:net512 net:net487 net:net201 net:net186 net:net47 net:net12 net:net1556 net:_24600_
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (393.3000, 676.2000) - (400.2000, 683.1000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net900 net:net894 net:net867 net:_16997_ net:_17640_ net:net431 net:net354 net:net290 net:net239 net:net154 net:net149 net:net11 net:net1588 net:net1391 net:net1372 net:net1338 net:net1334 net:net1076 net:net1062 net:w\[3\]\[5\] net:w\[9\]\[5\]
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (269.1000, 27.6000) - (276.0000, 34.5000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net970 net:net914 net:_05005_ net:_05021_ net:_05055_ net:_10203_ net:_16901_ net:_16910_ net:net1344 net:_24784_ net:net1231 net:_25790_
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (365.7000, 186.3000) - (372.6000, 193.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net987 net:net966 net:net894 net:_06557_ net:_06559_ net:_06561_ net:_06568_ net:_08958_ net:_16901_ net:_16910_ net:_17826_ net:net431 net:net290 net:net239 net:net1617 net:net1592 net:net1262 net:net1229 net:net1076 net:_26560_ net:net1062 net:w\[7\]\[11\]
+	comment: capacity:20 usage:22 overflow:2
+	bbox = (310.5000, 27.6000) - (317.4000, 34.5000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1022 net:_09259_ net:_09597_ net:_11575_ net:net392 net:net270 net:net250 net:net186 net:net179 net:net12 net:net1531 net:net1521 net:net1437 net:net1298 net:w\[0\]\[9\] net:w\[10\]\[29\] net:w\[12\]\[23\] net:w\[6\]\[23\] net:w\[6\]\[9\]
+	comment: capacity:18 usage:19 overflow:1
+	bbox = (441.6000, 676.2000) - (448.5000, 683.1000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00019_ net:_00031_ net:net1039 net:_02898_ net:_02910_ net:_02953_ net:_03148_ net:net902 net:_03741_ net:_04813_ net:clknet_5_29__leaf_clk net:clknet_2_3_0_clk net:_10608_ net:_16570_ net:net193 net:net41 net:_24592_ net:net1220 net:net1210 net:hash.CA1.w_i1\[2\]
+	comment: capacity:19 usage:20 overflow:1
+	bbox = (496.8000, 648.6000) - (503.7000, 655.5000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00097_ net:_00116_ net:_17500_ net:net496 net:_17602_ net:net488 net:_17686_ net:net403 net:net344 net:net321 net:net316 net:net200 net:net131 net:net109 net:net49
+	comment: capacity:14 usage:15 overflow:1
+	bbox = (248.4000, 690.0000) - (255.3000, 696.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00096_ net:_00124_ net:_00517_ net:_16476_ net:_16592_ net:_18058_ net:net410 net:net331 net:net251 net:net127 net:net125 net:net119 net:net111 net:net408
+	comment: capacity:11 usage:14 overflow:3
+	bbox = (255.3000, 676.2000) - (262.2000, 683.1000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00097_ net:net503 net:net496 net:net488 net:_17686_ net:_17713_ net:_17901_ net:net403 net:net344 net:net321 net:net316 net:net266 net:net253 net:net131 net:net109 net:net62 net:net58 net:net49
+	comment: capacity:17 usage:18 overflow:1
+	bbox = (269.1000, 690.0000) - (276.0000, 696.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00097_ net:_00124_ net:_00126_ net:clknet_leaf_90_clk net:_16510_ net:_16699_ net:_17715_ net:_18058_ net:net417 net:net416 net:net407 net:net271 net:net266 net:net203 net:net195 net:net184 net:net181 net:net61
+	comment: capacity:17 usage:18 overflow:1
+	bbox = (331.2000, 696.9000) - (338.1000, 703.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:clknet_leaf_277_clk net:net510 net:net433 net:net371 net:net362 net:net357 net:net356 net:net295 net:net77 net:message[109] net:message[110] net:message[124] net:message[162] net:message[173] net:message[228] net:message[302] net:message[36] net:message[420] net:message[430] net:message[46] net:message[484] net:message[493] net:message[508]
+	comment: capacity:21 usage:23 overflow:2
+	bbox = (276.0000, 0.0000) - (282.9000, 6.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00124_ net:_00125_ net:_00126_ net:_17500_ net:net503 net:_17622_ net:net480 net:_17965_ net:net417 net:net407 net:net399 net:net388 net:net271 net:net266 net:net184 net:net167 net:net124 net:net116 net:net109 net:net59 net:net23
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (365.7000, 696.9000) - (372.6000, 703.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00014_ net:_00029_ net:_00030_ net:net1037 net:net1017 net:_02945_ net:_03911_ net:_09568_ net:_17965_ net:net413 net:net175 net:net1556 net:net1518 net:net1497 net:net1446 net:net1412 net:net1135 net:net1056 net:hash.CA1.w_i1\[16\]
+	comment: capacity:18 usage:19 overflow:1
+	bbox = (379.5000, 614.1000) - (386.4000, 621.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00400_ net:_02891_ net:_11570_ net:_17500_ net:_17532_ net:_17593_ net:net482 net:net257 net:net201 net:net136 net:net1608 net:net1532 net:net1530 net:net1522 net:net1491 net:net1412 net:net1159 net:w\[4\]\[23\] net:w\[6\]\[2\]
+	comment: capacity:16 usage:19 overflow:3
+	bbox = (434.7000, 683.1000) - (441.6000, 690.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00124_ net:_04686_ net:_07491_ net:_09562_ net:net485 net:net483 net:net445 net:net397 net:net326 net:net320 net:net57 net:net23 net:_23349_ net:net1530 net:net1417 net:net1412 net:w\[10\]\[27\] net:w\[10\]\[9\] net:w\[12\]\[27\]
+	comment: capacity:17 usage:19 overflow:2
+	bbox = (407.1000, 690.0000) - (414.0000, 696.9000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00105_ net:_00124_ net:clknet_leaf_86_clk net:_16660_ net:net494 net:_17779_ net:_17872_ net:_17965_ net:net394 net:net174 net:net53
+	comment: capacity:10 usage:11 overflow:1
+	bbox = (276.0000, 683.1000) - (282.9000, 690.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00019_ net:_00031_ net:net1039 net:_02898_ net:_02910_ net:_02953_ net:_03148_ net:_03741_ net:_04813_ net:_04857_ net:clknet_5_29__leaf_clk net:clknet_2_3_0_clk net:_10606_ net:_10608_ net:_16570_ net:net193 net:net41 net:net1220 net:net1210 net:net1056
+	comment: capacity:19 usage:20 overflow:1
+	bbox = (489.9000, 648.6000) - (496.8000, 655.5000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1039 net:_02898_ net:_02910_ net:net986 net:_04467_ net:_04471_ net:_09562_ net:_09630_ net:_16738_ net:_16809_ net:net484 net:_17965_ net:net414 net:net328 net:net325 net:net1320 net:net1301 net:net1297 net:net1292 net:net1157 net:w\[0\]\[23\]
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (441.6000, 669.3000) - (448.5000, 676.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00116_ net:_00133_ net:_04397_ net:_06424_ net:_06425_ net:_16440_ net:net503 net:net502 net:_17686_ net:_17779_ net:net397 net:net394 net:net326 net:net266 net:net253 net:net184 net:net109 net:net62 net:net58 net:net1433 net:net1419 net:w\[12\]\[22\]
+	comment: capacity:20 usage:22 overflow:2
+	bbox = (317.4000, 690.0000) - (324.3000, 696.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_02910_ net:_03148_ net:net902 net:_03741_ net:_04821_ net:_07826_ net:_07829_ net:_09597_ net:_10608_ net:net421 net:_24592_ net:net1417 net:net1210 net:w\[28\]\[29\] net:w\[2\]\[29\]
+	comment: capacity:14 usage:15 overflow:1
+	bbox = (503.7000, 655.5000) - (510.6000, 662.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_16301_ net:_16314_ net:_16323_ net:_16327_ net:_16328_ net:_16349_ net:_18590_ net:_18591_ net:_18620_ net:_18628_ net:_28762_ net:_28815_ net:_29316_ net:_29371_ net:_29377_ net:hash.CA2.b_dash\[30\] net:hash.CA2.b_dash\[31\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (627.9000, 338.1000) - (634.8000, 345.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00102_ net:_02910_ net:net943 net:_05511_ net:_05554_ net:_08380_ net:_08824_ net:_09259_ net:_09893_ net:_14065_ net:_14066_ net:_14098_ net:_24643_ net:net1443 net:net1300 net:net1218
+	comment: capacity:15 usage:16 overflow:1
+	bbox = (455.4000, 420.9000) - (462.3000, 427.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_07496_ net:_12600_ net:net406 net:net392 net:net360 net:net270 net:net265 net:net250 net:net47 net:_23344_ net:_23347_ net:net1522 net:net1497 net:net1438 net:net1417 net:w\[0\]\[27\] net:w\[4\]\[27\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (400.2000, 676.2000) - (407.1000, 683.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_02928_ net:net952 net:net949 net:net913 net:_03606_ net:_04287_ net:_04441_ net:_05626_ net:_09438_ net:clknet_5_22__leaf_clk net:_12204_ net:_13758_ net:_16510_ net:_23032_ net:_23036_ net:net1410 net:w\[20\]\[20\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (358.8000, 593.4000) - (365.7000, 600.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_01360_ net:_02928_ net:net1017 net:_03213_ net:_04500_ net:_05521_ net:_15103_ net:net138 net:_22105_ net:net33 net:_24592_ net:_24616_ net:net1296 net:net1160 net:w\[4\]\[3\]
+	comment: capacity:14 usage:15 overflow:1
+	bbox = (469.2000, 621.0000) - (476.1000, 627.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net959 net:_03791_ net:_03812_ net:_03819_ net:_05501_ net:_06182_ net:_23264_ net:net1500 net:net1422 net:net1223 net:w\[24\]\[12\] net:w\[28\]\[12\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (241.5000, 627.9000) - (248.4000, 634.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00127_ net:_04273_ net:_04275_ net:_05590_ net:_14720_ net:_16712_ net:_17500_ net:net476 net:net388 net:net319 net:net317 net:net247 net:net104 net:_23021_ net:w\[0\]\[20\] net:w\[12\]\[20\] net:w\[2\]\[20\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (372.6000, 683.1000) - (379.5000, 690.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00015_ net:_00031_ net:_02929_ net:_04500_ net:_06622_ net:clknet_5_29__leaf_clk net:_13100_ net:_15102_ net:net504 net:_17965_ net:net402 net:net137 net:_23433_ net:net1496 net:net1159 net:w\[30\]\[23\]
+	comment: capacity:15 usage:16 overflow:1
+	bbox = (455.4000, 655.5000) - (462.3000, 662.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00124_ net:_00125_ net:_04165_ net:_09259_ net:_09280_ net:_16524_ net:_16605_ net:_18058_ net:net110 net:_22929_ net:w\[4\]\[8\] net:w\[6\]\[8\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (310.5000, 621.0000) - (317.4000, 627.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00813_ net:clknet_leaf_196_clk net:_15993_ net:_16310_ net:_18169_ net:_18862_ net:_18864_ net:_18920_ net:_19597_ net:_19603_ net:_28611_ net:hash.CA2.S1.X\[3\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (676.2000, 338.1000) - (683.1000, 345.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00655_ net:_03745_ net:_11214_ net:_11216_ net:_17593_ net:net136 net:net63 net:net1554 net:net1532 net:net1530 net:net1437 net:net1291 net:w\[10\]\[11\] net:w\[6\]\[9\]
+	comment: capacity:12 usage:14 overflow:2
+	bbox = (476.1000, 690.0000) - (483.0000, 696.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00031_ net:_02929_ net:net950 net:_04500_ net:_06628_ net:_06635_ net:clknet_5_29__leaf_clk net:clknet_leaf_138_clk net:_13100_ net:_15102_ net:net504 net:_17965_ net:net137 net:_23433_ net:net1496 net:net1159
+	comment: capacity:15 usage:16 overflow:1
+	bbox = (455.4000, 648.6000) - (462.3000, 655.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_01063_ net:net1037 net:_02929_ net:net955 net:net950 net:_03911_ net:_10521_ net:_12145_ net:_14728_ net:_17779_ net:net1412 net:_25850_ net:net1149
+	comment: capacity:11 usage:13 overflow:2
+	bbox = (379.5000, 614.1000) - (386.4000, 621.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_19278_ net:_19330_ net:_19424_ net:_19481_ net:_23766_ net:_24213_ net:_29389_ net:_29971_ net:clk net:hash.CA1.S1.X\[18\] net:hash.CA1.S1.X\[2\] net:hash.CA1.S1.X\[3\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (579.6000, 434.7000) - (586.5000, 441.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00124_ net:_00127_ net:_00142_ net:net986 net:net961 net:_04271_ net:_04272_ net:clknet_5_23__leaf_clk net:_14721_ net:_16712_ net:net476 net:net388 net:net319 net:net317 net:net247 net:net1302 net:net1289 net:w\[2\]\[20\]
+	comment: capacity:16 usage:18 overflow:2
+	bbox = (372.6000, 676.2000) - (379.5000, 683.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_02945_ net:_04307_ net:_04315_ net:_04318_ net:_06053_ net:_07859_ net:_08525_ net:_10527_ net:_16521_ net:_16735_ net:_23044_ net:w\[54\]\[20\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (365.7000, 434.7000) - (372.6000, 441.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_02891_ net:net1037 net:_02910_ net:_09568_ net:_16725_ net:net324 net:net132 net:_23109_ net:net1523 net:net1302 net:net1290 net:w\[30\]\[22\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (338.1000, 655.5000) - (345.0000, 662.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_02954_ net:_03519_ net:_03526_ net:net860 net:_05521_ net:_06688_ net:_08707_ net:_08755_ net:_09438_ net:_12145_ net:net1411 net:net1219 net:net1212 net:net1149 net:_27581_ net:count15_2\[2\] net:w\[46\]\[7\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (372.6000, 545.1000) - (379.5000, 552.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00029_ net:_02910_ net:_02953_ net:_06675_ net:_09352_ net:_09438_ net:_16861_ net:net104 net:_23031_ net:net1533 net:net1298 net:net1091 net:net1056
+	comment: capacity:11 usage:13 overflow:2
+	bbox = (365.7000, 614.1000) - (372.6000, 621.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_02891_ net:_04692_ net:_09562_ net:net325 net:_23349_ net:_23351_ net:_23353_ net:net1555 net:net1532 net:net1522 net:net1497 net:net408 net:w\[8\]\[27\]
+	comment: capacity:11 usage:13 overflow:2
+	bbox = (407.1000, 683.1000) - (414.0000, 690.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_19986_ net:_19994_ net:_19997_ net:_20009_ net:_20027_ net:_20028_ net:_20029_ net:_22120_ net:_25069_ net:_28488_ net:_29894_ net:hash.CA2.p3\[29\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (565.8000, 441.6000) - (572.7000, 448.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_02454_ net:_04311_ net:_04440_ net:_06469_ net:_09549_ net:_09615_ net:clknet_0_clk net:_10011_ net:clknet_leaf_111_clk net:_10546_ net:_14703_ net:_15013_ net:net1447 net:net1331 net:_24804_ net:_27629_ net:w\[48\]\[22\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (331.2000, 434.7000) - (338.1000, 441.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00116_ net:_09280_ net:_09597_ net:net498 net:net479 net:_17872_ net:net430 net:net336 net:net111 net:net45 net:_24600_ net:w\[26\]\[27\] net:w\[4\]\[21\]
+	comment: capacity:11 usage:13 overflow:2
+	bbox = (393.3000, 669.3000) - (400.2000, 676.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_16310_ net:_18713_ net:_18717_ net:_18889_ net:net199 net:_28422_ net:_29305_ net:hash.CA2.S1.X\[12\] net:hash.CA2.S1.X\[16\] net:hash.CA2.S1.X\[17\] net:hash.CA2.S1.X\[28\] net:hash.CA2.e_dash\[31\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (662.4000, 434.7000) - (669.3000, 441.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00896_ net:_15993_ net:_18718_ net:_18719_ net:_18721_ net:_18923_ net:_28459_ net:_28611_ net:_29173_ net:_29174_ net:_29796_ net:hash.CA2.b_dash\[18\] net:hash.CA2.e_dash\[0\] net:hash.CA2.f_dash\[3\] net:net559 net:net560 net:net705
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (683.1000, 345.0000) - (690.0000, 351.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1035 net:net957 net:_03788_ net:_09280_ net:clknet_leaf_177_clk net:_13137_ net:_14062_ net:net426 net:_22070_ net:net1558 net:net1538 net:net1413 net:_24714_ net:net1097 net:w\[36\]\[2\]
+	comment: capacity:14 usage:15 overflow:1
+	bbox = (503.7000, 414.0000) - (510.6000, 420.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00126_ net:_03116_ net:_03132_ net:clknet_5_29__leaf_clk net:_10589_ net:net507 net:net506 net:_17500_ net:net475 net:net250 net:net114 net:net64 net:_22104_ net:net1412 net:net1301 net:net1291 net:w\[4\]\[3\]
+	comment: capacity:14 usage:17 overflow:3
+	bbox = (489.9000, 683.1000) - (496.8000, 690.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_16295_ net:_16315_ net:_16373_ net:_16389_ net:_16405_ net:_19314_ net:_28163_ net:_28348_ net:_28351_ net:_28399_ net:_28770_ net:_29302_
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (621.0000, 345.0000) - (627.9000, 351.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05442_ net:_11398_ net:_14228_ net:net225 net:net98 net:net1617 net:net1588 net:net1391 net:net1379 net:net1372 net:net1229 net:_26114_
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (282.9000, 27.6000) - (289.8000, 34.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1039 net:_02891_ net:_04820_ net:_09259_ net:_09630_ net:_09669_ net:net205 net:_21975_ net:net1490 net:net1415 net:net1323 net:net1151 net:w\[30\]\[0\]
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (476.1000, 579.6000) - (483.0000, 586.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_02891_ net:_02910_ net:net961 net:_09568_ net:clknet_leaf_92_clk net:_16725_ net:net324 net:net132 net:net1545 net:_24616_ net:net1302 net:w\[24\]\[22\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (338.1000, 662.4000) - (345.0000, 669.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00097_ net:_00116_ net:_02945_ net:net1009 net:net981 net:net955 net:_03664_ net:_09280_ net:_09438_ net:clknet_leaf_133_clk net:_16465_ net:_16738_ net:net1608 net:_22514_ net:_24483_ net:_24584_ net:net1296
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (427.8000, 627.9000) - (434.7000, 634.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00655_ net:_02928_ net:_02954_ net:net1000 net:_03211_ net:_04500_ net:_05554_ net:_09280_ net:_09629_ net:net1518 net:net1496 net:_24592_ net:net1324 net:net1297 net:_25851_
+	comment: capacity:14 usage:15 overflow:1
+	bbox = (469.2000, 579.6000) - (476.1000, 586.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00805_ net:_10609_ net:_14098_ net:_19028_ net:_19278_ net:_19450_ net:_19451_ net:_19545_ net:_19547_ net:_23775_ net:_25151_ net:_25159_ net:_25163_ net:_29972_ net:_30018_ net:hash.CA1.p2\[17\] net:hash.CA1.p2\[20\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (586.5000, 448.5000) - (593.4000, 455.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1022 net:net950 net:_03509_ net:_05616_ net:_09259_ net:_09421_ net:_09437_ net:net490 net:net481 net:net474 net:net337 net:net328 net:_23031_ net:net1545 net:net1289 net:net1099 net:w\[4\]\[7\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (358.8000, 669.3000) - (365.7000, 676.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00125_ net:_05521_ net:_09597_ net:clknet_leaf_139_clk net:_13168_ net:_16570_ net:net426 net:_22098_ net:_22572_ net:net1491 net:net1438 net:net1437 net:net1301 net:net1157 net:w\[4\]\[2\] net:w\[6\]\[3\]
+	comment: capacity:14 usage:16 overflow:2
+	bbox = (469.2000, 676.2000) - (476.1000, 683.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00097_ net:_00535_ net:_10485_ net:_12725_ net:net512 net:net492 net:_17686_ net:net398 net:net107 net:net41 net:net1608 net:_22497_ net:net1531 net:net1530 net:net1521 net:net1491 net:w\[12\]\[9\] net:w\[14\]\[3\]
+	comment: capacity:16 usage:18 overflow:2
+	bbox = (427.8000, 683.1000) - (434.7000, 690.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:clknet_leaf_165_clk net:_16310_ net:_18717_ net:_18889_ net:_19050_ net:net199 net:net1610 net:_28509_ net:_29305_ net:hash.CA2.S1.X\[13\] net:hash.CA2.S1.X\[28\] net:hash.CA2.e_dash\[31\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (662.4000, 448.5000) - (669.3000, 455.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04397_ net:_06422_ net:clknet_leaf_89_clk net:_11288_ net:_23099_ net:net1523 net:net1499 net:net1491 net:net1433 net:net1419 net:w\[12\]\[22\] net:w\[8\]\[22\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (324.3000, 683.1000) - (331.2000, 690.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04361_ net:_09597_ net:clknet_leaf_135_clk net:_16783_ net:_17686_ net:net413 net:net412 net:net347 net:net334 net:net275 net:net264 net:net204 net:net156 net:net129 net:net39 net:net12 net:net1556 net:w\[10\]\[21\]
+	comment: capacity:16 usage:18 overflow:2
+	bbox = (386.4000, 676.2000) - (393.3000, 683.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00113_ net:_01677_ net:net1023 net:net948 net:net912 net:_05538_ net:_08700_ net:clknet_leaf_40_clk net:_12387_ net:_16581_ net:_16753_ net:_24643_ net:net1080 net:_27765_ net:_27899_ net:_27979_ net:_28011_
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (234.6000, 420.9000) - (241.5000, 427.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1022 net:_04273_ net:_05612_ net:_05614_ net:_16440_ net:net490 net:net481 net:net474 net:net337 net:net328 net:_23031_ net:net1523 net:net1499 net:net1433 net:net1419 net:net1289 net:w\[12\]\[20\] net:w\[8\]\[20\]
+	comment: capacity:16 usage:18 overflow:2
+	bbox = (358.8000, 683.1000) - (365.7000, 690.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00125_ net:_03742_ net:_09597_ net:_13162_ net:_13168_ net:_16570_ net:_17593_ net:net426 net:_22572_ net:net1521 net:net1496 net:net1491 net:net1321 net:net1301 net:net1157 net:w\[6\]\[3\]
+	comment: capacity:14 usage:16 overflow:2
+	bbox = (469.2000, 683.1000) - (476.1000, 690.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_03283_ net:_03300_ net:_03318_ net:_05501_ net:_08538_ net:_09935_ net:clknet_leaf_83_clk net:_11324_ net:_16476_ net:_16660_ net:_16876_ net:_22232_ net:net1524 net:_24592_ net:w\[16\]\[12\] net:w\[20\]\[12\] net:w\[6\]\[13\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (276.0000, 627.9000) - (282.9000, 634.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00102_ net:net1016 net:_02958_ net:_06122_ net:_08524_ net:_13901_ net:_16436_ net:_16861_ net:_22063_ net:net1490 net:net1411 net:net1326 net:net1097 net:w\[60\]\[1\] net:w\[62\]\[1\]
+	comment: capacity:14 usage:15 overflow:1
+	bbox = (489.9000, 462.3000) - (496.8000, 469.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00096_ net:_02953_ net:_03496_ net:_04386_ net:_04410_ net:clknet_2_2_0_clk net:_16510_ net:_17800_ net:net395 net:net110 net:_24600_ net:net1315 net:net1297 net:net1290 net:net1289 net:net1225 net:w\[28\]\[22\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (345.0000, 655.5000) - (351.9000, 662.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00125_ net:_04273_ net:_16712_ net:_17500_ net:net476 net:net388 net:net323 net:net319 net:net317 net:net247 net:net104 net:net62 net:net58 net:_23028_ net:net1523 net:w\[0\]\[20\] net:w\[4\]\[20\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (372.6000, 690.0000) - (379.5000, 696.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_11232_ net:_19028_ net:_19125_ net:_19314_ net:_20008_ net:_21985_ net:_23770_ net:_23811_ net:_25157_ net:_28372_ net:_28393_ net:_28443_ net:_28718_ net:_29911_ net:hash.CA2.p3\[25\] net:hash.CA2.p3\[27\] net:hash.CA2.p3\[28\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (572.7000, 434.7000) - (579.6000, 441.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net986 net:net951 net:_03496_ net:_04272_ net:_04282_ net:_09630_ net:clknet_5_23__leaf_clk net:_16712_ net:net476 net:net391 net:net388 net:net319 net:net317 net:net247 net:net104 net:_24592_ net:w\[24\]\[20\] net:w\[30\]\[20\]
+	comment: capacity:16 usage:18 overflow:2
+	bbox = (372.6000, 648.6000) - (379.5000, 655.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00097_ net:_00116_ net:_02945_ net:net1009 net:net955 net:_03635_ net:_03664_ net:_09280_ net:_09438_ net:clknet_5_29__leaf_clk net:clknet_leaf_133_clk net:_16738_ net:net1608 net:_22514_ net:_24483_ net:net1532 net:net1296
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (427.8000, 634.8000) - (434.7000, 641.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00097_ net:_09259_ net:_10486_ net:_12726_ net:_16845_ net:_17500_ net:net492 net:net398 net:net42 net:net41 net:net1608 net:_22498_ net:net1417 net:net1301 net:net1298 net:w\[14\]\[3\] net:w\[4\]\[9\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (427.8000, 669.3000) - (434.7000, 676.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04361_ net:clknet_leaf_135_clk net:_16440_ net:_16783_ net:net483 net:_17872_ net:_18058_ net:net413 net:net412 net:net347 net:net334 net:net275 net:net264 net:net204 net:net156 net:net129 net:net53 net:net39
+	comment: capacity:16 usage:18 overflow:2
+	bbox = (386.4000, 683.1000) - (393.3000, 690.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00124_ net:net986 net:_04272_ net:_09630_ net:clknet_5_23__leaf_clk net:clknet_leaf_92_clk net:_10516_ net:_10519_ net:_14723_ net:_16712_ net:net476 net:net388 net:net319 net:net317 net:net247 net:net1289 net:w\[30\]\[20\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (372.6000, 655.5000) - (379.5000, 662.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_01311_ net:_02910_ net:net986 net:_03148_ net:net902 net:_03741_ net:_09597_ net:_10608_ net:_16809_ net:net421 net:net412 net:net248 net:net1417 net:net1291 net:net1210 net:w\[2\]\[29\]
+	comment: capacity:14 usage:16 overflow:2
+	bbox = (503.7000, 662.4000) - (510.6000, 669.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_03742_ net:_05769_ net:_16540_ net:net506 net:net497 net:_17686_ net:net392 net:net341 net:net328 net:net179 net:net65 net:net57 net:net44 net:net23 net:net1531 net:message[413]
+	comment: capacity:14 usage:16 overflow:2
+	bbox = (483.0000, 690.0000) - (489.9000, 696.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00097_ net:_04686_ net:_07496_ net:_12600_ net:_16783_ net:_17686_ net:net479 net:net406 net:net360 net:net265 net:net47 net:net1491 net:net1438 net:net1417 net:w\[0\]\[27\] net:w\[4\]\[27\] net:w\[4\]\[9\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (400.2000, 683.1000) - (407.1000, 690.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_03608_ net:_03615_ net:_16738_ net:net118 net:net89 net:net51 net:net1554 net:net1496 net:net1291 net:net1157 net:w\[2\]\[9\] net:w\[6\]\[9\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (434.7000, 669.3000) - (441.6000, 676.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_19330_ net:_19424_ net:_19481_ net:_22585_ net:_23774_ net:_24213_ net:_29389_ net:_29971_ net:clk net:hash.CA1.S1.X\[25\] net:hash.CA1.S1.X\[2\] net:hash.CA1.S1.X\[3\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (579.6000, 448.5000) - (586.5000, 455.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net396 net:net260 net:net258 net:net257 net:net234 net:net183 net:net122 net:net42 net:_23138_ net:_23140_ net:_23141_ net:net1522 net:net1497 net:net1099 net:w\[0\]\[23\] net:w\[6\]\[23\]
+	comment: capacity:15 usage:16 overflow:1
+	bbox = (441.6000, 683.1000) - (448.5000, 690.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1017 net:net951 net:_05554_ net:_05558_ net:_09490_ net:_09597_ net:_09615_ net:clknet_leaf_100_clk net:_14406_ net:net502 net:_17779_ net:_24600_ net:net1434 net:net1316 net:net1302 net:w\[20\]\[18\] net:w\[22\]\[18\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (303.6000, 600.3000) - (310.5000, 607.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1037 net:_03942_ net:_03946_ net:_03948_ net:_05538_ net:_16845_ net:net489 net:net274 net:net52 net:_22748_ net:_22749_ net:net1499 net:net1491 net:net1433 net:net1165 net:w\[10\]\[8\] net:w\[12\]\[14\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (317.4000, 648.6000) - (324.3000, 655.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04458_ net:_04459_ net:_04461_ net:_05554_ net:_16837_ net:net272 net:net185 net:net1301 net:net1292 net:net1210 net:w\[0\]\[3\] net:w\[14\]\[3\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (448.5000, 641.7000) - (455.4000, 648.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_01373_ net:_05511_ net:net512 net:_17500_ net:_18058_ net:net391 net:net342 net:net338 net:net177 net:net104 net:net1491 net:net1314
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (379.5000, 669.3000) - (386.4000, 676.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00097_ net:_00182_ net:net498 net:net479 net:_17724_ net:_17872_ net:_17913_ net:net430 net:net336 net:net111 net:net45 net:net408 net:w\[4\]\[21\]
+	comment: capacity:11 usage:13 overflow:2
+	bbox = (393.3000, 676.2000) - (400.2000, 683.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_06427_ net:clknet_5_23__leaf_clk net:_11283_ net:_16440_ net:net502 net:net489 net:_17686_ net:net404 net:net274 net:net134 net:net52 net:net1530 net:net1499 net:net1491 net:net1412 net:w\[0\]\[22\] net:w\[10\]\[8\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (317.4000, 669.3000) - (324.3000, 676.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_03615_ net:_10478_ net:_16738_ net:_17500_ net:net118 net:net89 net:net51 net:net1555 net:net1554 net:net1496 net:net1291 net:net1157 net:w\[6\]\[9\]
+	comment: capacity:11 usage:13 overflow:2
+	bbox = (434.7000, 676.2000) - (441.6000, 683.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_16465_ net:net484 net:net350 net:net272 net:net257 net:net186 net:net37 net:message[223] net:message[31] net:message[330] net:message[478] net:w\[10\]\[23\] net:w\[14\]\[11\]
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (462.3000, 696.9000) - (469.2000, 703.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04279_ net:_05593_ net:_10515_ net:_16845_ net:net480 net:net323 net:net1556 net:net1532 net:net1530 net:net1491 net:net1419 net:w\[10\]\[20\] net:w\[4\]\[20\]
+	comment: capacity:11 usage:13 overflow:2
+	bbox = (365.7000, 683.1000) - (372.6000, 690.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1039 net:_02891_ net:_03148_ net:clknet_leaf_141_clk net:_17779_ net:net421 net:net412 net:net390 net:net325 net:net318 net:net270 net:net248 net:net245 net:net1291 net:w\[2\]\[11\]
+	comment: capacity:14 usage:15 overflow:1
+	bbox = (503.7000, 676.2000) - (510.6000, 683.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00805_ net:_10609_ net:_14098_ net:_19057_ net:_19208_ net:_19239_ net:_19382_ net:_19450_ net:_19545_ net:_19547_ net:_23775_ net:_25151_ net:_25163_ net:_29903_ net:_30018_ net:hash.CA1.p2\[17\] net:hash.CA1.p2\[20\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (586.5000, 441.6000) - (593.4000, 448.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00097_ net:_00116_ net:_01049_ net:_02945_ net:net955 net:_03635_ net:_03664_ net:_09280_ net:_09438_ net:clknet_leaf_133_clk net:_16738_ net:net492 net:net42 net:net1608 net:_22498_ net:_22513_ net:_24483_
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (427.8000, 641.7000) - (434.7000, 648.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00125_ net:_00414_ net:_16510_ net:_16699_ net:net494 net:_17686_ net:net127 net:net124 net:net109 net:net40 net:net1522 net:w\[6\]\[7\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (351.9000, 690.0000) - (358.8000, 696.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_16699_ net:net127 net:net40 net:_22383_ net:_22395_ net:net1522 net:net1499 net:net1433 net:net1412 net:w\[0\]\[7\] net:w\[4\]\[7\] net:w\[6\]\[7\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (351.9000, 676.2000) - (358.8000, 683.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00116_ net:_01304_ net:net980 net:clknet_leaf_87_clk net:_16605_ net:_17593_ net:_17686_ net:net246 net:net67 net:_24592_ net:net1159 net:w\[14\]\[13\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (296.7000, 662.4000) - (303.6000, 669.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00655_ net:net951 net:net950 net:_03974_ net:_06085_ net:_12408_ net:_12410_ net:net507 net:_17965_ net:net420 net:net234 net:net1561 net:net1418 net:net1155 net:hash.CA1.w_i1\[7\]
+	comment: capacity:14 usage:15 overflow:1
+	bbox = (489.9000, 607.2000) - (496.8000, 614.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00096_ net:net1000 net:net902 net:_04737_ net:_08868_ net:_10488_ net:_16465_ net:_17779_ net:_23354_ net:net1292 net:net1225 net:net1177 net:net1159
+	comment: capacity:11 usage:13 overflow:2
+	bbox = (420.9000, 641.7000) - (427.8000, 648.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_02898_ net:_03749_ net:_05521_ net:_05758_ net:_05783_ net:_08401_ net:_09352_ net:_13173_ net:_13174_ net:_13176_ net:_16809_ net:_16845_ net:w\[30\]\[11\]
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (476.1000, 655.5000) - (483.0000, 662.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1039 net:_02898_ net:net1022 net:_03610_ net:_08853_ net:_12721_ net:_16465_ net:net487 net:_17779_ net:net1554 net:net1437 net:net1412 net:net1321 net:net1320
+	comment: capacity:11 usage:14 overflow:3
+	bbox = (420.9000, 683.1000) - (427.8000, 690.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00116_ net:net986 net:_04457_ net:_04465_ net:_04466_ net:_15088_ net:net477 net:net414 net:net330 net:net185 net:_23147_ net:net1320 net:net1292 net:w\[0\]\[3\]
+	comment: capacity:11 usage:14 overflow:3
+	bbox = (448.5000, 669.3000) - (455.4000, 676.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1046 net:net969 net:net882 net:_08958_ net:_10740_ net:_10741_ net:net1454 net:net1392 net:net1378 net:_27220_ net:_27222_ net:w\[37\]\[22\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (200.1000, 124.2000) - (207.0000, 131.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00096_ net:_02928_ net:_02945_ net:_04412_ net:_05521_ net:_08741_ net:_09352_ net:_09568_ net:_09579_ net:_16605_ net:net40 net:_22395_ net:net1159
+	comment: capacity:11 usage:13 overflow:2
+	bbox = (351.9000, 641.7000) - (358.8000, 648.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00124_ net:net986 net:net961 net:_04272_ net:clknet_5_23__leaf_clk net:_14716_ net:_14721_ net:_16712_ net:net476 net:net388 net:net319 net:net317 net:net249 net:net247 net:net1302 net:net1298 net:net1289
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (372.6000, 669.3000) - (379.5000, 676.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00116_ net:net1037 net:net1017 net:net955 net:_05538_ net:_11306_ net:_16725_ net:_16837_ net:_17500_ net:net474 net:net52 net:_24483_ net:net1491 net:net1419 net:net1224 net:net1165 net:net1091 net:w\[10\]\[8\]
+	comment: capacity:16 usage:18 overflow:2
+	bbox = (317.4000, 627.9000) - (324.3000, 634.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00125_ net:net951 net:_05521_ net:_16570_ net:_16837_ net:_16845_ net:net426 net:net420 net:net138 net:_22105_ net:_22573_ net:net1555 net:net1438 net:net1437 net:net1297 net:net1157 net:w\[6\]\[3\]
+	comment: capacity:14 usage:17 overflow:3
+	bbox = (469.2000, 662.4000) - (476.1000, 669.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_02954_ net:net980 net:net961 net:net959 net:_04148_ net:_04156_ net:_04205_ net:_14396_ net:_14397_ net:_22915_ net:net1435 net:net1316 net:net1303 net:net1288 net:net1142 net:net1137 net:w\[0\]\[13\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (289.8000, 641.7000) - (296.7000, 648.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1022 net:net961 net:_04679_ net:_04692_ net:_09259_ net:_09352_ net:_09562_ net:_12605_ net:net1532 net:net1302 net:net1298 net:net1292
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (407.1000, 662.4000) - (414.0000, 669.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00097_ net:_00124_ net:_00125_ net:_00127_ net:_00318_ net:net1022 net:_04399_ net:_04401_ net:clknet_leaf_89_clk net:_18058_ net:net274 net:net186 net:net134 net:net61 net:net55 net:net1417 net:w\[10\]\[22\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (331.2000, 683.1000) - (338.1000, 690.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00116_ net:net1022 net:net986 net:_04451_ net:_04452_ net:_04457_ net:_11575_ net:net477 net:net414 net:net330 net:net185 net:_23147_ net:net1292 net:w\[0\]\[3\] net:w\[12\]\[23\] net:w\[4\]\[23\]
+	comment: capacity:11 usage:16 overflow:5
+	bbox = (448.5000, 676.2000) - (455.4000, 683.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net954 net:_03236_ net:_08513_ net:_08515_ net:_09260_ net:_09355_ net:_12735_ net:_22174_ net:_23160_ net:_23433_ net:_24567_ net:net1325 net:net1296 net:net1211 net:net1154 net:net1096
+	comment: capacity:15 usage:16 overflow:1
+	bbox = (441.6000, 565.8000) - (448.5000, 572.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00116_ net:net980 net:net951 net:_05553_ net:_09482_ net:_14405_ net:_17593_ net:_24592_ net:net1303 net:net1159 net:net1142 net:w\[14\]\[13\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (296.7000, 648.6000) - (303.6000, 655.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04369_ net:_04372_ net:_04373_ net:_04703_ net:_06036_ net:_10915_ net:_12606_ net:_14836_ net:_16540_ net:_16712_ net:_16783_ net:_16861_ net:net360 net:net265 net:_23089_ net:net1290 net:w\[24\]\[21\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (400.2000, 614.1000) - (407.1000, 621.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00125_ net:net960 net:_04820_ net:_05538_ net:_08401_ net:_09352_ net:_16845_ net:_17686_ net:_22115_ net:_22118_ net:net1560 net:net1210 net:w\[24\]\[2\]
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (476.1000, 621.0000) - (483.0000, 627.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1037 net:_02929_ net:_02953_ net:net951 net:_03496_ net:_09630_ net:clknet_5_23__leaf_clk net:_16712_ net:net476 net:net391 net:net388 net:net319 net:net317 net:net247 net:net104 net:_23042_ net:_24592_ net:net1156 net:net1091
+	comment: capacity:16 usage:19 overflow:3
+	bbox = (372.6000, 641.7000) - (379.5000, 648.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net986 net:_04689_ net:_04690_ net:_04691_ net:_07491_ net:_09597_ net:clknet_leaf_136_clk net:_15460_ net:_16540_ net:_17593_ net:_17965_ net:net200 net:net106 net:net36 net:net1302 net:net1292 net:w\[10\]\[27\] net:w\[6\]\[21\]
+	comment: capacity:16 usage:18 overflow:2
+	bbox = (414.0000, 683.1000) - (420.9000, 690.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00116_ net:_00400_ net:_04451_ net:_06616_ net:_11574_ net:net477 net:net414 net:net330 net:net254 net:net201 net:net185 net:_23146_ net:net1491 net:w\[0\]\[3\] net:w\[12\]\[23\]
+	comment: capacity:11 usage:15 overflow:4
+	bbox = (448.5000, 683.1000) - (455.4000, 690.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00655_ net:_03121_ net:_03125_ net:_08400_ net:_16540_ net:net497 net:net392 net:net328 net:net245 net:net179 net:_22095_ net:net1554 net:net1531 net:net1437 net:net1210 net:w\[4\]\[2\]
+	comment: capacity:14 usage:16 overflow:2
+	bbox = (483.0000, 683.1000) - (489.9000, 690.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_16054_ net:_16080_ net:_16081_ net:_16339_ net:_16360_ net:net1251 net:_28031_ net:_28396_ net:_28778_ net:_28793_ net:_29335_ net:_29336_ net:_29342_ net:_29343_ net:_29350_ net:_29354_ net:_29355_
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (641.7000, 338.1000) - (648.6000, 345.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00318_ net:net961 net:_03947_ net:_05521_ net:_05538_ net:_16845_ net:net502 net:net489 net:net274 net:net134 net:net52 net:net1530 net:net1499 net:net1491 net:net1412 net:net1225 net:net1165 net:w\[10\]\[8\] net:w\[12\]\[14\]
+	comment: capacity:16 usage:19 overflow:3
+	bbox = (317.4000, 655.5000) - (324.3000, 662.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1017 net:_03631_ net:_04737_ net:_08855_ net:_12711_ net:_15467_ net:net106 net:net36 net:_23359_ net:net1556 net:_24616_ net:net1438 net:net1419 net:net1315 net:_25850_ net:w\[16\]\[9\] net:w\[22\]\[9\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (414.0000, 634.8000) - (420.9000, 641.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_03479_ net:_04266_ net:_04279_ net:_04283_ net:_10521_ net:net275 net:net249 net:net204 net:net39 net:net1545 net:net1099 net:w\[28\]\[20\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (365.7000, 655.5000) - (372.6000, 662.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00124_ net:_03609_ net:_10483_ net:_15456_ net:_16465_ net:net487 net:_17779_ net:net341 net:net326 net:net63 net:net1554 net:w\[12\]\[23\] net:w\[12\]\[9\]
+	comment: capacity:11 usage:13 overflow:2
+	bbox = (420.9000, 690.0000) - (427.8000, 696.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_02891_ net:net961 net:net959 net:_04155_ net:_05511_ net:_05541_ net:_05543_ net:_05545_ net:_09259_ net:net478 net:net118 net:net1435 net:net1422 net:net1419 net:net1316 net:net1288 net:w\[0\]\[13\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (289.8000, 648.6000) - (296.7000, 655.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04326_ net:_04360_ net:_09259_ net:_10898_ net:_14830_ net:_14835_ net:net498 net:_17872_ net:net430 net:_23076_ net:net1298 net:net1084 net:w\[10\]\[21\]
+	comment: capacity:11 usage:13 overflow:2
+	bbox = (393.3000, 641.7000) - (400.2000, 648.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_02910_ net:_03968_ net:_04441_ net:_08755_ net:_08811_ net:clknet_0_clk net:_12145_ net:_16657_ net:_22462_ net:_24723_ net:net1304 net:net1173 net:net1164 net:net1149 net:_27693_ net:_27835_ net:w\[44\]\[13\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (345.0000, 496.8000) - (351.9000, 503.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1039 net:_02898_ net:net1022 net:_03625_ net:_05521_ net:_08854_ net:_16465_ net:_16809_ net:_17779_ net:net325 net:net248 net:_23354_ net:net1320
+	comment: capacity:11 usage:13 overflow:2
+	bbox = (420.9000, 669.3000) - (427.8000, 676.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04360_ net:_09259_ net:_09597_ net:_10898_ net:_14826_ net:_14829_ net:net498 net:_17872_ net:net430 net:net1298 net:net1177 net:net1156
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (393.3000, 648.6000) - (400.2000, 655.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00756_ net:_00839_ net:_18716_ net:_18932_ net:_19590_ net:_19627_ net:net1057 net:net517 net:net522 net:net525 net:net536 net:net562 net:net564 net:net716 net:net744 net:net745 net:net768
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (696.9000, 434.7000) - (703.8000, 441.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net982 net:_05538_ net:_09260_ net:_10499_ net:_11581_ net:_11583_ net:_11592_ net:_17500_ net:net414 net:net51 net:net1496 net:net1056
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (434.7000, 648.6000) - (441.6000, 655.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00125_ net:_02953_ net:_03749_ net:_04820_ net:_05521_ net:_05783_ net:_08401_ net:_09352_ net:_13176_ net:_16845_ net:_22581_ net:net1210 net:w\[24\]\[11\]
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (476.1000, 641.7000) - (483.0000, 648.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1044 net:_05321_ net:_05366_ net:_05367_ net:_08467_ net:clknet_leaf_245_clk net:_14539_ net:_17132_ net:_20703_ net:net1575 net:_24630_ net:_26430_
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (407.1000, 179.4000) - (414.0000, 186.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_02910_ net:_03883_ net:_03968_ net:_06363_ net:_06364_ net:_06370_ net:_06371_ net:_08755_ net:_08811_ net:clknet_0_clk net:_12145_ net:_16657_ net:_22462_ net:net1411 net:_24723_ net:net1318 net:_27835_
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (345.0000, 503.7000) - (351.9000, 510.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00116_ net:_04696_ net:_09259_ net:_09280_ net:_09597_ net:net498 net:net479 net:_17872_ net:net430 net:net1298 net:w\[30\]\[27\] net:w\[4\]\[21\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (393.3000, 662.4000) - (400.2000, 669.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00065_ net:net900 net:net867 net:_07437_ net:_07438_ net:_08958_ net:_11490_ net:_17733_ net:net383 net:_21113_ net:net154 net:net1588 net:net1573 net:net1391 net:net1379 net:_26802_ net:w\[1\]\[15\] net:w\[9\]\[15\]
+	comment: capacity:16 usage:18 overflow:2
+	bbox = (289.8000, 20.7000) - (296.7000, 27.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1017 net:_02945_ net:net950 net:_04500_ net:_06635_ net:clknet_5_29__leaf_clk net:_11220_ net:_11221_ net:_11223_ net:_13100_ net:_15102_ net:net504 net:_17965_ net:_23433_ net:net1496 net:net1417 net:net1159
+	comment: capacity:15 usage:17 overflow:2
+	bbox = (455.4000, 641.7000) - (462.3000, 648.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00126_ net:_03138_ net:clknet_5_29__leaf_clk net:_14081_ net:_14083_ net:net507 net:net475 net:_18058_ net:net250 net:net114 net:net64 net:net1554 net:net1496 net:net1491 net:message[285] net:w\[4\]\[3\]
+	comment: capacity:14 usage:16 overflow:2
+	bbox = (489.9000, 690.0000) - (496.8000, 696.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net865 net:clknet_5_2__leaf_clk net:clknet_leaf_273_clk net:_13214_ net:_16997_ net:_17826_ net:net151 net:net1397 net:net1377 net:_26560_ net:_26573_ net:net1054 net:net378
+	comment: capacity:11 usage:13 overflow:2
+	bbox = (324.3000, 27.6000) - (331.2000, 34.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_02910_ net:net953 net:_03097_ net:_03664_ net:_06915_ net:_09280_ net:clknet_5_28__leaf_clk net:_13952_ net:_16465_ net:_16738_ net:_16861_ net:_22514_ net:_24483_ net:net1517 net:net1498 net:net1497 net:net1319
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (427.8000, 593.4000) - (434.7000, 600.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1039 net:_02910_ net:_03136_ net:_04806_ net:_05783_ net:_09280_ net:_11218_ net:_13086_ net:_13088_ net:_13089_ net:_16540_ net:net1496 net:net1417 net:net1321 net:w\[4\]\[3\]
+	comment: capacity:14 usage:15 overflow:1
+	bbox = (483.0000, 662.4000) - (489.9000, 669.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00096_ net:_01295_ net:net1037 net:_02929_ net:_03496_ net:_09630_ net:clknet_5_23__leaf_clk net:_16712_ net:net476 net:net391 net:net388 net:net319 net:net317 net:net247 net:net104 net:_23042_ net:_24592_
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (372.6000, 634.8000) - (379.5000, 641.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_14964_ net:_15868_ net:_15870_ net:_15879_ net:_15880_ net:_15886_ net:_15887_ net:_16154_ net:_17229_ net:hash.CA1.p5\[4\] net:hash.CA2.p1\[11\] net:hash.CA2.p1\[12\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (538.2000, 241.5000) - (545.1000, 248.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00097_ net:_00124_ net:clknet_leaf_90_clk net:_16510_ net:_16699_ net:net502 net:_18058_ net:net324 net:net195 net:net132 net:net61 net:w\[10\]\[20\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (338.1000, 696.9000) - (345.0000, 703.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00124_ net:_00125_ net:_09259_ net:_16440_ net:_16605_ net:_16725_ net:_16861_ net:_17965_ net:_18058_ net:net1524 net:net1225 net:w\[6\]\[8\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (310.5000, 641.7000) - (317.4000, 648.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:clknet_leaf_174_clk net:_13177_ net:_16389_ net:_18872_ net:_18979_ net:_19077_ net:_19097_ net:_19125_ net:_19138_ net:_19174_ net:_19175_ net:_19292_ net:_19387_ net:_19390_ net:hash.CA1.S1.X\[13\] net:hash.CA1.S1.X\[30\] net:hash.CA1.S1.X\[9\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (600.3000, 448.5000) - (607.2000, 455.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_16310_ net:_18717_ net:_18889_ net:_18955_ net:_19049_ net:_19050_ net:net199 net:_28544_ net:_29800_ net:hash.CA1.S1.X\[2\] net:hash.CA1.S1.X\[3\] net:hash.CA2.S1.X\[28\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (662.4000, 462.3000) - (669.3000, 469.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00105_ net:_00180_ net:_00468_ net:clknet_leaf_135_clk net:_16783_ net:_17910_ net:_18058_ net:net413 net:net412 net:net347 net:net334 net:net275 net:net264 net:net156 net:net129 net:net53 net:net39
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (386.4000, 690.0000) - (393.3000, 696.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00127_ net:_16440_ net:_16785_ net:net498 net:_17872_ net:net430 net:net336 net:net270 net:net204 net:net111 net:net45 net:w\[4\]\[21\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (393.3000, 690.0000) - (400.2000, 696.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_01487_ net:_02945_ net:net950 net:net903 net:_03512_ net:_05538_ net:_05626_ net:_09437_ net:clknet_leaf_93_clk net:_12142_ net:_12204_ net:net490 net:_23031_ net:net1545 net:_24616_ net:net1419 net:net1224 net:w\[28\]\[14\]
+	comment: capacity:16 usage:18 overflow:2
+	bbox = (358.8000, 634.8000) - (365.7000, 641.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05511_ net:clknet_leaf_91_clk net:_17500_ net:_18058_ net:net391 net:net342 net:net338 net:net249 net:net177 net:net104 net:net1491 net:net1314
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (379.5000, 676.2000) - (386.4000, 683.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00096_ net:net986 net:_09597_ net:clknet_leaf_135_clk net:_15460_ net:_16540_ net:net512 net:_17965_ net:net201 net:net200 net:net188 net:net106 net:net36 net:net1302 net:net1292 net:net1156 net:w\[6\]\[21\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (414.0000, 676.2000) - (420.9000, 683.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00125_ net:_05521_ net:_09259_ net:clknet_leaf_139_clk net:_13168_ net:_16570_ net:_16837_ net:_16845_ net:net426 net:_22105_ net:_22573_ net:net1438 net:net1437 net:net1157 net:w\[6\]\[3\]
+	comment: capacity:14 usage:15 overflow:1
+	bbox = (469.2000, 669.3000) - (476.1000, 676.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_02891_ net:_03300_ net:_08534_ net:_08536_ net:_11316_ net:_11317_ net:_11319_ net:_11322_ net:_16476_ net:_17872_ net:net261 net:net56 net:net1422 net:net1316 net:net1091 net:w\[4\]\[5\] net:w\[8\]\[4\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (262.2000, 655.5000) - (269.1000, 662.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00318_ net:net1022 net:_04393_ net:_09597_ net:clknet_leaf_89_clk net:_11293_ net:_14998_ net:_15004_ net:_18058_ net:net61 net:net55 net:_23100_ net:net1532 net:net1314 net:net1302 net:net1156 net:net1099
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (331.2000, 669.3000) - (338.1000, 676.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net988 net:_05021_ net:clknet_5_2__leaf_clk net:_16901_ net:net219 net:_20946_ net:net148 net:net1592 net:net1354 net:_26562_ net:_26565_ net:net1053
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (310.5000, 34.5000) - (317.4000, 41.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_03736_ net:_09562_ net:clknet_leaf_142_clk net:_11207_ net:_16616_ net:_16688_ net:_16825_ net:_17500_ net:net335 net:net223 net:net183 net:_22567_ net:net1554 net:w\[14\]\[15\] net:w\[2\]\[9\] net:w\[4\]\[15\]
+	comment: capacity:15 usage:16 overflow:1
+	bbox = (517.5000, 676.2000) - (524.4000, 683.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00126_ net:net1030 net:_03798_ net:_09238_ net:_09259_ net:_09597_ net:clknet_leaf_84_clk net:_11517_ net:_11518_ net:_11519_ net:_11524_ net:_16828_ net:_22646_ net:net1535 net:net1170 net:w\[0\]\[5\] net:w\[14\]\[12\] net:w\[8\]\[12\]
+	comment: capacity:16 usage:18 overflow:2
+	bbox = (248.4000, 655.5000) - (255.3000, 662.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00120_ net:_00124_ net:_00125_ net:_00319_ net:_03851_ net:_09259_ net:_14417_ net:_16524_ net:_22929_ net:net1177 net:net1165 net:hash.CA1.w_i1\[18\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (310.5000, 607.2000) - (317.4000, 614.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00398_ net:_09568_ net:_14728_ net:_17500_ net:_18058_ net:net391 net:net342 net:net177 net:net104 net:net1532 net:net1491 net:net1314 net:net1302
+	comment: capacity:11 usage:13 overflow:2
+	bbox = (379.5000, 655.5000) - (386.4000, 662.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00096_ net:_03614_ net:_16738_ net:_17692_ net:net188 net:net118 net:net89 net:net51 net:net1496 net:net1291 net:net1157 net:w\[4\]\[23\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (434.7000, 683.1000) - (441.6000, 690.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_02945_ net:_04371_ net:_04703_ net:_05538_ net:_06048_ net:_06052_ net:_12606_ net:_14836_ net:_16540_ net:_16712_ net:_16783_ net:net360 net:net265 net:_23089_ net:net1446 net:net1290 net:w\[24\]\[21\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (400.2000, 607.2000) - (407.1000, 614.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_03283_ net:_03300_ net:_03318_ net:_05501_ net:_08538_ net:_09352_ net:_09935_ net:_11324_ net:_16476_ net:_16660_ net:_16876_ net:_22232_ net:net1524 net:_24608_ net:w\[16\]\[12\] net:w\[22\]\[12\] net:w\[6\]\[13\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (276.0000, 621.0000) - (282.9000, 627.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00126_ net:_00148_ net:_16440_ net:_16785_ net:net498 net:_17872_ net:net430 net:net336 net:net270 net:net250 net:net111 net:net45 net:w\[4\]\[21\]
+	comment: capacity:11 usage:13 overflow:2
+	bbox = (393.3000, 683.1000) - (400.2000, 690.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_03506_ net:_03509_ net:_05521_ net:_08731_ net:_08741_ net:_16699_ net:net127 net:net40 net:_22395_ net:net1522 net:net1433 net:w\[0\]\[7\] net:w\[4\]\[7\]
+	comment: capacity:11 usage:13 overflow:2
+	bbox = (351.9000, 669.3000) - (358.8000, 676.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05757_ net:_14085_ net:_16570_ net:_16837_ net:_16861_ net:net272 net:_22582_ net:net1522 net:_24592_ net:_24600_ net:net1417 net:net1322 net:net1135
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (462.3000, 648.6000) - (469.2000, 655.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00096_ net:_00116_ net:_02891_ net:_03488_ net:_03490_ net:clknet_5_23__leaf_clk net:_12201_ net:_12202_ net:_16510_ net:_18058_ net:net395 net:net189 net:net125 net:net110 net:net1523 net:net1314 net:w\[12\]\[7\] net:w\[2\]\[20\]
+	comment: capacity:16 usage:18 overflow:2
+	bbox = (345.0000, 683.1000) - (351.9000, 690.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00096_ net:net986 net:_04680_ net:_04681_ net:_04685_ net:clknet_leaf_135_clk net:_15460_ net:_16540_ net:_17965_ net:net200 net:net188 net:net106 net:net36 net:net1302 net:net1292 net:net1156 net:w\[6\]\[21\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (414.0000, 669.3000) - (420.9000, 676.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_16316_ net:_18590_ net:_18591_ net:_18620_ net:_18628_ net:_19327_ net:_28190_ net:_28762_ net:_28815_ net:_29204_ net:_29309_ net:_29316_ net:_29371_ net:_29377_ net:hash.CA2.b_dash\[30\] net:hash.CA2.b_dash\[31\] net:hash.CA2.p5\[20\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (627.9000, 331.2000) - (634.8000, 338.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_02898_ net:_09259_ net:_14085_ net:net484 net:_17965_ net:net420 net:net350 net:net272 net:net254 net:net186 net:net183 net:net138 net:net1531
+	comment: capacity:12 usage:13 overflow:1
+	bbox = (462.3000, 676.2000) - (469.2000, 683.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_02910_ net:_03136_ net:_04800_ net:_04802_ net:_04806_ net:_05783_ net:_07819_ net:_07821_ net:_11218_ net:_16540_ net:net328 net:net1496 net:net1417 net:net1321 net:w\[8\]\[29\]
+	comment: capacity:14 usage:15 overflow:1
+	bbox = (483.0000, 669.3000) - (489.9000, 676.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04451_ net:_06619_ net:_06620_ net:net504 net:net477 net:net414 net:net330 net:net254 net:net185 net:net135 net:net1438 net:w\[0\]\[3\] net:w\[12\]\[23\]
+	comment: capacity:11 usage:13 overflow:2
+	bbox = (448.5000, 690.0000) - (455.4000, 696.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_13177_ net:_16389_ net:_18872_ net:_18979_ net:_19078_ net:_19097_ net:_19116_ net:_19118_ net:_19138_ net:_19173_ net:_19174_ net:_19177_ net:_19387_ net:_19390_ net:hash.CA1.S1.X\[10\] net:hash.CA1.S1.X\[30\] net:hash.CA1.S1.X\[9\]
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (600.3000, 434.7000) - (607.2000, 441.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00124_ net:_00125_ net:clknet_leaf_88_clk net:_16440_ net:_16605_ net:_16725_ net:_16861_ net:_17965_ net:_18058_ net:net1530 net:net1225 net:w\[6\]\[8\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (310.5000, 648.6000) - (317.4000, 655.5000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_06025_ net:_10521_ net:_14728_ net:_17779_ net:net342 net:net177 net:net1523 net:net1499 net:net1412 net:_25850_ net:net1091 net:w\[24\]\[14\] net:w\[8\]\[21\]
+	comment: capacity:11 usage:13 overflow:2
+	bbox = (379.5000, 634.8000) - (386.4000, 641.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00005_ net:_02945_ net:_04703_ net:_06052_ net:clknet_leaf_130_clk net:_12606_ net:_14859_ net:_14870_ net:_16540_ net:_16783_ net:net360 net:_23089_ net:net1497 net:net1446 net:net1418 net:net1290 net:_27939_
+	comment: capacity:16 usage:17 overflow:1
+	bbox = (400.2000, 593.4000) - (407.1000, 600.3000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1039 net:_02898_ net:net1022 net:_08853_ net:_16465_ net:net487 net:_17779_ net:net248 net:_23354_ net:net1437 net:net1412 net:net1320
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (420.9000, 676.2000) - (427.8000, 683.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_01005_ net:_24278_ net:_24462_ net:_28387_ net:_28424_ net:_28435_ net:_29775_ net:_29781_ net:hash.CA1.k_i2\[18\] net:hash.CA2.p3\[10\] net:hash.CA2.p3\[11\] net:hash.CA2.p3\[13\]
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (524.4000, 289.8000) - (531.3000, 296.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1005 net:net875 net:net863 net:_05344_ net:_09169_ net:_11829_ net:_17059_ net:_17120_ net:_24736_ net:_24792_ net:_27588_ net:_27620_
+	comment: capacity:11 usage:12 overflow:1
+	bbox = (365.7000, 227.7000) - (372.6000, 234.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04468_ net:_11569_ net:_11573_ net:_16845_ net:net260 net:net258 net:net234 net:net122 net:net42 net:net1555 net:net1532 net:net1530 net:net1497 net:net1225 net:net1159 net:net1099 net:w\[0\]\[23\] net:w\[6\]\[23\]
+	comment: capacity:15 usage:18 overflow:3
+	bbox = (441.6000, 676.2000) - (448.5000, 683.1000) on Layer -

@@ -1,6 +1,0 @@
-violation type: Metal Spacing
-	srcs: net:VDD net:hashvalue[35]
-	bbox = (625.9100, 310.2450) - (626.2100, 310.2700) on Layer met3
-violation type: Metal Spacing
-	srcs: net:VDD net:hashvalue[35]
-	bbox = (625.9100, 310.2450) - (626.3900, 310.2700) on Layer met3

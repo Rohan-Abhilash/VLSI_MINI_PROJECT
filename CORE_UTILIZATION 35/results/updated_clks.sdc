@@ -5,7 +5,7 @@ current_design sha256_unrolled_pipelined
 ###############################################################################
 # Timing Constraints
 ###############################################################################
-create_clock -name core_clock -period 10.4820 [get_ports {clk}]
+create_clock -name core_clock -period 10.5763 [get_ports {clk}]
 set_input_delay 2.0000 -clock [get_clocks {core_clock}] -add_delay [get_ports {message[0]}]
 set_input_delay 2.0000 -clock [get_clocks {core_clock}] -add_delay [get_ports {message[100]}]
 set_input_delay 2.0000 -clock [get_clocks {core_clock}] -add_delay [get_ports {message[101]}]
